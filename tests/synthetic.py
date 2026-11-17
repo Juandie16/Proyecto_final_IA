@@ -1,13 +1,14 @@
-"""Datos SINTÉTICOS con el mismo esquema (25 columnas de texto) que el dataset del DATT.
+"""Datos SINTÉTICOS con el mismo esquema (25 columnas de texto, solo siniestros con víctimas) que el dataset del DATT.
 Solo para probar que el código funciona. NO son datos reales y sus resultados no significan nada."""
 import numpy as np
 import pandas as pd
 
 
-def make_synthetic(n=3000, seed=0) -> pd.DataFrame:
+def make_synthetic(n=4000, seed=0) -> pd.DataFrame:
     rng = np.random.default_rng(seed)
     clases = ["Choque", "Atropello", "Volcamiento", "Caída de ocupante", "Otro"]
-    p_her = {"Choque": 0.35, "Atropello": 0.9, "Volcamiento": 0.6, "Caída de ocupante": 0.8, "Otro": 0.3}
+    # Como en el dataset real: SOLO siniestros con víctimas. Probabilidad de muerte según clase (y noche).
+    p_fatal = {"Choque": 0.05, "Atropello": 0.55, "Volcamiento": 0.40, "Caída de ocupante": 0.08, "Otro": 0.04}
     barrios = [f"BARRIO {i}" for i in range(25)] + ["Bocagrande", "El Bosque", "Crespo"]
     fechas = pd.to_datetime(rng.integers(pd.Timestamp("2020-01-01").value // 10**9,
                                          pd.Timestamp("2025-09-30").value // 10**9, n), unit="s")
@@ -15,11 +16,10 @@ def make_synthetic(n=3000, seed=0) -> pd.DataFrame:
     for i in range(n):
         c = rng.choice(clases, p=[0.55, 0.12, 0.05, 0.1, 0.18])
         h = int(rng.integers(0, 24))
-        pr = p_her[c] + (0.08 if h >= 20 or h < 5 else 0)
-        u = rng.random()
-        grav = "Con Muertos" if u < 0.012 else ("Con Heridos" if u < 0.012 + min(pr, 0.95) else "Solo daños materiales")
+        pr = p_fatal[c] + (0.10 if h >= 20 or h < 5 else 0)
+        grav = "Con Muertos" if rng.random() < pr else "Con Heridos"
         muertos = 1 if grav == "Con Muertos" else 0
-        heridos = 0 if grav == "Solo daños materiales" else int(rng.integers(1, 4))
+        heridos = int(rng.integers(1, 4)) if grav == "Con Heridos" else int(rng.integers(0, 3))
         f = fechas[i]
         fecha = f.strftime("%d/%m/%Y") if i % 2 == 0 else f.strftime("%Y-%m-%d 00:00:00")
         hora = f"{h:02d}:{int(rng.integers(0, 60)):02d}" if i % 3 else f"{h % 12 or 12}:{int(rng.integers(0, 60)):02d} {'PM' if h >= 12 else 'AM'}"

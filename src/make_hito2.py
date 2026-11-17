@@ -18,7 +18,7 @@ from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, 
 from src import config as C
 
 PEND = '<font backColor="#FFE680"><b>PENDIENTE</b></font>'
-NAME = "gravedad_siniestros_cartagena_hito2"
+NAME = "siniestros_fatales_cartagena_hito2"
 
 
 def load(path):
@@ -80,7 +80,7 @@ def build(integrantes: str, out: Path) -> Path:
                        "<font face='Courier'>python -m src.make_hito2</font>. No entregar así.", small))
         story.append(Spacer(1, 2))
 
-    story += [P("Predicción de la gravedad de siniestros viales en Cartagena (Ruta C: aprendizaje automático)", title),
+    story += [P("Predicción de siniestros viales fatales en Cartagena (Ruta C: aprendizaje automático)", title),
               P(f"Proyecto final de Inteligencia Artificial · Hito 2: avance · {integrantes} · 16 de noviembre de 2026", sub)]
 
     # 1. Problema
@@ -89,31 +89,31 @@ def build(integrantes: str, out: Path) -> Path:
         "(corte de agosto) se registraron 1.134 siniestros, 985 con participación de motos, y 95 fallecidos, 86 de ellos asociados a motos "
         "(El Universal, 18-ago-2026). <b>Usuario objetivo:</b> el DATT y los organismos de socorro, que deben decidir con información "
         "incompleta a qué siniestros dar prioridad. Hoy esa priorización depende del criterio del operador (supuesto que validaremos "
-        "con una entrevista, pendiente). <b>Qué cambiaría:</b> una estimación de la probabilidad de que el siniestro deje heridos o muertos, "
+        "con una entrevista, pendiente). <b>Qué cambiaría:</b> una estimación de la probabilidad de que un siniestro con víctimas termine con al menos una muerte, "
         "a partir del informe inicial, como apoyo (nunca reemplazo) a la decisión humana. <b>Pregunta:</b> ¿mejora un modelo de aprendizaje "
-        "automático a una línea base sencilla al estimar si habrá víctimas, y cómo varía su desempeño por zona y franja horaria?")]
+        "automático a una línea base sencilla al estimar si un siniestro con víctimas será fatal, y cómo varía su desempeño por zona y franja horaria?")]
 
     # 2. Formulación
     story += [P("2. Formulación como problema de IA", h), grid([
-        ["<b>Medida de desempeño</b>", "F1 de la clase «con víctimas» y F1 macro (primarias); ROC-AUC, PR-AUC, recall (secundarias); recall por franja y localidad."],
+        ["<b>Medida de desempeño</b>", "F1 de la clase «fatal» y PR-AUC (primarias); F1 macro, ROC-AUC, recall, precisión (secundarias); recall por franja y localidad."],
         ["<b>Entorno</b>", "Reportes de siniestros del DATT en Cartagena. Parcialmente observable, estocástico, episódico, estático (evaluación sobre datos históricos), mixto discreto/continuo."],
-        ["<b>Actuadores</b>", "Probabilidad estimada y alerta binaria «con víctimas» para un operador humano."],
+        ["<b>Actuadores</b>", "Probabilidad estimada y alerta binaria «fatal» para un operador humano."],
         ["<b>Sensores</b>", "Informe inicial: fecha, hora, barrio, localidad, coordenadas, tipo de vía, clase de accidente, con qué chocó, objeto fijo."],
-        ["<b>Tarea</b>", "Clasificación binaria supervisada: <i>y</i> = 1 si <i>gravedad</i> es «Con heridos» o «Con muertos»; 0 si «Solo daños materiales»."],
+        ["<b>Tarea</b>", "Clasificación binaria supervisada sobre siniestros con víctimas: <i>y</i> = 1 si <i>gravedad</i> es «Con muertos»; 0 si «Con heridos»."],
     ], [2.9 * cm, W - 2.9 * cm], header=False)]
 
     # 3. Datos
     if summ:
         sp = summ["split"]
         filas = (f"{summ['n_raw']:,} crudas, {summ['n_limpio']:,} tras limpieza".replace(",", "."))
-        part = " · ".join(f"{k}: n={sp[k]['n']} ({sp[k]['pct_victimas']}% con víctimas)" for k in ("train", "val", "test"))
+        part = " · ".join(f"{k}: n={sp[k]['n']}, fatales={sp[k]['n_fatal']} ({sp[k]['pct_fatal']}%)" for k in ("train", "val", "test"))
         calidad = (f"fechas no interpretadas: {summ['fecha_sin_interpretar']}; horas: {summ['hora_sin_interpretar']}; "
                    f"coordenadas ausentes o fuera de Cartagena: {summ['coordenadas_fuera_de_cartagena_o_ausentes']}; "
-                   f"duplicados IPAT eliminados: {summ.get('duplicados_ipat_eliminados', 0)}")
+                   f"IPAT duplicados eliminados: {summ.get('duplicados_ipat_eliminados', 0)} (con gravedad distinta: {summ.get('ipat_duplicados_con_gravedad_distinta', 0)}; se conserva la fila más grave)")
     else:
         filas, part, calidad = PEND, PEND, PEND
     story += [P("3. Datos", h), grid([
-        ["<b>Fuente y licencia</b>", "DATT, Alcaldía de Cartagena, portal de datos abiertos (también en datos.gov.co, id 5z62-bn99). Licencia CC-BY. 25 columnas, 2020–2025, archivo de 1,1 MiB. Sin nombres ni documentos de identidad."],
+        ["<b>Fuente y licencia</b>", "DATT, Alcaldía de Cartagena, portal de datos abiertos (también en datos.gov.co, id 5z62-bn99). Licencia CC-BY. 25 columnas, 2020–2025, archivo de 1,1 MiB. Sin nombres ni documentos de identidad. <b>Solo contiene siniestros con víctimas</b> (verificado al ejecutar el pipeline): no hay «Solo daños materiales»."],
         ["<b>Filas</b>", filas],
         ["<b>Partición</b>", f"Temporal: entrenamiento 2020–2023, validación 2024, prueba 2025 (sin tocar). {part}"],
         ["<b>Prevención de fuga</b>", "<i>muertos</i>, <i>heridos</i> y <i>gravedad</i> definen la etiqueta y se excluyen de los features (el código lo verifica con un <i>assert</i>). La hipótesis causal del agente solo entra en ablación."],
@@ -123,24 +123,24 @@ def build(integrantes: str, out: Path) -> Path:
     # 4. Línea base y evaluación
     story += [P("4. Línea base y evaluación predeclarada", h), P(
         "Línea base: clasificador mayoritario y regresión logística sin ajuste de hiperparámetros (C=1, pesos balanceados, umbral 0,5), "
-        "semilla 42. Métricas y umbral de éxito declarados el 16-nov-2026 en <font face='Courier'>docs/evaluacion_predeclarada.md</font> antes de "
+        "semilla 42. Métricas y umbral de éxito declarados el 16-nov-2026 (etiqueta corregida el mismo día, antes de entrenar modelos; ver «Cambios») en <font face='Courier'>docs/evaluacion_predeclarada.md</font> antes de "
         "entrenar otros modelos: el mejor modelo debe superar a la mejor línea base en F1 macro por al menos 0,03, con ROC-AUC de al menos 0,70 y recall de la clase "
-        "«con víctimas» de al menos 0,60 en prueba. Comparación mínima de la ruta (hito 3): dos modelos adicionales con ajuste de hiperparámetros, varias corridas y "
+        "«fatal» de al menos 0,60 en prueba. Comparación mínima de la ruta (hito 3): dos modelos adicionales con ajuste de hiperparámetros, varias corridas y "
         "ablación de features.")]
 
     # 5. Primer resultado
     story += [P("5. Primer resultado (línea base, evaluada en <u>validación 2024</u>)", h)]
-    hdr = ["Modelo", "F1 víctimas", "F1 macro", "ROC-AUC", "PR-AUC", "Recall", "Precisión"]
+    hdr = ["Modelo", "F1 fatal", "PR-AUC", "F1 macro", "ROC-AUC", "Recall", "Precisión"]
     rows = [hdr]
     for key, nm in (("mayoritario", "Mayoritario"), ("regresion_logistica", "Regresión logística")):
         r = base["modelos"][key] if base else {}
-        rows.append([nm] + [fmt(r.get(k)) for k in ("f1_victimas", "f1_macro", "roc_auc", "pr_auc", "recall", "precision")])
+        rows.append([nm] + [fmt(r.get(k)) for k in ("f1_fatal", "pr_auc", "f1_macro", "roc_auc", "recall", "precision")])
     story.append(grid(rows, [3.6 * cm] + [(W - 3.6 * cm) / 6] * 6))
     if base:
         lr, mj = base["modelos"]["regresion_logistica"], base["modelos"]["mayoritario"]
         cm_ = lr["matriz_confusion"]
         txt = (f"Entrenamiento n={base['n_entrenamiento']}, validación n={base['n_evaluacion']}. La regresión logística logra F1 macro "
-               f"{lr['f1_macro']:.3f} frente a {mj['f1_macro']:.3f} del mayoritario; matriz de confusión: VN={cm_['tn']}, FP={cm_['fp']}, FN={cm_['fn']}, VP={cm_['tp']}. "
+               f"{lr['f1_macro']:.3f} frente a {mj['f1_macro']:.3f} del mayoritario, y PR-AUC {lr['pr_auc']:.3f} (referencia de azar: la prevalencia, {lr['prevalencia_fatal']:.3f}); matriz de confusión: VN={cm_['tn']}, FP={cm_['fp']}, FN={cm_['fn']}, VP={cm_['tp']}. "
                "<b>Alcance:</b> una sola corrida, solo validación, sin ajuste; no permite concluir sobre el modelo final. Predicciones fila a fila en "
                "<font face='Courier'>experiments/baseline_val_predicciones.csv</font> (insumo del análisis de errores).")
     else:
@@ -149,7 +149,7 @@ def build(integrantes: str, out: Path) -> Path:
 
     # 6. Riesgos y próximos pasos
     story += [P("6. Riesgos y próximos pasos", h), P(
-        "<b>Riesgos:</b> sub-registro (probablemente se reportan menos los choques sin heridos, lo que sesga la etiqueta); desbalance de la clase «con muertos»; "
+        "<b>Riesgos:</b> el dataset solo incluye siniestros con víctimas, por lo que el modelo no sirve para decidir si hay víctimas, solo para estimar su gravedad; la clase «fatal» es minoritaria (cerca de 8 %) y habrá pocos casos por subgrupo; "
         "campos categóricos con mucha variación de escritura; riesgo de usar la herramienta para estigmatizar barrios (se medirá desempeño por localidad). "
         "<b>Próximos pasos:</b> (1) exploración y estadísticas descriptivas; (2) random forest y gradient boosting con ajuste y 5 semillas; (3) ablación de features; "
         "(4) análisis de al menos 10 errores; (5) prototipo en Streamlit; (6) entrevista con un actor del DATT para validar el uso.")]

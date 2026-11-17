@@ -1,11 +1,12 @@
 """Línea base (Ruta C): clasificador mayoritario y regresión logística SIN ajuste de hiperparámetros.
+Tarea: dado un siniestro CON víctimas, estimar si será fatal ("Con muertos") o no ("Con heridos").
 
 Uso:
   python -m src.baseline                 # entrena en train, evalúa en VALIDACIÓN (hito 2)
   python -m src.baseline --final         # entrena en train+val, evalúa en TEST (solo hito 3, UNA vez)
   python -m src.baseline --feature-set contexto|reporte|hipotesis
 
-Las métricas (F1 de la clase "con víctimas", F1 macro, ROC-AUC, PR-AUC, matriz de confusión)
+Las métricas (F1 de la clase fatal, PR-AUC, F1 macro, ROC-AUC, matriz de confusión)
 están declaradas en docs/evaluacion_predeclarada.md ANTES de ejecutar este script.
 """
 import argparse
@@ -59,11 +60,11 @@ def evaluate(y, proba, pred) -> dict:
     tn, fp, fn, tp = confusion_matrix(y, pred, labels=[0, 1]).ravel()
     both = len(np.unique(y)) == 2
     return {
-        "n": int(len(y)), "prevalencia_victimas": round(float(np.mean(y)), 4),
+        "n": int(len(y)), "prevalencia_fatal": round(float(np.mean(y)), 4),
         "accuracy": round(accuracy_score(y, pred), 4),
         "precision": round(precision_score(y, pred, zero_division=0), 4),
         "recall": round(recall_score(y, pred, zero_division=0), 4),
-        "f1_victimas": round(f1_score(y, pred, zero_division=0), 4),
+        "f1_fatal": round(f1_score(y, pred, zero_division=0), 4),
         "f1_macro": round(f1_score(y, pred, average="macro", zero_division=0), 4),
         "roc_auc": round(roc_auc_score(y, proba), 4) if both else None,
         "pr_auc": round(average_precision_score(y, proba), 4) if both else None,
@@ -71,17 +72,21 @@ def evaluate(y, proba, pred) -> dict:
     }
 
 
-def subgroup_report(df_eval, y, pred, col, min_n=30) -> dict:
+def subgroup_report(df_eval, y, pred, col, min_n=30, min_pos=10) -> dict:
+    """Recall/F1 por subgrupo. Se omiten grupos con n < min_n o con menos de min_pos casos fatales:
+    con pocos positivos el recall no es interpretable."""
     out = {}
     for g, idx in df_eval.groupby(col).groups.items():
         pos = df_eval.index.get_indexer(idx)
         if len(pos) < min_n:
             continue
         yy, pp = y[pos], pred[pos]
+        if yy.sum() < min_pos:
+            continue
         out[str(g)] = {
-            "n": int(len(pos)), "prevalencia": round(float(yy.mean()), 3),
+            "n": int(len(pos)), "n_fatal": int(yy.sum()), "prevalencia": round(float(yy.mean()), 3),
             "recall": round(recall_score(yy, pp, zero_division=0), 3),
-            "f1_victimas": round(f1_score(yy, pp, zero_division=0), 3),
+            "f1_fatal": round(f1_score(yy, pp, zero_division=0), 3),
         }
     return out
 
@@ -108,8 +113,8 @@ def main() -> None:
     if train.empty or evalset.empty:
         sys.exit(f"Partición vacía (train={len(train)}, {tag}={len(evalset)}). Revise años en src/config.py.")
 
-    Xtr, ytr = prep_X(train, num_cols, cat_cols), train["victimas"].to_numpy()
-    Xev, yev = prep_X(evalset, num_cols, cat_cols), evalset["victimas"].to_numpy()
+    Xtr, ytr = prep_X(train, num_cols, cat_cols), train["fatal"].to_numpy()
+    Xev, yev = prep_X(evalset, num_cols, cat_cols), evalset["fatal"].to_numpy()
 
     models = {
         "mayoritario": DummyClassifier(strategy="most_frequent"),
@@ -143,15 +148,15 @@ def main() -> None:
     (a.outdir / f"baseline_{tag}.json").write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
 
     # Predicciones fila a fila: insumo del análisis de errores (hito 3)
-    pr = evalset[[c for c in ("ipat", "fecha_dt", "gravedad_cod", "victimas", "barrio", "clase_accidente", "franja") if c in evalset]].copy()
-    pr["proba_victimas"] = np.round(preds["regresion_logistica"][0], 4)
+    pr = evalset[[c for c in ("ipat", "fecha_dt", "gravedad_cod", "fatal", "barrio", "clase_accidente", "franja") if c in evalset]].copy()
+    pr["proba_fatal"] = np.round(preds["regresion_logistica"][0], 4)
     pr["pred"] = lr_pred
-    pr["tipo_error"] = np.select([(pr.victimas == 1) & (pr.pred == 0), (pr.victimas == 0) & (pr.pred == 1)], ["FN", "FP"], "ok")
+    pr["tipo_error"] = np.select([(pr.fatal == 1) & (pr.pred == 0), (pr.fatal == 0) & (pr.pred == 1)], ["FN", "FP"], "ok")
     pr.to_csv(a.outdir / f"baseline_{tag}_predicciones.csv", index=False)
 
     print(f"Línea base evaluada en {tag.upper()}  (train n={len(train)}, eval n={len(evalset)}, features='{a.feature_set}')")
     for name, r in results.items():
-        print(f"  {name:20s} F1(víct)={r['f1_victimas']:.3f}  F1macro={r['f1_macro']:.3f}  AUC={r['roc_auc']}  PR-AUC={r['pr_auc']}")
+        print(f"  {name:20s} F1(fatal)={r['f1_fatal']:.3f}  F1macro={r['f1_macro']:.3f}  AUC={r['roc_auc']}  PR-AUC={r['pr_auc']}")
     print("Guardado en", a.outdir / f"baseline_{tag}.json")
 
 

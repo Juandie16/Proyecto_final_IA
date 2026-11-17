@@ -8,11 +8,13 @@
 **Tamaño informado por el portal:** 1,1 MiB, 25 columnas, formato XLSX; actualización trimestral (última: 5 de octubre de 2026).
 **Datos personales:** el diccionario no incluye nombres ni documentos de identidad; incluye ubicación (barrio, vía, coordenadas) del siniestro.
 
+**Contenido real verificado al ejecutar el pipeline (2026-11-16):** 8.066 filas; tras eliminar 573 IPAT duplicados quedan 7.493 siniestros. La columna `gravedad` solo toma los valores «Con heridos» (6.925) y «Con muertos» (568); **no hay siniestros de solo daños materiales**, por lo que el proyecto estima si un siniestro con víctimas será fatal.
+
 Los archivos se descargan con `python -m src.data_download`, que además registra URL, fecha y hash SHA-256 en `data/raw/SOURCE.json`.
 `data/raw/` y `data/processed/` no se versionan: se regeneran con los scripts.
 
 ## Diccionario resumido (según el publicador)
-`ipat` (id) · `fecha` · `hora` · `gravedad` (Solo daños materiales / Con heridos / Con muertos) · `clase_accidente` · `choque_con` ·
+`ipat` (id) · `fecha` · `hora` · `gravedad` · `clase_accidente` · `choque_con` ·
 `objeto_fijo` · `hipotesis_1…4` · `BARRIO` · `lugar` · `via1…via6` (calle, carrera, diagonal, transversal, avenida, corredor de carga) ·
 `localidad` · `muertos` · `heridos` · `coordenadas` · `latitud` · `longitud`.
 

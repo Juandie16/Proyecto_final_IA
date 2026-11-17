@@ -50,17 +50,36 @@ class TestParsers(unittest.TestCase):
 class TestClean(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.raw = make_synthetic()
+        cls.base = make_synthetic()
+        fat = cls.base[cls.base["gravedad"] == "Con Muertos"].head(30).copy()
+        dup = fat.copy()
+        dup["gravedad"] = "Con Heridos"            # misma IPAT, versión menos grave, ubicada ANTES
+        cls.dup_ids = set(fat["ipat"])
+        cls.raw = pd.concat([dup, cls.base], ignore_index=True)
         tmp = Path(tempfile.mkdtemp()) / "raw.csv"
         cls.raw.to_csv(tmp, index=False)
         cls.df, cls.log = clean(read_raw(tmp))   # pasa por read_raw: normaliza nombres de columnas
 
     def test_no_pierde_filas_validas(self):
-        self.assertGreater(self.log["n_limpio"], 0.99 * len(self.raw))
+        self.assertGreater(self.log["n_limpio"], 0.99 * len(self.base))
 
-    def test_etiqueta_binaria(self):
-        self.assertEqual(set(self.df["victimas"].unique()), {0, 1})
-        self.assertTrue((self.df.loc[self.df.gravedad_cod == 2, "victimas"] == 1).all())
+    def test_etiqueta_fatal(self):
+        self.assertEqual(set(self.df["fatal"].unique()), {0, 1})
+        self.assertTrue((self.df.loc[self.df.gravedad_cod == 2, "fatal"] == 1).all())
+        self.assertTrue((self.df.loc[self.df.gravedad_cod == 1, "fatal"] == 0).all())
+
+    def test_duplicados_conservan_la_fila_mas_grave(self):
+        self.assertEqual(self.log["duplicados_ipat_eliminados"], 30)
+        self.assertEqual(self.log["ipat_duplicados_con_gravedad_distinta"], 30)
+        quedan = self.df[self.df["ipat"].isin(self.dup_ids)]
+        self.assertEqual(len(quedan), 30)
+        self.assertTrue((quedan["fatal"] == 1).all())
+
+    def test_error_si_la_etiqueta_tiene_una_sola_clase(self):
+        solo_heridos = self.base.copy()
+        solo_heridos["gravedad"] = "Con Heridos"
+        with self.assertRaises(ValueError):
+            clean(solo_heridos.rename(columns={"BARRIO": "barrio"}))
 
     def test_split_temporal_sin_solape(self):
         r = {sp: self.df[self.df.split == sp]["anio"] for sp in ("train", "val", "test")}

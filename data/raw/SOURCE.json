@@ -1,0 +1,10 @@
+{
+  "dataset": "Accidentes de Tránsito Ocurridos en la Ciudad de Cartagena de Indias (2020-2025)",
+  "publicador": "Departamento Administrativo de Tránsito y Transporte (DATT) - Alcaldía de Cartagena",
+  "portal": "https://datosabiertos.cartagena.gov.co",
+  "url_descargada": "https://datosabiertos.cartagena.gov.co/datastore/dump/f77c2eb8-0305-40f8-8c0e-fa667f6847ba?bom=True",
+  "licencia": "Creative Commons Attribution (CC-BY)",
+  "fecha_descarga_utc": "2026-11-17T01:07:38+00:00",
+  "sha256": "cff5ea632a8e7bafc04e0bb6de724a1d003bd5c19e87d61e8f4482c959534882",
+  "bytes": 1485115
+}

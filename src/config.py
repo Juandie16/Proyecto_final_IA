@@ -32,7 +32,7 @@ BBOX = {"lat": (10.20, 10.55), "lon": (-75.65, -75.30)}
 
 # --- Columnas ---
 # Definen la etiqueta => NUNCA pueden ser features (fuga de datos).
-LEAKY = ["gravedad", "muertos", "heridos", "victimas", "gravedad_cod"]
+LEAKY = ["gravedad", "muertos", "heridos", "fatal", "gravedad_cod"]
 ID_COLS = ["ipat"]
 
 NUM_FEATURES = ["hora", "mes", "dia_semana", "es_finde", "es_noche", "lat", "lon"]

@@ -3,7 +3,8 @@
 Uso:  python -m src.preprocess [--input RUTA] [--output RUTA] [--summary RUTA]
 
 Decisiones clave (justificadas en docs/evaluacion_predeclarada.md):
-  * Etiqueta binaria  victimas = 1 si gravedad es "Con heridos" o "Con muertos"; 0 si "Solo daños materiales".
+  * Etiqueta binaria  fatal = 1 si gravedad es "Con muertos"; 0 si "Con heridos".
+    (Se verificó con los datos reales que el dataset SOLO contiene siniestros con víctimas.)
   * Las columnas muertos/heridos/gravedad definen la etiqueta -> se excluyen de los features (fuga).
   * Partición TEMPORAL por año (train 2020-23, val 2024, test 2025), nunca aleatoria.
 Cada paso de limpieza cuenta cuántas filas afecta, y todo queda en experiments/data_summary.json.
@@ -113,14 +114,7 @@ def clean(raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     log: dict = {"n_raw": int(len(raw)), "columnas_raw": list(raw.columns)}
     df = raw.copy()
 
-    # 1. Duplicados por código IPAT (identificador único del accidente)
-    if "ipat" in df.columns:
-        has_id = df["ipat"].notna() & (df["ipat"].str.strip() != "")
-        dup = df.duplicated(subset="ipat", keep="first") & has_id
-        log["duplicados_ipat_eliminados"] = int(dup.sum())
-        df = df[~dup].copy()
-
-    # 2. Etiqueta
+    # 1. Etiqueta (antes de deduplicar, para poder conservar la fila más grave de cada IPAT)
     df["gravedad_cod"] = df["gravedad"].map(parse_gravedad)
     log["gravedad_sin_interpretar"] = int(df["gravedad_cod"].isna().sum())
     log["gravedad_valores_originales"] = {
@@ -128,15 +122,31 @@ def clean(raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     }
     df = df[df["gravedad_cod"].notna()].copy()
     df["gravedad_cod"] = df["gravedad_cod"].astype(int)
-    df["victimas"] = (df["gravedad_cod"] >= 1).astype(int)
 
-    # Coherencia de la etiqueta con los conteos (calidad de datos; no se usa como feature)
-    muertos = pd.to_numeric(df.get("muertos"), errors="coerce")
-    heridos = pd.to_numeric(df.get("heridos"), errors="coerce")
-    if muertos is not None and heridos is not None:
-        incoh = ((df["victimas"] == 0) & ((muertos.fillna(0) > 0) | (heridos.fillna(0) > 0))) | (
-            (df["victimas"] == 1) & (muertos.fillna(0) == 0) & (heridos.fillna(0) == 0)
+    # 2. Duplicados por código IPAT: se conserva la fila MÁS GRAVE (no la primera al azar)
+    log["duplicados_ipat_eliminados"] = 0
+    log["ipat_duplicados_con_gravedad_distinta"] = 0
+    if "ipat" in df.columns:
+        has_id = df["ipat"].notna() & (df["ipat"].str.strip() != "")
+        nun = df[has_id].groupby("ipat")["gravedad_cod"].nunique()
+        log["ipat_duplicados_con_gravedad_distinta"] = int((nun > 1).sum())
+        df["_has_id"] = has_id
+        df = df.sort_values("gravedad_cod", ascending=False, kind="stable")
+        dup = df.duplicated(subset="ipat", keep="first") & df["_has_id"]
+        log["duplicados_ipat_eliminados"] = int(dup.sum())
+        df = df[~dup].drop(columns="_has_id").sort_index()
+
+    df["fatal"] = (df["gravedad_cod"] == 2).astype(int)
+    if df["fatal"].nunique() < 2:
+        raise ValueError(
+            "La etiqueta tiene una sola clase tras la limpieza. Revise gravedad_valores_originales en el resumen: "
+            "no se puede entrenar ni evaluar un clasificador así."
         )
+
+    # Coherencia de la etiqueta con el conteo de muertos (calidad de datos; no se usa como feature)
+    if "muertos" in df.columns:
+        muertos = pd.to_numeric(df["muertos"], errors="coerce").fillna(0)
+        incoh = ((df["fatal"] == 1) & (muertos == 0)) | ((df["fatal"] == 0) & (muertos > 0))
         log["filas_gravedad_incoherente_con_conteos"] = int(incoh.sum())
 
     # 3. Fecha y hora
@@ -188,7 +198,7 @@ def clean(raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     df["split"] = df["anio"].map(split_of)
 
     keep = (
-        ["ipat", "fecha_dt", "anio", "split", "gravedad_cod", "victimas", "muertos", "heridos"]
+        ["ipat", "fecha_dt", "anio", "split", "gravedad_cod", "fatal", "muertos", "heridos"]
         + C.NUM_FEATURES + C.CAT_CONTEXTO + C.CAT_REPORTE + C.CAT_HIPOTESIS
     )
     keep = [c for c in dict.fromkeys(keep) if c in df.columns]
@@ -202,19 +212,19 @@ def clean(raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
         sub = df[df["split"] == sp]
         log["split"][sp] = {
             "n": int(len(sub)),
-            "pct_victimas": round(float(sub["victimas"].mean()) * 100, 2) if len(sub) else None,
-            "n_muertos": int((sub["gravedad_cod"] == 2).sum()),
+            "n_fatal": int(sub["fatal"].sum()),
+            "pct_fatal": round(float(sub["fatal"].mean()) * 100, 2) if len(sub) else None,
         }
     log["gravedad_cod_conteo"] = {int(k): int(v) for k, v in df["gravedad_cod"].value_counts().sort_index().items()}
     feats = [c for c in C.FEATURE_SETS["hipotesis"] if c in df.columns]
     log["faltantes_pct"] = {c: round(float(df[c].isna().mean() * 100 + (df[c] == "desconocido").mean() * 100), 1) for c in feats}
     log["aviso"] = []
     for sp, minimo in (("train", 500), ("val", 150), ("test", 150)):
-        if log["split"][sp]["n"] < minimo:
+        v = log["split"][sp]
+        if v["n"] < minimo:
             log["aviso"].append(f"El split '{sp}' tiene menos de {minimo} filas: revisar fechas o reconfigurar años.")
-        pct = log["split"][sp]["pct_victimas"]
-        if pct is not None and (pct < 5 or pct > 95):
-            log["aviso"].append(f"El split '{sp}' está muy desbalanceado ({pct}% con víctimas).")
+        if v["n"] and (v["n_fatal"] < 30 or v["n"] - v["n_fatal"] < 30):
+            log["aviso"].append(f"El split '{sp}' tiene menos de 30 casos en alguna clase (fatales={v['n_fatal']}).")
     return df, log
 
 
@@ -235,7 +245,7 @@ def main() -> None:
     a.summary.write_text(json.dumps(log, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Filas crudas: {log['n_raw']}  ->  limpias: {log['n_limpio']}")
     for sp, v in log["split"].items():
-        print(f"  {sp:6s} n={v['n']:6d}  con víctimas={v['pct_victimas']}%  muertos={v['n_muertos']}")
+        print(f"  {sp:6s} n={v['n']:6d}  fatales={v['n_fatal']:5d} ({v['pct_fatal']}%)")
     for w in log["aviso"]:
         print("  AVISO:", w)
     print("Guardado:", a.output, "y", a.summary)
