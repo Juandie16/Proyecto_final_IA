@@ -10,6 +10,8 @@
 
 **Contenido real verificado al ejecutar el pipeline (2026-11-16):** 8.066 filas; tras eliminar 573 IPAT duplicados quedan 7.493 siniestros. La columna `gravedad` solo toma los valores «Con heridos» (6.925) y «Con muertos» (568); **no hay siniestros de solo daños materiales**, por lo que el proyecto estima si un siniestro con víctimas será fatal.
 
+**Hallazgo de calidad (verificado con `python -m src.data_quality`):** de 2020 a 2024 la columna `muertos` es coherente con `gravedad` (0 incoherencias). En 2025 no lo es: 282 de 1.390 filas (264 «Con heridos» con `muertos` > 0 y 18 «Con muertos» con `muertos` = 0), y la suma de `muertos` ese año (529) es incompatible con las cifras oficiales del DATT. Se descartó que `muertos` sea una copia de `heridos` (0 % de coincidencia). Se usa `gravedad` como fuente de la etiqueta y `muertos` solo se audita. Pendiente: consultar al DATT.
+
 Los archivos se descargan con `python -m src.data_download`, que además registra URL, fecha y hash SHA-256 en `data/raw/SOURCE.json`.
 `data/raw/` y `data/processed/` no se versionan: se regeneran con los scripts.
 

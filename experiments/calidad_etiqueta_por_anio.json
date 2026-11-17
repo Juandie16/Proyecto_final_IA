@@ -1,0 +1,78 @@
+{
+  "por_anio": {
+    "2020": {
+      "n": 978,
+      "fatal_por_gravedad": 58,
+      "pct_fatal_por_gravedad": 5.9,
+      "con_muertos_mayor_0": 58,
+      "pct_con_muertos_mayor_0": 5.9,
+      "suma_muertos": 64,
+      "suma_heridos": 1389,
+      "incoherentes": 0,
+      "gravedad_heridos_pero_muertos_mayor_0": 0,
+      "gravedad_muertos_pero_muertos_0": 0
+    },
+    "2021": {
+      "n": 1317,
+      "fatal_por_gravedad": 77,
+      "pct_fatal_por_gravedad": 5.8,
+      "con_muertos_mayor_0": 77,
+      "pct_con_muertos_mayor_0": 5.8,
+      "suma_muertos": 82,
+      "suma_heridos": 1920,
+      "incoherentes": 0,
+      "gravedad_heridos_pero_muertos_mayor_0": 0,
+      "gravedad_muertos_pero_muertos_0": 0
+    },
+    "2022": {
+      "n": 1301,
+      "fatal_por_gravedad": 103,
+      "pct_fatal_por_gravedad": 7.9,
+      "con_muertos_mayor_0": 103,
+      "pct_con_muertos_mayor_0": 7.9,
+      "suma_muertos": 110,
+      "suma_heridos": 1959,
+      "incoherentes": 0,
+      "gravedad_heridos_pero_muertos_mayor_0": 0,
+      "gravedad_muertos_pero_muertos_0": 0
+    },
+    "2023": {
+      "n": 1254,
+      "fatal_por_gravedad": 103,
+      "pct_fatal_por_gravedad": 8.2,
+      "con_muertos_mayor_0": 103,
+      "pct_con_muertos_mayor_0": 8.2,
+      "suma_muertos": 104,
+      "suma_heridos": 1931,
+      "incoherentes": 0,
+      "gravedad_heridos_pero_muertos_mayor_0": 0,
+      "gravedad_muertos_pero_muertos_0": 0
+    },
+    "2024": {
+      "n": 1253,
+      "fatal_por_gravedad": 113,
+      "pct_fatal_por_gravedad": 9.0,
+      "con_muertos_mayor_0": 113,
+      "pct_con_muertos_mayor_0": 9.0,
+      "suma_muertos": 117,
+      "suma_heridos": 1842,
+      "incoherentes": 0,
+      "gravedad_heridos_pero_muertos_mayor_0": 0,
+      "gravedad_muertos_pero_muertos_0": 0
+    },
+    "2025": {
+      "n": 1390,
+      "fatal_por_gravedad": 115,
+      "pct_fatal_por_gravedad": 8.3,
+      "con_muertos_mayor_0": 361,
+      "pct_con_muertos_mayor_0": 26.0,
+      "suma_muertos": 529,
+      "suma_heridos": 1744,
+      "incoherentes": 282,
+      "gravedad_heridos_pero_muertos_mayor_0": 264,
+      "gravedad_muertos_pero_muertos_0": 18
+    }
+  },
+  "incoherentes_total": 282,
+  "en_incoherentes_muertos_igual_a_heridos_pct": 0.0
+}

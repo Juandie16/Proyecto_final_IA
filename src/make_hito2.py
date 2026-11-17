@@ -112,6 +112,11 @@ def build(integrantes: str, out: Path) -> Path:
                    f"IPAT duplicados eliminados: {summ.get('duplicados_ipat_eliminados', 0)} (con gravedad distinta: {summ.get('ipat_duplicados_con_gravedad_distinta', 0)}; se conserva la fila más grave)")
     else:
         filas, part, calidad = PEND, PEND, PEND
+    q = load(C.EXPERIMENTS / "calidad_etiqueta_por_anio.json")
+    if q:
+        anios_mal = [y for y, v in q["por_anio"].items() if v["incoherentes"] > 0]
+        calidad += (f". <b>Hallazgo:</b> la columna <i>muertos</i> es incoherente con <i>gravedad</i> en {q['incoherentes_total']} filas, "
+                    f"todas en {', '.join(anios_mal) if anios_mal else 'ningún año'}; se conserva <i>gravedad</i> como etiqueta (contrastada con cifras oficiales del DATT).")
     story += [P("3. Datos", h), grid([
         ["<b>Fuente y licencia</b>", "DATT, Alcaldía de Cartagena, portal de datos abiertos (también en datos.gov.co, id 5z62-bn99). Licencia CC-BY. 25 columnas, 2020–2025, archivo de 1,1 MiB. Sin nombres ni documentos de identidad. <b>Solo contiene siniestros con víctimas</b> (verificado al ejecutar el pipeline): no hay «Solo daños materiales»."],
         ["<b>Filas</b>", filas],
@@ -124,9 +129,9 @@ def build(integrantes: str, out: Path) -> Path:
     story += [P("4. Línea base y evaluación predeclarada", h), P(
         "Línea base: clasificador mayoritario y regresión logística sin ajuste de hiperparámetros (C=1, pesos balanceados, umbral 0,5), "
         "semilla 42. Métricas y umbral de éxito declarados el 16-nov-2026 (etiqueta corregida el mismo día, antes de entrenar modelos; ver «Cambios») en <font face='Courier'>docs/evaluacion_predeclarada.md</font> antes de "
-        "entrenar otros modelos: el mejor modelo debe superar a la mejor línea base en F1 macro por al menos 0,03, con ROC-AUC de al menos 0,70 y recall de la clase "
-        "«fatal» de al menos 0,60 en prueba. Comparación mínima de la ruta (hito 3): dos modelos adicionales con ajuste de hiperparámetros, varias corridas y "
-        "ablación de features.")]
+        "entrenar otros modelos. El mejor modelo debe cumplir: (1) PR-AUC superior en al menos 0,05 a la mejor línea base; (2) ROC-AUC de al menos 0,70; "
+        "(3) precisión de al menos 0,20 con recall de al menos 0,60; (4) brecha de recall por subgrupo no mayor a 0,15. Comparación mínima de la ruta (hito 3): "
+        "dos modelos adicionales con ajuste de hiperparámetros, varias corridas y ablación de features.")]
 
     # 5. Primer resultado
     story += [P("5. Primer resultado (línea base, evaluada en <u>validación 2024</u>)", h)]
