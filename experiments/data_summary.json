@@ -41,6 +41,31 @@
   "hora_sin_interpretar": 0,
   "longitud_signo_corregido": 0,
   "coordenadas_fuera_de_cartagena_o_ausentes": 26,
+  "tipo_via_conteo": {
+    "desconocido": 3767,
+    "calle": 2064,
+    "carrera": 739,
+    "diagonal": 555,
+    "transversal": 220,
+    "avenida": 111,
+    "corredor_carga": 37
+  },
+  "choque_con_sin_dato_por_anio": {
+    "2020": 215,
+    "2021": 274,
+    "2022": 323,
+    "2023": 342,
+    "2024": 346,
+    "2025": 365
+  },
+  "objeto_fijo_sin_dato_por_anio": {
+    "2020": 978,
+    "2021": 1317,
+    "2022": 1301,
+    "2023": 1185,
+    "2024": 971,
+    "2025": 1294
+  },
   "n_limpio": 7493,
   "anios": {
     "2020": 978,
@@ -87,10 +112,10 @@
     "franja": 0.0,
     "barrio": 0.0,
     "localidad": 0.0,
-    "tipo_via": 0.0,
+    "tipo_via": 50.3,
     "clase_accidente": 0.0,
-    "choque_con": 21.3,
-    "objeto_fijo": 23.2,
+    "choque_con": 24.9,
+    "objeto_fijo": 94.0,
     "hipotesis_1": 0.0
   },
   "aviso": [],

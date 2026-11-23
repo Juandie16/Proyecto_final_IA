@@ -1,0 +1,140 @@
+{
+  "fecha_ejecucion_utc": "2026-11-17T01:29:13+00:00",
+  "evaluado_en": "val",
+  "semilla": 42,
+  "conjunto_de_features": "reporte",
+  "features_numericas": [
+    "hora",
+    "mes",
+    "dia_semana",
+    "es_finde",
+    "es_noche",
+    "lat",
+    "lon"
+  ],
+  "features_categoricas": [
+    "franja",
+    "barrio",
+    "localidad",
+    "tipo_via",
+    "clase_accidente",
+    "choque_con",
+    "objeto_fijo"
+  ],
+  "n_entrenamiento": 4850,
+  "n_evaluacion": 1253,
+  "anios_entrenamiento": [
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "anios_evaluacion": [
+    2024
+  ],
+  "umbral_decision": 0.5,
+  "hiperparametros": {
+    "regresion_logistica": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "ajustados": false
+    }
+  },
+  "modelos": {
+    "mayoritario": {
+      "n": 1253,
+      "prevalencia_fatal": 0.0902,
+      "accuracy": 0.9098,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_fatal": 0.0,
+      "f1_macro": 0.4764,
+      "roc_auc": 0.5,
+      "pr_auc": 0.0902,
+      "matriz_confusion": {
+        "tn": 1140,
+        "fp": 0,
+        "fn": 113,
+        "tp": 0
+      }
+    },
+    "regresion_logistica": {
+      "n": 1253,
+      "prevalencia_fatal": 0.0902,
+      "accuracy": 0.6113,
+      "precision": 0.1418,
+      "recall": 0.6549,
+      "f1_fatal": 0.2331,
+      "f1_macro": 0.4864,
+      "roc_auc": 0.6699,
+      "pr_auc": 0.2286,
+      "matriz_confusion": {
+        "tn": 692,
+        "fp": 448,
+        "fn": 39,
+        "tp": 74
+      }
+    }
+  },
+  "subgrupos_regresion_logistica": {
+    "franja": {
+      "madrugada": {
+        "n": 192,
+        "n_fatal": 28,
+        "prevalencia": 0.146,
+        "recall": 0.893,
+        "f1_fatal": 0.284
+      },
+      "manana": {
+        "n": 339,
+        "n_fatal": 19,
+        "prevalencia": 0.056,
+        "recall": 0.263,
+        "f1_fatal": 0.096
+      },
+      "noche": {
+        "n": 331,
+        "n_fatal": 31,
+        "prevalencia": 0.094,
+        "recall": 0.774,
+        "f1_fatal": 0.257
+      },
+      "tarde": {
+        "n": 391,
+        "n_fatal": 35,
+        "prevalencia": 0.09,
+        "recall": 0.571,
+        "f1_fatal": 0.238
+      }
+    },
+    "localidad": {
+      "1": {
+        "n": 586,
+        "n_fatal": 46,
+        "prevalencia": 0.078,
+        "recall": 0.652,
+        "f1_fatal": 0.256
+      },
+      "2": {
+        "n": 292,
+        "n_fatal": 27,
+        "prevalencia": 0.092,
+        "recall": 0.704,
+        "f1_fatal": 0.209
+      },
+      "3": {
+        "n": 375,
+        "n_fatal": 40,
+        "prevalencia": 0.107,
+        "recall": 0.625,
+        "f1_fatal": 0.228
+      }
+    }
+  },
+  "entorno": {
+    "python": "3.13.16",
+    "sklearn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4"
+  }
+}

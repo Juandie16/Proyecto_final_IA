@@ -50,7 +50,7 @@ def main() -> None:
     a.outdir.mkdir(parents=True, exist_ok=True)
     (a.outdir / "calidad_etiqueta_por_anio.json").write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    print(f"{'año':>5} {'n':>6} {'fatal(grav)':>12} {'muertos>0':>10} {'Σmuertos':>9} {'Σheridos':>9} {'incoher.':>9}")
+    print(f"{'año':>5} {'n':>6} {'fatal(grav)':>12} {'muertos>0':>10} {'sum_muert':>9} {'sum_herid':>9} {'incoher.':>9}")
     for y, v in filas.items():
         print(f"{y:>5} {v['n']:>6} {v['fatal_por_gravedad']:>12} {v['con_muertos_mayor_0']:>10} {v['suma_muertos']:>9} {v['suma_heridos']:>9} {v['incoherentes']:>9}")
     if len(malos):

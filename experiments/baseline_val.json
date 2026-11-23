@@ -1,5 +1,5 @@
 {
-  "fecha_ejecucion_utc": "2026-11-17T01:29:13+00:00",
+  "fecha_ejecucion_utc": "2026-11-23T03:49:41+00:00",
   "evaluado_en": "val",
   "semilla": 42,
   "conjunto_de_features": "reporte",
@@ -61,18 +61,18 @@
     "regresion_logistica": {
       "n": 1253,
       "prevalencia_fatal": 0.0902,
-      "accuracy": 0.6113,
-      "precision": 0.1418,
-      "recall": 0.6549,
-      "f1_fatal": 0.2331,
-      "f1_macro": 0.4864,
-      "roc_auc": 0.6699,
-      "pr_auc": 0.2286,
+      "accuracy": 0.6018,
+      "precision": 0.1358,
+      "recall": 0.6372,
+      "f1_fatal": 0.224,
+      "f1_macro": 0.4781,
+      "roc_auc": 0.6656,
+      "pr_auc": 0.2195,
       "matriz_confusion": {
-        "tn": 692,
-        "fp": 448,
-        "fn": 39,
-        "tp": 74
+        "tn": 682,
+        "fp": 458,
+        "fn": 41,
+        "tp": 72
       }
     }
   },
@@ -82,8 +82,8 @@
         "n": 192,
         "n_fatal": 28,
         "prevalencia": 0.146,
-        "recall": 0.893,
-        "f1_fatal": 0.284
+        "recall": 0.929,
+        "f1_fatal": 0.289
       },
       "manana": {
         "n": 339,
@@ -96,15 +96,15 @@
         "n": 331,
         "n_fatal": 31,
         "prevalencia": 0.094,
-        "recall": 0.774,
-        "f1_fatal": 0.257
+        "recall": 0.742,
+        "f1_fatal": 0.242
       },
       "tarde": {
         "n": 391,
         "n_fatal": 35,
         "prevalencia": 0.09,
-        "recall": 0.571,
-        "f1_fatal": 0.238
+        "recall": 0.514,
+        "f1_fatal": 0.213
       }
     },
     "localidad": {
@@ -112,22 +112,22 @@
         "n": 586,
         "n_fatal": 46,
         "prevalencia": 0.078,
-        "recall": 0.652,
-        "f1_fatal": 0.256
+        "recall": 0.609,
+        "f1_fatal": 0.236
       },
       "2": {
         "n": 292,
         "n_fatal": 27,
         "prevalencia": 0.092,
-        "recall": 0.704,
-        "f1_fatal": 0.209
+        "recall": 0.667,
+        "f1_fatal": 0.194
       },
       "3": {
         "n": 375,
         "n_fatal": 40,
         "prevalencia": 0.107,
-        "recall": 0.625,
-        "f1_fatal": 0.228
+        "recall": 0.65,
+        "f1_fatal": 0.236
       }
     }
   },

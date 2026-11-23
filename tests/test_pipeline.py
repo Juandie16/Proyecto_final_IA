@@ -98,6 +98,47 @@ class TestClean(unittest.TestCase):
             self.assertFalse(set(cols) & set(C.LEAKY + C.ID_COLS), fs)
 
 
+class TestCodificacionesDelDATT(unittest.TestCase):
+    """Casos reales del archivo del DATT (verificados 2026-11-22): '0' como vacío y 'sin dato' que cambia por año."""
+
+    @classmethod
+    def setUpClass(cls):
+        base = make_synthetic(n=400, seed=1).rename(columns={"BARRIO": "barrio"})
+        for c in ["via1", "via2", "via3", "via4", "via5"]:
+            base[c] = "0"
+        base["via6"] = "Otro"
+        base.loc[0, "via2"] = "CARRERA 10"                        # via1 = "0" -> debe ser carrera, no calle
+        base.loc[1, "via5"] = "Avenida pedro de heredia"
+        base.loc[2, "via6"] = "Corredor de Carga"                 # sin via1..5 -> corredor de carga
+        # filas 3+ : todo "0"/"Otro" -> desconocido
+        base.loc[4, "objeto_fijo"], base.loc[5, "objeto_fijo"], base.loc[6, "objeto_fijo"] = "0", "No", None
+        base.loc[7, "objeto_fijo"] = "Muro"
+        base.loc[4, "choque_con"], base.loc[5, "choque_con"], base.loc[6, "choque_con"] = "Choque con", "No", None
+        base.loc[7, "choque_con"] = "Vehiculo"
+        cls.base = base
+        cls.df, cls.log = clean(base)
+        cls.by_ipat = cls.df.set_index("ipat")
+
+    def row(self, i):
+        return self.by_ipat.loc[self.base.loc[i, "ipat"]]
+
+    def test_tipo_via_ignora_ceros(self):
+        self.assertEqual(self.row(0)["tipo_via"], "carrera")
+        self.assertEqual(self.row(1)["tipo_via"], "avenida")
+        self.assertEqual(self.row(2)["tipo_via"], "corredor_carga")
+        self.assertEqual(self.row(3)["tipo_via"], "desconocido")
+        self.assertNotIn("calle", self.log["tipo_via_conteo"])   # antes del arreglo, todo salía "calle"
+
+    def test_sin_dato_unificado(self):
+        for i in (4, 5, 6):
+            self.assertEqual(self.row(i)["objeto_fijo"], "sin_dato", i)
+            self.assertEqual(self.row(i)["choque_con"], "sin_dato", i)
+        self.assertEqual(self.row(7)["objeto_fijo"], "muro")
+        self.assertEqual(self.row(7)["choque_con"], "vehiculo")
+        for col in ("objeto_fijo", "choque_con"):
+            self.assertFalse(self.df[col].isin(["0", "no", "desconocido", "choque con"]).any(), col)
+
+
 class TestEndToEnd(unittest.TestCase):
     def test_baseline_corre_y_supera_al_mayoritario_en_auc(self):
         with tempfile.TemporaryDirectory() as d:

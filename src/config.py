@@ -46,3 +46,19 @@ FEATURE_SETS = {
     "hipotesis": NUM_FEATURES + CAT_CONTEXTO + CAT_REPORTE + CAT_HIPOTESIS,   # + juicio causal del agente
 }
 PRIMARY_FEATURE_SET = "reporte"
+
+# Nombres de las localidades, SOLO para reportes (el modelo usa el código).
+# [CONFIRMAR] El DATT no publica un diccionario de este campo. El orden coincide con la numeración oficial de las
+# alcaldías locales y con los barrios de cada código en los datos (1: Centro, Bocagrande, Manga; 2: Olaya, El Pozón,
+# La Boquilla; 3: Mamonal, Ceballos, San Fernando). Verificado 2026-11-22; ver experiments/exploracion.json.
+LOCALIDAD_NOMBRES = {
+    "1": "Histórica y del Caribe Norte",
+    "2": "De la Virgen y Turística",
+    "3": "Industrial y de la Bahía",
+}
+
+# Umbral de recall del punto de operación (docs/evaluacion_predeclarada.md, sección 4)
+RECALL_OBJETIVO = 0.60
+# Subgrupos elegibles para métricas por subgrupo
+SUBGRUPO_MIN_N = 30
+SUBGRUPO_MIN_FATALES = 10

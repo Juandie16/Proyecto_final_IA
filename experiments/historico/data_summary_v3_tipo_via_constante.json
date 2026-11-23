@@ -1,0 +1,98 @@
+{
+  "n_raw": 8066,
+  "columnas_raw": [
+    "ipat",
+    "fecha",
+    "hora",
+    "gravedad",
+    "clase_accidente",
+    "choque_con",
+    "objeto_fijo",
+    "hipotesis_1",
+    "hipotesis_2",
+    "hipotesis_3",
+    "hipotesis_4",
+    "barrio",
+    "lugar",
+    "via1",
+    "via2",
+    "via3",
+    "via4",
+    "via5",
+    "via6",
+    "localidad",
+    "muertos",
+    "heridos",
+    "coordenadas",
+    "latitud",
+    "longitud"
+  ],
+  "gravedad_sin_interpretar": 0,
+  "gravedad_valores_originales": {
+    "Con Heridos": 7446,
+    "Con Muertos": 618,
+    "Con muertos": 1,
+    "CON HERIDOS": 1
+  },
+  "duplicados_ipat_eliminados": 573,
+  "ipat_duplicados_con_gravedad_distinta": 1,
+  "filas_gravedad_incoherente_con_conteos": 282,
+  "fecha_sin_interpretar": 0,
+  "hora_sin_interpretar": 0,
+  "longitud_signo_corregido": 0,
+  "coordenadas_fuera_de_cartagena_o_ausentes": 26,
+  "n_limpio": 7493,
+  "anios": {
+    "2020": 978,
+    "2021": 1317,
+    "2022": 1301,
+    "2023": 1254,
+    "2024": 1253,
+    "2025": 1390
+  },
+  "split": {
+    "train": {
+      "n": 4850,
+      "n_fatal": 341,
+      "pct_fatal": 7.03
+    },
+    "val": {
+      "n": 1253,
+      "n_fatal": 113,
+      "pct_fatal": 9.02
+    },
+    "test": {
+      "n": 1390,
+      "n_fatal": 115,
+      "pct_fatal": 8.27
+    },
+    "fuera": {
+      "n": 0,
+      "n_fatal": 0,
+      "pct_fatal": null
+    }
+  },
+  "gravedad_cod_conteo": {
+    "1": 6924,
+    "2": 569
+  },
+  "faltantes_pct": {
+    "hora": 0.0,
+    "mes": 0.0,
+    "dia_semana": 0.0,
+    "es_finde": 0.0,
+    "es_noche": 0.0,
+    "lat": 0.3,
+    "lon": 0.3,
+    "franja": 0.0,
+    "barrio": 0.0,
+    "localidad": 0.0,
+    "tipo_via": 0.0,
+    "clase_accidente": 0.0,
+    "choque_con": 21.3,
+    "objeto_fijo": 23.2,
+    "hipotesis_1": 0.0
+  },
+  "aviso": [],
+  "archivo_entrada": "accidentes_cartagena_2020_2025.csv"
+}

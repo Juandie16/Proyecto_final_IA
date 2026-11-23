@@ -20,8 +20,17 @@ import pandas as pd
 
 from src import config as C
 
-VIA_COLS = ["via1", "via2", "via3", "via4", "via5", "via6"]
-VIA_NAMES = ["calle", "carrera", "diagonal", "transversal", "avenida", "corredor_carga"]
+VIA_COLS = ["via1", "via2", "via3", "via4", "via5"]
+VIA_NAMES = ["calle", "carrera", "diagonal", "transversal", "avenida"]
+# En el archivo del DATT el campo vacío de via1..via6 viene como "0" (verificado 2026-11-22: 2020-2022 tienen
+# via1..via5 = "0" en el 100 % de las filas). via6 no es un nombre de vía: vale "Corredor de Carga", "Otro" o "0".
+VIA_VACIO = {"", "0"}
+# choque_con / objeto_fijo: la forma de decir "sin dato" cambia según el año ("0" en 2020-22, vacío en 2023-24,
+# "No" en 2025; "Choque con" son 8 celdas con el nombre de la columna). Se unifican para que la codificación
+# no delate el año del registro.
+SIN_DATO = "sin_dato"
+SIN_DATO_TOKENS = {"", "0", "no", "desconocido", "choque con"}
+COLS_SIN_DATO = ["choque_con", "objeto_fijo"]
 DATE_FORMATS = [
     "%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d",
     "%d/%m/%Y %H:%M:%S", "%d/%m/%Y %H:%M", "%d/%m/%Y", "%d-%m-%Y",
@@ -172,18 +181,26 @@ def clean(raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     log["coordenadas_fuera_de_cartagena_o_ausentes"] = int((~inside).sum())
     df["lat"], df["lon"] = lat.where(inside), lon.where(inside)
 
-    # 5. Tipo de vía (primer campo via* con valor)
+    # 5. Tipo de vía: primer campo via1..via5 con valor real ("0" = vacío); si no hay, corredor de carga (via6)
     def tipo_via(row):
         for col, name in zip(VIA_COLS, VIA_NAMES):
-            if col in row.index and normalize_text(row[col]):
+            if col in row.index and normalize_text(row[col]) not in VIA_VACIO:
                 return name
+        if "via6" in row.index and normalize_text(row["via6"]) == "corredor de carga":
+            return "corredor_carga"
         return "desconocido"
 
     df["tipo_via"] = df.apply(tipo_via, axis=1)
+    log["tipo_via_conteo"] = {str(k): int(v) for k, v in df["tipo_via"].value_counts().items()}
 
     # 6. Categóricas de texto normalizadas
     for col in ["barrio", "localidad", "clase_accidente", "choque_con", "objeto_fijo", "hipotesis_1"]:
         df[col] = df[col].map(normalize_text).replace("", "desconocido") if col in df.columns else "desconocido"
+    for col in COLS_SIN_DATO:
+        df[col] = df[col].where(~df[col].isin(SIN_DATO_TOKENS), SIN_DATO)
+        log[f"{col}_sin_dato_por_anio"] = {
+            int(k): int(v) for k, v in (df[col] == SIN_DATO).groupby(df["anio"]).sum().items()
+        }
 
     # 7. Partición temporal
     def split_of(y):
@@ -217,7 +234,9 @@ def clean(raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
         }
     log["gravedad_cod_conteo"] = {int(k): int(v) for k, v in df["gravedad_cod"].value_counts().sort_index().items()}
     feats = [c for c in C.FEATURE_SETS["hipotesis"] if c in df.columns]
-    log["faltantes_pct"] = {c: round(float(df[c].isna().mean() * 100 + (df[c] == "desconocido").mean() * 100), 1) for c in feats}
+    log["faltantes_pct"] = {
+        c: round(float(df[c].isna().mean() * 100 + df[c].isin(["desconocido", SIN_DATO]).mean() * 100), 1) for c in feats
+    }
     log["aviso"] = []
     for sp, minimo in (("train", 500), ("val", 150), ("test", 150)):
         v = log["split"][sp]
