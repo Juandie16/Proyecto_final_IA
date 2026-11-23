@@ -1,0 +1,1391 @@
+ipat,anio,fatal,hora,franja,dia_semana,localidad,barrio,tipo_via,clase_accidente,choque_con,objeto_fijo,hipotesis_1,proba_fatal,pred,tipo_error,proba_linea_base
+1339121,2025,0,14.0,tarde,2,2,la candelaria,calle,atropello,sin_dato,sin_dato,139,0.12265,1,FP,0.66099
+1339122,2025,0,10.0,manana,2,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.02086,0,ok,0.09647
+1339125,2025,0,21.0,noche,2,3,san fernando,calle,choque,vehiculo,sin_dato,112,0.0242,0,ok,0.1611
+1339145,2025,0,4.0,madrugada,2,1,marbella,calle,choque,vehiculo,sin_dato,105,0.05764,0,ok,0.40516
+1339156,2025,0,2.0,madrugada,2,1,centro,calle,choque,vehiculo,sin_dato,139,0.06656,0,ok,0.29068
+1339157,2025,0,2.0,madrugada,2,3,la consolata,calle,choque,vehiculo,sin_dato,114,0.0763,0,ok,0.48344
+1341429,2025,0,8.0,manana,2,1,bazurto,calle,choque,vehiculo,sin_dato,139,0.06761,0,ok,0.28161
+1341512,2025,0,21.0,noche,2,3,la concepcion,carrera,choque,vehiculo,sin_dato,114,0.07316,0,ok,0.46931
+1341513,2025,0,22.0,noche,2,3,anita,diagonal,volcamiento,vehiculo,sin_dato,139,0.08214,0,ok,0.31728
+1339124,2025,0,4.0,madrugada,3,1,getsemani,calle,caida ocupante,sin_dato,sin_dato,304,0.19294,1,FP,0.65614
+1339127,2025,0,13.0,tarde,3,1,bajo san isidro,diagonal,choque,vehiculo,sin_dato,139,0.0367,0,ok,0.2551
+1339143,2025,0,22.0,noche,3,3,la consolata,calle,choque,vehiculo,sin_dato,139,0.05906,0,ok,0.37777
+1341428,2025,0,5.0,madrugada,3,1,centro,calle,atropello,sin_dato,sin_dato,411,0.1511,1,FP,0.59725
+1341520,2025,0,12.0,tarde,4,1,el cabrero,calle,choque,vehiculo,sin_dato,115,0.02138,0,ok,0.18879
+1341507,2025,0,13.0,tarde,5,1,via baru,avenida,choque,vehiculo,sin_dato,139,0.27647,1,FP,0.78532
+1339130,2025,0,8.0,manana,6,1,la troncal,diagonal,choque,vehiculo,sin_dato,121,0.03629,0,ok,0.25642
+1339131,2025,0,13.0,tarde,6,1,bocagrande,calle,atropello,sin_dato,sin_dato,134,0.0805,0,ok,0.22206
+1339155,2025,0,14.0,tarde,0,1,espinal,calle,choque,vehiculo,sin_dato,123,0.01044,0,ok,0.16351
+1340953,2025,1,7.0,manana,0,1,avenida crisanto luque,diagonal,atropello,sin_dato,sin_dato,112,0.07193,0,FN,0.48856
+1339158,2025,0,13.0,tarde,0,1,manga,calle,choque,vehiculo,sin_dato,123,0.01152,0,ok,0.1189
+1341516,2025,0,4.0,madrugada,0,3,villa rosita,diagonal,choque,vehiculo,sin_dato,139,0.04634,0,ok,0.40303
+1339123,2025,0,5.0,madrugada,1,3,san pedro,calle,choque,vehiculo,sin_dato,103,0.03982,0,ok,0.38944
+1339126,2025,0,15.0,tarde,1,1,cuatro vientos,calle,choque,vehiculo,sin_dato,112,0.02541,0,ok,0.15277
+1339138,2025,0,13.0,tarde,1,1,el cabrero,carrera,atropello,sin_dato,sin_dato,157,0.05757,0,ok,0.47145
+1341168,2025,0,10.0,manana,1,3,mamonal,corredor_carga,choque,vehiculo,sin_dato,139,0.10481,0,ok,0.56939
+1338020,2025,0,10.0,manana,2,1,nuevo bosque,carrera,choque,vehiculo,sin_dato,102,0.06686,0,ok,0.41688
+1339129,2025,1,14.0,tarde,4,1,pie del cerro,calle,atropello,sin_dato,sin_dato,116,0.07295,0,FN,0.41432
+1339140,2025,0,11.0,manana,2,1,bocagrande,calle,choque,vehiculo,sin_dato,132,0.02453,0,ok,0.10437
+1338981,2025,0,0.0,madrugada,3,3,rubi,calle,choque,vehiculo,sin_dato,142,0.07936,0,ok,0.45065
+1338982,2025,0,13.0,tarde,3,1,torices,calle,atropello,sin_dato,sin_dato,157,0.06641,0,ok,0.06425
+1339148,2025,0,17.0,tarde,3,2,villa estrella,carrera,otro,sin_dato,sin_dato,201,0.12407,1,FP,0.46597
+1341494,2025,0,6.0,manana,3,3,ternera,diagonal,choque,vehiculo,sin_dato,121,0.01826,0,ok,0.1087
+1338989,2025,0,13.0,tarde,5,3,ternera,carrera,choque,vehiculo,sin_dato,139,0.035,0,ok,0.13777
+1338992,2025,0,11.0,manana,5,1,manga,calle,choque,vehiculo,sin_dato,123,0.02822,0,ok,0.14949
+1341514,2025,0,0.0,madrugada,5,1,los cerros,diagonal,atropello,sin_dato,sin_dato,139,0.18772,1,FP,0.7368
+1338994,2025,0,22.0,noche,5,2,el pozon,carrera,atropello,sin_dato,sin_dato,139,0.14113,1,FP,0.82292
+1339132,2025,0,23.0,noche,6,3,alameda la victoria,carrera,choque,vehiculo,sin_dato,115,0.11886,1,FP,0.44641
+1338985,2025,0,7.0,manana,0,2,las palmeras,calle,choque,vehiculo,sin_dato,112,0.03342,0,ok,0.19295
+1338986,2025,0,19.0,noche,0,3,los jardines,calle,choque,vehiculo,sin_dato,139,0.04535,0,ok,0.33872
+1339141,2025,0,10.0,manana,1,1,san pedro y libertad,calle,atropello,sin_dato,sin_dato,139,0.07305,0,ok,0.4957
+1339147,2025,0,15.0,tarde,2,1,crespo,calle,choque,vehiculo,sin_dato,103,0.03983,0,ok,0.19474
+1339149,2025,0,11.0,manana,2,1,manga,calle,choque,vehiculo,sin_dato,121,0.02026,0,ok,0.14482
+1339160,2025,0,20.0,noche,2,1,pie de la popa,carrera,atropello,sin_dato,sin_dato,97,0.1215,1,FP,0.69503
+1338022,2025,0,13.0,tarde,3,1,bosque,diagonal,choque,vehiculo,sin_dato,112,0.02753,0,ok,0.24747
+1338023,2025,0,10.0,manana,3,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,139,0.02104,0,ok,0.16791
+1338024,2025,0,20.0,noche,3,1,torices,calle,choque,vehiculo,sin_dato,112,0.02294,0,ok,0.04023
+1339000,2025,1,7.0,manana,0,1,via baru,avenida,choque,vehiculo,sin_dato,104,0.27422,1,ok,0.79658
+1338988,2025,0,7.0,manana,3,1,san isidro,diagonal,choque,vehiculo,sin_dato,0,0.03215,0,ok,0.21009
+1338025,2025,0,9.0,manana,4,2,villa estrella,calle,atropello,sin_dato,sin_dato,409,0.05731,0,ok,0.37244
+1338998,2025,0,0.0,madrugada,4,2,el pozon,desconocido,choque,vehiculo,sin_dato,139,0.11819,1,FP,0.65015
+1339133,2025,0,13.0,tarde,5,2,olaya,calle,choque,vehiculo,sin_dato,139,0.03147,0,ok,0.22556
+1339134,2025,0,22.0,noche,5,2,la boquilla,carrera,choque,vehiculo,sin_dato,139,0.07385,0,ok,0.46756
+1339150,2025,0,15.0,tarde,5,1,manga,calle,choque,vehiculo,sin_dato,142,0.01776,0,ok,0.13429
+1345046,2025,0,7.0,manana,5,3,ternera,calle,choque,vehiculo,sin_dato,121,0.0287,0,ok,0.11647
+1338987,2025,0,19.0,noche,6,2,olaya,calle,atropello,sin_dato,sin_dato,139,0.09721,0,ok,0.60576
+1341058,2025,0,14.0,tarde,6,2,la esperanza,calle,choque,vehiculo,sin_dato,139,0.04488,0,ok,0.26707
+1338031,2025,0,16.0,tarde,0,2,via perimetral,carrera,choque,vehiculo,sin_dato,122,0.04131,0,ok,0.15563
+1338033,2025,0,11.0,manana,0,2,el pozon,calle,choque,vehiculo,sin_dato,134,0.08479,0,ok,0.42529
+1338034,2025,0,17.0,tarde,0,3,mamonal,carrera,choque,vehiculo,sin_dato,143,0.1197,1,FP,0.54817
+1338035,2025,0,23.0,noche,0,1,narino,calle,choque,vehiculo,sin_dato,115,0.0699,0,ok,0.38313
+1338027,2025,1,11.0,manana,1,3,mamonal,corredor_carga,choque,sin_dato,sin_dato,139,0.1246,1,ok,0.43903
+1338030,2025,0,17.0,tarde,1,3,via campana,desconocido,choque,vehiculo,sin_dato,121,0.05046,0,ok,0.24105
+1338996,2025,0,17.0,tarde,1,3,simon bolivar,calle,choque,vehiculo,objeto fijo,139,0.07407,0,ok,0.30827
+1339001,2025,0,21.0,noche,1,3,los caracoles,calle,choque,vehiculo,sin_dato,127,0.03323,0,ok,0.27016
+1341208,2025,0,10.0,manana,1,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,122,0.02098,0,ok,0.16145
+1341523,2025,0,13.0,tarde,1,3,mamonal,diagonal,choque,vehiculo,objeto fijo,121,0.07413,0,ok,0.52554
+1338036,2025,0,2.0,madrugada,2,2,el libano,calle,volcamiento,sin_dato,sin_dato,114,0.20353,1,FP,0.64185
+1338999,2025,0,7.0,manana,2,2,olaya,transversal,choque,vehiculo,sin_dato,103,0.05537,0,ok,0.11259
+1339003,2025,0,13.0,tarde,2,1,barrio espana,calle,atropello,sin_dato,sin_dato,112,0.08625,0,ok,0.23174
+1339004,2025,0,22.0,noche,2,1,bocagrande,carrera,atropello,vehiculo,sin_dato,157,0.10907,1,FP,0.50873
+1338991,2025,0,13.0,tarde,3,1,centro,calle,atropello,sin_dato,sin_dato,112,0.06006,0,ok,0.2868
+1339006,2025,0,11.0,manana,3,1,bocagrande,carrera,choque,vehiculo,sin_dato,93,0.05769,0,ok,0.11946
+1339008,2025,0,20.0,noche,3,2,chiquinquira,carrera,choque,vehiculo,sin_dato,123,0.10367,0,ok,0.70256
+1338026,2025,0,5.0,madrugada,4,1,cuatro vientos,calle,choque,vehiculo,sin_dato,116,0.05276,0,ok,0.37955
+1338028,2025,0,17.0,tarde,4,1,centro,calle,atropello,sin_dato,sin_dato,217,0.05868,0,ok,0.34051
+1338037,2025,0,5.0,madrugada,4,2,alcibia,calle,choque,vehiculo,sin_dato,139,0.05624,0,ok,0.56652
+1339005,2025,0,11.0,manana,5,2,la esperanza,calle,atropello,sin_dato,sin_dato,139,0.06812,0,ok,0.55893
+1339009,2025,0,13.0,tarde,1,3,el carmelo,calle,choque,vehiculo,sin_dato,112,0.02696,0,ok,0.28683
+1339011,2025,0,17.0,tarde,5,3,santa lucia,diagonal,choque,vehiculo,sin_dato,121,0.02941,0,ok,0.13136
+1339014,2025,0,10.0,manana,5,3,el campestre,calle,choque,vehiculo,sin_dato,98,0.0244,0,ok,0.02863
+1339015,2025,0,14.0,tarde,5,1,avenida crisanto luque,diagonal,atropello,sin_dato,sin_dato,139,0.07688,0,ok,0.50547
+202500520,2025,1,11.0,manana,2,3,mamonal,corredor_carga,atropello,sin_dato,sin_dato,0,0.08866,0,FN,0.77506
+1338029,2025,0,22.0,noche,0,2,olaya,desconocido,atropello,vehiculo,sin_dato,411,0.0996,0,ok,0.71639
+1338038,2025,0,19.0,noche,0,2,boston,calle,choque,vehiculo,sin_dato,104,0.05229,0,ok,0.22363
+1339002,2025,0,7.0,manana,0,1,marbella,calle,choque,vehiculo,sin_dato,106,0.02805,0,ok,0.16422
+1339018,2025,0,7.0,manana,6,1,el cabrero,calle,choque,vehiculo,sin_dato,123,0.03868,0,ok,0.20582
+1339020,2025,0,16.0,tarde,6,1,manga,calle,choque,vehiculo,sin_dato,142,0.02547,0,ok,0.1422
+1339021,2025,0,14.0,tarde,6,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.01919,0,ok,0.09283
+1339029,2025,0,12.0,tarde,0,1,centro,carrera,choque,vehiculo,sin_dato,121,0.03047,0,ok,0.14429
+1339135,2025,0,3.0,madrugada,0,3,vista hermosa,desconocido,choque,vehiculo,sin_dato,123,0.09508,0,ok,0.52029
+1339151,2025,0,11.0,manana,0,3,simon bolivar,calle,choque,vehiculo,sin_dato,212,0.02243,0,ok,0.20423
+1339012,2025,0,7.0,manana,1,1,nuevo bosque,transversal,choque,vehiculo,sin_dato,104,0.02764,0,ok,0.16918
+1339016,2025,0,17.0,tarde,1,1,san pedro y libertad,carrera,choque,vehiculo,sin_dato,104,0.05667,0,ok,0.30804
+1339023,2025,0,11.0,manana,2,2,olaya,calle,atropello,sin_dato,sin_dato,139,0.06682,0,ok,0.51815
+1339024,2025,0,12.0,tarde,2,2,las gaviotas,desconocido,choque,vehiculo,sin_dato,122,0.07571,0,ok,0.38464
+1339030,2025,0,1.0,madrugada,1,2,la boquilla,carrera,atropello,vehiculo,sin_dato,139,0.17691,1,FP,0.84439
+1339031,2025,0,12.0,tarde,1,1,bosque,diagonal,choque,vehiculo,sin_dato,106,0.01395,0,ok,0.22684
+1339032,2025,0,18.0,noche,1,1,marbella,calle,choque,vehiculo,sin_dato,115,0.03799,0,ok,0.2451
+1339034,2025,0,21.0,noche,1,1,centro,desconocido,choque,vehiculo,sin_dato,116,0.02983,0,ok,0.20932
+1339038,2025,0,7.0,manana,2,1,avenida crisanto luque,diagonal,choque,vehiculo,sin_dato,93,0.0319,0,ok,0.2545
+1339039,2025,0,7.0,manana,2,1,chambacu,calle,atropello,sin_dato,sin_dato,139,0.0525,0,ok,0.27818
+1339040,2025,0,11.0,manana,2,3,los caracoles,diagonal,choque,vehiculo,sin_dato,122,0.02144,0,ok,0.19422
+1339111,2025,0,12.0,tarde,1,1,bosque,diagonal,choque,objeto fijo,vehiculo estacionado,139,0.19982,1,FP,0.77695
+1339112,2025,0,13.0,tarde,2,1,paseo bolivar,calle,choque,vehiculo,sin_dato,122,0.01507,0,ok,0.25768
+1339113,2025,0,14.0,tarde,2,2,el pozon,carrera,choque,vehiculo,sin_dato,139,0.06754,0,ok,0.45928
+1339119,2025,0,9.0,manana,3,1,daniel lemaitre,calle,choque,vehiculo,sin_dato,139,0.03059,0,ok,0.07858
+1339136,2025,0,10.0,manana,2,1,crespo,desconocido,choque,vehiculo,sin_dato,121,0.02821,0,ok,0.22307
+1341422,2025,0,19.0,noche,1,3,el carmelo,calle,choque,vehiculo,sin_dato,112,0.04379,0,ok,0.40642
+1339022,2025,0,22.0,noche,6,3,ceballos,diagonal,choque,vehiculo,sin_dato,0,0.10241,0,ok,0.42718
+1339025,2025,0,23.0,noche,6,1,martinez martelo,diagonal,choque,vehiculo,sin_dato,142,0.09243,0,ok,0.25071
+1339027,2025,0,3.0,madrugada,0,3,pasacaballo,calle,atropello,sin_dato,sin_dato,157,0.29448,1,FP,0.94528
+1339049,2025,0,11.0,manana,4,1,bosque,transversal,choque,vehiculo,sin_dato,139,0.02276,0,ok,0.14716
+1339114,2025,0,5.0,madrugada,3,3,20 de julio,calle,caida ocupante,sin_dato,sin_dato,305,0.20082,1,FP,0.8231
+1341423,2025,0,18.0,noche,4,3,el socorro,calle,choque,vehiculo,sin_dato,139,0.02434,0,ok,0.33835
+1341612,2025,0,17.0,tarde,4,3,mamonal,carrera,choque,vehiculo,sin_dato,112,0.11603,1,FP,0.565
+1338039,2025,0,4.0,madrugada,6,3,los caracoles,diagonal,choque,vehiculo,sin_dato,121,0.04713,0,ok,0.41886
+1339007,2025,0,19.0,noche,1,2,olaya,calle,choque,vehiculo,sin_dato,114,0.05142,0,ok,0.34223
+1339033,2025,0,15.0,tarde,0,1,centro,calle,atropello,sin_dato,sin_dato,133,0.05377,0,ok,0.30332
+1339035,2025,0,3.0,madrugada,2,2,la esperanza,calle,choque,objeto fijo,muro,139,0.2178,1,FP,0.88998
+1339036,2025,0,3.0,madrugada,1,1,marbella,carrera,choque,vehiculo,sin_dato,139,0.08756,0,ok,0.44603
+1339037,2025,0,7.0,manana,3,1,escallon villa,calle,choque,vehiculo,sin_dato,139,0.09673,0,ok,0.36
+1339041,2025,0,21.0,noche,4,2,olaya,calle,choque,vehiculo,sin_dato,114,0.03726,0,ok,0.36283
+1339043,2025,0,23.0,noche,6,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,104,0.08149,0,ok,0.27347
+1339044,2025,0,11.0,manana,2,2,camino del medio,calle,atropello,sin_dato,sin_dato,203,0.16048,1,FP,0.86452
+1339047,2025,0,17.0,tarde,6,1,via baru,avenida,choque,vehiculo,sin_dato,122,0.2421,1,FP,0.79212
+1339050,2025,0,21.0,noche,3,2,la boquilla,desconocido,choque,vehiculo,sin_dato,139,0.04282,0,ok,0.43995
+1339051,2025,0,6.0,manana,4,3,los caracoles,diagonal,atropello,sin_dato,sin_dato,112,0.06486,0,ok,0.36859
+1339052,2025,0,13.0,tarde,4,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,98,0.03341,0,ok,0.14957
+1339055,2025,0,15.0,tarde,4,3,san fernando,carrera,choque,objeto fijo,vehiculo estacionado,157,0.20696,1,FP,0.64742
+1339056,2025,0,18.0,noche,4,2,las gaviotas,diagonal,choque,vehiculo,objeto fijo,112,0.05907,0,ok,0.63183
+1339057,2025,0,6.0,manana,1,3,el carmelo,calle,choque,vehiculo,sin_dato,123,0.02305,0,ok,0.28415
+1339058,2025,0,7.0,manana,4,1,bazurto,calle,choque,vehiculo,sin_dato,139,0.04181,0,ok,0.28379
+1339059,2025,0,17.0,tarde,5,1,bosque,diagonal,choque,vehiculo,sin_dato,132,0.01611,0,ok,0.28872
+1339060,2025,0,17.0,tarde,2,1,san isidro,diagonal,choque,vehiculo,sin_dato,122,0.03009,0,ok,0.24723
+1339061,2025,0,15.0,tarde,5,3,ciudadela 2000,carrera,choque,vehiculo,sin_dato,104,0.04665,0,ok,0.30596
+1339062,2025,0,19.0,noche,5,1,pie de la popa,calle,choque,vehiculo,sin_dato,121,0.02268,0,ok,0.3789
+1339063,2025,0,18.0,noche,5,1,zaragocilla,calle,choque,vehiculo,sin_dato,114,0.02623,0,ok,0.34267
+1339064,2025,0,2.0,madrugada,6,3,blas de lezo,carrera,volcamiento,sin_dato,sin_dato,114,0.14502,1,FP,0.67866
+1339066,2025,0,5.0,madrugada,6,1,marbella,calle,choque,vehiculo,sin_dato,112,0.04583,0,ok,0.43759
+1339067,2025,0,22.0,noche,1,3,ternera,calle,choque,vehiculo,sin_dato,121,0.04105,0,ok,0.20616
+1339068,2025,0,17.0,tarde,5,1,crespo,calle,choque,objeto fijo,muro,139,0.21668,1,FP,0.68659
+1339069,2025,0,11.0,manana,6,2,el pozon,transversal,choque,vehiculo,sin_dato,139,0.0722,0,ok,0.26223
+1339070,2025,0,8.0,manana,5,1,manga,calle,choque,vehiculo,sin_dato,157,0.01533,0,ok,0.13382
+1339071,2025,0,7.0,manana,1,3,san fernando,calle,choque,vehiculo,sin_dato,112,0.01006,0,ok,0.09536
+1339072,2025,0,17.0,tarde,4,1,piedra de bolivar,carrera,choque,vehiculo,sin_dato,123,0.04066,0,ok,0.34607
+1339073,2025,0,19.0,noche,0,1,pie del cerro,calle,atropello,sin_dato,sin_dato,304,0.11325,1,FP,0.52734
+1339074,2025,0,22.0,noche,0,3,san fernando,calle,choque,vehiculo,sin_dato,157,0.03972,0,ok,0.16984
+1339075,2025,0,15.0,tarde,6,3,nelson mandela,calle,volcamiento,sin_dato,sin_dato,1369,0.12787,1,FP,0.55411
+1339076,2025,0,20.0,noche,5,2,olaya,calle,choque,vehiculo,sin_dato,139,0.03008,0,ok,0.36421
+1339077,2025,0,11.0,manana,1,2,villa estrella,carrera,atropello,sin_dato,sin_dato,131,0.07311,0,ok,0.45668
+1339078,2025,0,10.0,manana,0,3,villa rosita,transversal,choque,vehiculo,sin_dato,121,0.01519,0,ok,0.09565
+1339079,2025,0,12.0,tarde,1,2,tesca,calle,choque,vehiculo,sin_dato,121,0.05917,0,ok,0.43664
+1339080,2025,0,17.0,tarde,1,3,ceballos,transversal,choque,vehiculo,sin_dato,121,0.03518,0,ok,0.17185
+1339115,2025,0,15.0,tarde,1,1,pie de la popa,calle,choque,vehiculo,sin_dato,157,0.04203,0,ok,0.28132
+1339116,2025,0,16.0,tarde,4,2,la esperanza,calle,choque,vehiculo,sin_dato,132,0.07506,0,ok,0.29547
+1339117,2025,0,22.0,noche,2,2,el pozon,transversal,choque,vehiculo,sin_dato,116,0.12913,1,FP,0.35838
+1339118,2025,0,2.0,madrugada,0,1,el country,diagonal,choque,vehiculo,sin_dato,121,0.08331,0,ok,0.49919
+1339120,2025,0,11.0,manana,3,3,santa lucia,diagonal,choque,vehiculo,sin_dato,97,0.01935,0,ok,0.13215
+1339137,2025,0,16.0,tarde,2,3,anita,diagonal,atropello,sin_dato,sin_dato,409,0.06847,0,ok,0.19565
+1339161,2025,0,18.0,noche,2,1,torices,calle,choque,vehiculo,sin_dato,104,0.02238,0,ok,0.03805
+1339162,2025,0,22.0,noche,3,2,la esperanza,calle,atropello,sin_dato,sin_dato,139,0.19287,1,FP,0.67392
+1339168,2025,0,18.0,noche,0,3,mamonal,corredor_carga,choque,vehiculo,sin_dato,121,0.12045,1,FP,0.60566
+1339171,2025,0,10.0,manana,5,2,la candelaria,calle,choque,vehiculo,sin_dato,139,0.04734,0,ok,0.43499
+1339172,2025,0,22.0,noche,5,1,san francisco,calle,choque,vehiculo,sin_dato,114,0.06076,0,ok,0.54162
+1339321,2025,0,7.0,manana,4,3,mamonal,carrera,caida ocupante,sin_dato,sin_dato,157,0.07798,0,ok,0.80611
+1339322,2025,0,8.0,manana,4,3,ceballos,transversal,choque,vehiculo,sin_dato,139,0.0249,0,ok,0.15723
+1339323,2025,1,12.0,tarde,6,1,bazurto,calle,atropello,sin_dato,sin_dato,409,0.10368,0,FN,0.52299
+1339324,2025,0,9.0,manana,0,1,marbella,desconocido,choque,vehiculo,sin_dato,121,0.03181,0,ok,0.18612
+1339325,2025,0,14.0,tarde,0,1,marbella,calle,choque,vehiculo,sin_dato,119,0.0117,0,ok,0.17842
+1339326,2025,0,18.0,noche,0,1,la troncal,diagonal,choque,vehiculo,sin_dato,139,0.07168,0,ok,0.33859
+1339327,2025,0,13.0,tarde,3,2,via perimetral,carrera,choque,vehiculo,sin_dato,127,0.03267,0,ok,0.14294
+1339329,2025,0,0.0,madrugada,1,2,olaya,calle,choque,vehiculo,sin_dato,139,0.09245,0,ok,0.45504
+1339330,2025,0,15.0,tarde,1,1,centro,calle,atropello,sin_dato,sin_dato,143,0.05522,0,ok,0.31304
+1339334,2025,0,22.0,noche,3,1,bazurto,calle,choque,vehiculo,sin_dato,139,0.04253,0,ok,0.4358
+1339335,2025,0,8.0,manana,4,1,marbella,calle,choque,vehiculo,sin_dato,139,0.02654,0,ok,0.17905
+1339338,2025,0,19.0,noche,4,3,san fernando,calle,atropello,sin_dato,sin_dato,139,0.09247,0,ok,0.36164
+1339340,2025,0,20.0,noche,4,3,san pedro,calle,choque,vehiculo,objeto fijo,139,0.05904,0,ok,0.35491
+1341101,2025,0,6.0,manana,4,2,las palmeras,calle,choque,vehiculo,sin_dato,104,0.02436,0,ok,0.19844
+1341424,2025,0,13.0,tarde,0,1,barrio espana,calle,choque,sin_dato,valla seaal,112,0.11103,1,FP,0.09477
+1344816,2025,0,18.0,noche,5,3,el carmelo,calle,choque,vehiculo,sin_dato,104,0.03705,0,ok,0.4104
+202501295,2025,1,13.0,tarde,5,2,la esperanza,calle,caida ocupante,sin_dato,sin_dato,157,0.09984,0,FN,0.57676
+1338997,2025,0,14.0,tarde,5,3,villa hermosa,carrera,choque,vehiculo,sin_dato,139,0.09223,0,ok,0.3274
+202501389,2025,1,3.0,madrugada,1,3,santa lucia,calle,choque,vehiculo,sin_dato,157,0.04262,0,FN,0.29144
+1339163,2025,0,11.0,manana,0,1,escallon villa,calle,choque,vehiculo,sin_dato,121,0.09211,0,ok,0.39658
+1339164,2025,0,20.0,noche,3,1,bosque,diagonal,atropello,sin_dato,sin_dato,139,0.15469,1,FP,0.63112
+1339165,2025,0,2.0,madrugada,6,2,olaya,diagonal,choque,objeto fijo,otro,116,0.17184,1,FP,0.60172
+1339169,2025,0,9.0,manana,1,1,crespo,calle,choque,objeto fijo,muro,139,0.20517,1,FP,0.65961
+1339170,2025,0,16.0,tarde,0,1,avenida del lago,calle,choque,vehiculo,sin_dato,139,0.01073,0,ok,0.27375
+1339173,2025,0,23.0,noche,6,2,via perimetral,carrera,choque,vehiculo,sin_dato,115,0.06756,0,ok,0.26208
+1339175,2025,0,18.0,noche,6,2,nuevo paraiso,calle,atropello,sin_dato,sin_dato,409,0.0676,0,ok,0.68412
+1339176,2025,0,7.0,manana,6,1,bruselas,transversal,choque,vehiculo,sin_dato,139,0.02495,0,ok,0.08085
+1339177,2025,0,9.0,manana,6,2,13 de junio,diagonal,choque,vehiculo,sin_dato,112,0.02881,0,ok,0.13549
+1339179,2025,0,16.0,tarde,6,2,la maria,calle,atropello,sin_dato,sin_dato,139,0.07644,0,ok,0.51536
+1339180,2025,0,19.0,noche,6,1,daniel lemaitre,calle,atropello,sin_dato,sin_dato,139,0.12329,1,FP,0.28517
+1339331,2025,0,16.0,tarde,3,1,zaragocilla,calle,atropello,sin_dato,sin_dato,157,0.09349,0,ok,0.51847
+1339337,2025,0,12.0,tarde,3,1,barrio espana,calle,choque,vehiculo,sin_dato,112,0.01115,0,ok,0.09336
+1339341,2025,0,15.0,tarde,0,3,mamonal,carrera,choque,vehiculo,sin_dato,122,0.08759,0,ok,0.5406
+1339342,2025,1,20.0,noche,3,2,olaya,calle,choque,vehiculo,sin_dato,104,0.04012,0,FN,0.35142
+1339344,2025,0,16.0,tarde,4,2,las palmeras,transversal,choque,vehiculo,sin_dato,127,0.04178,0,ok,0.12001
+1339345,2025,0,13.0,tarde,0,3,ceballos,diagonal,choque,vehiculo,sin_dato,139,0.03302,0,ok,0.27012
+1339347,2025,0,7.0,manana,1,1,castillo grande,calle,choque,vehiculo,sin_dato,122,0.01853,0,ok,0.28152
+1339348,2025,0,8.0,manana,1,2,olaya,calle,choque,sin_dato,sin_dato,139,0.06583,0,ok,0.17427
+1339349,2025,0,12.0,tarde,2,1,manga,calle,choque,vehiculo,sin_dato,139,0.01877,0,ok,0.12025
+1339350,2025,0,14.0,tarde,2,3,bomba el amparo,diagonal,atropello,sin_dato,sin_dato,157,0.07428,0,ok,0.47182
+1339351,2025,0,8.0,manana,3,3,almirante colon,desconocido,choque,vehiculo,sin_dato,101,0.018,0,ok,0.26414
+1339355,2025,0,16.0,tarde,6,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,115,0.05154,0,ok,0.36164
+1339356,2025,0,11.0,manana,4,1,torices,calle,choque,vehiculo,sin_dato,115,0.01511,0,ok,0.02927
+1339357,2025,0,12.0,tarde,5,2,las gaviotas,carrera,choque,vehiculo,sin_dato,139,0.08047,0,ok,0.44776
+1339358,2025,0,19.0,noche,5,1,bazurto,calle,atropello,sin_dato,sin_dato,157,0.15501,1,FP,0.66054
+1339045,2025,1,18.0,noche,4,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,139,0.11409,1,ok,0.44347
+1339336,2025,1,22.0,noche,5,2,via perimetral,carrera,caida ocupante,sin_dato,sin_dato,115,0.15883,1,ok,0.55272
+1339287,2025,1,16.0,tarde,4,1,el country,desconocido,choque,vehiculo,sin_dato,157,0.01645,0,FN,0.29325
+1339281,2025,0,11.0,manana,1,2,la boquilla,carrera,choque,vehiculo,sin_dato,106,0.05913,0,ok,0.37774
+1339282,2025,0,16.0,tarde,1,1,pie de la popa,calle,choque,vehiculo,sin_dato,139,0.02434,0,ok,0.28903
+1339283,2025,0,15.0,tarde,1,1,marbella,calle,atropello,sin_dato,sin_dato,139,0.07402,0,ok,0.39018
+1339284,2025,0,21.0,noche,1,3,el carmelo,calle,atropello,sin_dato,sin_dato,157,0.14781,1,FP,0.69617
+1339285,2025,0,23.0,noche,4,2,villas de la candelaria,carrera,choque,vehiculo,sin_dato,115,0.1026,0,ok,0.53507
+1339359,2025,1,1.0,madrugada,5,2,los alpes,diagonal,choque,vehiculo,sin_dato,139,0.08792,0,FN,0.45067
+1339301,2025,0,8.0,manana,3,1,canapote,calle,choque,vehiculo,sin_dato,139,0.02743,0,ok,0.26463
+1339302,2025,0,13.0,tarde,3,1,bosque,diagonal,atropello,sin_dato,sin_dato,139,0.09267,0,ok,0.4913
+1339305,2025,0,2.0,madrugada,4,3,ceballos,diagonal,atropello,sin_dato,sin_dato,139,0.19044,1,FP,0.77923
+1339307,2025,0,6.0,manana,4,1,pie de la popa,calle,choque,vehiculo,sin_dato,142,0.03044,0,ok,0.26297
+1339308,2025,0,10.0,manana,4,2,la esperanza,calle,choque,vehiculo,sin_dato,123,0.054,0,ok,0.29996
+1339309,2025,0,13.0,tarde,4,3,bellavista,carrera,choque,vehiculo,sin_dato,98,0.07185,0,ok,0.31408
+1339310,2025,0,13.0,tarde,4,2,los alpes,transversal,choque,vehiculo,sin_dato,139,0.03037,0,ok,0.11038
+1339311,2025,0,17.0,tarde,4,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,143,0.04497,0,ok,0.37336
+1339352,2025,0,1.0,madrugada,0,3,blas de lezo,calle,atropello,sin_dato,sin_dato,114,0.14953,1,FP,0.66448
+1339360,2025,0,6.0,manana,4,3,mamonal,carrera,choque,vehiculo,sin_dato,103,0.11912,1,FP,0.50826
+1339094,2025,0,4.0,madrugada,3,2,alcibia,calle,choque,vehiculo,sin_dato,142,0.05575,0,ok,0.55852
+1339095,2025,0,15.0,tarde,1,1,bosque,diagonal,choque,sin_dato,sin_dato,112,0.08724,0,ok,0.19838
+1339096,2025,0,14.0,tarde,1,1,bosque,diagonal,choque,vehiculo,sin_dato,139,0.02069,0,ok,0.26365
+1339097,2025,0,17.0,tarde,1,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,112,0.04521,0,ok,0.37607
+1339099,2025,0,16.0,tarde,5,3,anita,diagonal,atropello,sin_dato,sin_dato,409,0.06538,0,ok,0.20577
+1339100,2025,0,8.0,manana,1,1,espinal,calle,choque,vehiculo,sin_dato,122,0.00735,0,ok,0.17558
+1339102,2025,0,15.0,tarde,1,2,villas de la candelaria,transversal,choque,vehiculo,sin_dato,143,0.03514,0,ok,0.17305
+1339166,2025,0,21.0,noche,6,3,mamonal,corredor_carga,choque,vehiculo,sin_dato,114,0.22988,1,FP,0.68377
+1339167,2025,0,16.0,tarde,2,3,mamonal,carrera,choque,vehiculo,sin_dato,139,0.08244,0,ok,0.55692
+1339202,2025,0,18.0,noche,3,1,manga,calle,atropello,sin_dato,sin_dato,409,0.12671,1,FP,0.41551
+1339203,2025,0,21.0,noche,6,2,el pozon,carrera,choque,vehiculo,sin_dato,112,0.10095,0,ok,0.62275
+1339241,2025,1,0.0,madrugada,5,2,tierra baja,carrera,caida ocupante,sin_dato,sin_dato,114,0.2126,1,ok,0.80545
+1339210,2025,0,21.0,noche,5,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.04747,0,ok,0.16363
+1339212,2025,0,22.0,noche,5,1,la campina,calle,atropello,sin_dato,sin_dato,139,0.16315,1,FP,0.67
+1339214,2025,0,3.0,madrugada,6,1,bazurto,calle,choque,vehiculo,sin_dato,142,0.04235,0,ok,0.56861
+1339220,2025,0,16.0,tarde,0,1,pie del cerro,calle,choque,vehiculo,sin_dato,123,0.00851,0,ok,0.21177
+1339223,2025,0,21.0,noche,5,3,mamonal,carrera,choque,vehiculo,sin_dato,115,0.19244,1,FP,0.66488
+1339225,2025,0,6.0,manana,3,3,san fernando,carrera,choque,vehiculo,sin_dato,122,0.02122,0,ok,0.11723
+1339227,2025,0,8.0,manana,3,1,espinal,calle,choque,vehiculo,sin_dato,106,0.00628,0,ok,0.18007
+1339228,2025,0,8.0,manana,3,1,torices,calle,choque,vehiculo,sin_dato,139,0.00672,0,ok,0.02531
+1339229,2025,0,15.0,tarde,3,3,los caracoles,carrera,choque,vehiculo,sin_dato,139,0.01664,0,ok,0.23601
+1339231,2025,0,19.0,noche,3,1,barrio espana,calle,atropello,sin_dato,sin_dato,139,0.1434,1,FP,0.35624
+1339232,2025,0,14.0,tarde,5,3,la esmeralda,calle,choque,vehiculo,sin_dato,139,0.03767,0,ok,0.26276
+1339234,2025,0,10.0,manana,4,3,el recreo,calle,choque,vehiculo,sin_dato,103,0.03153,0,ok,0.26579
+1339235,2025,0,14.0,tarde,4,1,centro,carrera,choque,vehiculo,sin_dato,106,0.01886,0,ok,0.16553
+1339236,2025,0,20.0,noche,5,1,bazurto,calle,atropello,vehiculo,sin_dato,114,0.08538,0,ok,0.76153
+1339237,2025,0,7.0,manana,5,3,mamonal,carrera,choque,vehiculo,sin_dato,139,0.14486,1,FP,0.52443
+1339251,2025,1,3.0,madrugada,0,3,anita,diagonal,choque,vehiculo,objeto fijo,142,0.07547,0,FN,0.2737
+1339240,2025,0,0.0,madrugada,5,2,tesca,calle,choque,vehiculo,objeto fijo,112,0.11007,1,FP,0.79248
+1339239,2025,1,15.0,tarde,4,1,bazurto,calle,atropello,sin_dato,sin_dato,409,0.10462,0,FN,0.56866
+1339242,2025,0,14.0,tarde,6,1,el toril,carrera,atropello,sin_dato,sin_dato,139,0.08552,0,ok,0.57603
+1339244,2025,0,19.0,noche,6,2,tierra baja,desconocido,choque,vehiculo,sin_dato,127,0.05633,0,ok,0.35602
+1339245,2025,0,19.0,noche,6,1,pie de la popa,calle,choque,vehiculo,sin_dato,122,0.03771,0,ok,0.39312
+1339246,2025,0,0.0,madrugada,0,2,via perimetral,carrera,choque,objeto fijo,objeto fijo,157,0.23323,1,FP,0.75504
+1339247,2025,0,23.0,noche,6,3,san fernando,calle,choque,vehiculo,sin_dato,114,0.04848,0,ok,0.19265
+1339250,2025,0,17.0,tarde,6,2,olaya,calle,choque,vehiculo,sin_dato,115,0.03529,0,ok,0.27898
+1339253,2025,0,4.0,madrugada,3,1,pie de la popa,calle,atropello,sin_dato,sin_dato,112,0.1933,1,FP,0.78732
+1339254,2025,0,0.0,madrugada,5,1,manga,calle,choque,vehiculo,sin_dato,132,0.04539,0,ok,0.2974
+1339255,2025,0,5.0,madrugada,5,2,chiquinquira,calle,choque,vehiculo,sin_dato,121,0.10174,0,ok,0.80265
+1339259,2025,0,20.0,noche,6,3,ceballos,diagonal,atropello,sin_dato,sin_dato,139,0.11754,1,FP,0.67912
+1339269,2025,0,9.0,manana,0,2,olaya,carrera,atropello,sin_dato,sin_dato,139,0.07013,0,ok,0.55722
+1339270,2025,0,12.0,tarde,3,1,bosque,diagonal,choque,vehiculo,sin_dato,122,0.02445,0,ok,0.24313
+1339271,2025,0,1.0,madrugada,1,3,la sierrita,calle,choque,vehiculo,sin_dato,104,0.07928,0,ok,0.48711
+1339274,2025,0,10.0,manana,0,1,villa sandra,calle,volcamiento,sin_dato,sin_dato,308,0.05766,0,ok,0.45333
+1339278,2025,0,11.0,manana,2,1,escallon villa,calle,choque,vehiculo,sin_dato,139,0.08333,0,ok,0.41795
+1339279,2025,0,16.0,tarde,2,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,112,0.02763,0,ok,0.16711
+1339280,2025,0,2.0,madrugada,3,2,olaya,calle,choque,objeto fijo,muro,139,0.25311,1,FP,0.87871
+1339289,2025,0,19.0,noche,0,3,san jose de los campanos,carrera,atropello,sin_dato,sin_dato,112,0.09392,0,ok,0.51749
+1339290,2025,0,12.0,tarde,4,1,lo amador,calle,atropello,sin_dato,sin_dato,409,0.07354,0,ok,0.32927
+1339291,2025,0,8.0,manana,3,2,alcibia,calle,atropello,sin_dato,sin_dato,139,0.08572,0,ok,0.54272
+1339292,2025,0,15.0,tarde,3,1,centro,carrera,choque,vehiculo,sin_dato,121,0.01623,0,ok,0.17218
+1339293,2025,0,21.0,noche,1,3,san fernando,calle,choque,vehiculo,sin_dato,112,0.02341,0,ok,0.16888
+1339294,2025,0,11.0,manana,4,3,blas de lezo,calle,atropello,sin_dato,sin_dato,112,0.05605,0,ok,0.47842
+1339295,2025,0,18.0,noche,0,1,cuatro vientos,calle,choque,vehiculo,sin_dato,94,0.05159,0,ok,0.21775
+1339296,2025,0,9.0,manana,3,1,pie de la popa,calle,choque,vehiculo,sin_dato,106,0.02379,0,ok,0.29052
+1339303,2025,0,15.0,tarde,6,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,132,0.04343,0,ok,0.35731
+1339304,2025,0,6.0,manana,6,2,13 de junio,diagonal,choque,objeto fijo,muro,139,0.21757,1,FP,0.50049
+1339312,2025,0,11.0,manana,6,2,olaya,calle,choque,vehiculo,sin_dato,139,0.04509,0,ok,0.29028
+1339313,2025,0,23.0,noche,6,1,san isidro,diagonal,choque,vehiculo,objeto fijo,121,0.11352,1,FP,0.48598
+1339314,2025,0,2.0,madrugada,6,2,el pozon,carrera,choque,vehiculo,sin_dato,127,0.097,0,ok,0.72949
+1339316,2025,0,14.0,tarde,5,2,la esperanza,calle,choque,vehiculo,sin_dato,112,0.04422,0,ok,0.28068
+1339318,2025,0,2.0,madrugada,0,2,olaya,calle,choque,vehiculo,sin_dato,114,0.0734,0,ok,0.48419
+1339319,2025,0,16.0,tarde,6,1,torices,calle,choque,vehiculo,sin_dato,112,0.01834,0,ok,0.02815
+1339320,2025,0,23.0,noche,6,1,bosque,transversal,choque,vehiculo,sin_dato,122,0.12288,1,FP,0.24409
+1339354,2025,0,6.0,manana,5,2,via bayunca - pontezuela,desconocido,choque,vehiculo,sin_dato,157,0.10939,1,FP,0.17508
+1339365,2025,0,10.0,manana,0,3,mamonal,carrera,choque,vehiculo,sin_dato,157,0.09341,0,ok,0.59537
+1341317,2025,0,21.0,noche,5,1,barrio espana,calle,choque,vehiculo,sin_dato,142,0.02429,0,ok,0.17456
+1341476,2025,0,19.0,noche,2,1,bazurto,calle,atropello,sin_dato,sin_dato,112,0.17308,1,FP,0.66406
+1339206,2025,1,23.0,noche,6,1,espinal,calle,choque,vehiculo,sin_dato,97,0.06525,0,FN,0.30562
+202502217,2025,1,21.0,noche,6,3,san fernando,carrera,choque,vehiculo,sin_dato,0,0.05797,0,FN,0.21588
+1339209,2025,0,13.0,tarde,5,1,amberes,calle,choque,vehiculo,sin_dato,139,0.04117,0,ok,0.33336
+1339213,2025,0,23.0,noche,5,3,el socorro,calle,choque,vehiculo,sin_dato,139,0.04863,0,ok,0.40958
+1339248,2025,0,1.0,madrugada,0,3,el socorro,calle,choque,vehiculo,sin_dato,122,0.05427,0,ok,0.48564
+202502241,2025,1,6.0,manana,0,2,el pozon,calle,choque,vehiculo,sin_dato,0,0.07151,0,FN,0.37679
+1339258,2025,0,20.0,noche,5,2,la quinta,desconocido,choque,vehiculo,sin_dato,139,0.04171,0,ok,0.09167
+1339260,2025,0,17.0,tarde,0,2,los alpes,transversal,choque,vehiculo,sin_dato,154,0.03533,0,ok,0.12747
+1339276,2025,0,10.0,manana,2,3,mamonal,carrera,choque,vehiculo,sin_dato,104,0.07845,0,ok,0.58615
+1339277,2025,0,17.0,tarde,2,3,almirante colon,carrera,choque,vehiculo,sin_dato,139,0.0318,0,ok,0.33435
+1339298,2025,0,22.0,noche,0,1,crespo,desconocido,volcamiento,sin_dato,sin_dato,116,0.13266,1,FP,0.52325
+1339300,2025,0,1.0,madrugada,0,1,bosque,diagonal,choque,vehiculo,sin_dato,115,0.07193,0,ok,0.49769
+1339315,2025,0,18.0,noche,1,3,bomba el amparo,desconocido,caida ocupante,sin_dato,sin_dato,0,0.13898,1,FP,0.65764
+1339317,2025,0,19.0,noche,0,1,torices,calle,choque,vehiculo,sin_dato,128,0.02575,0,ok,0.03889
+1339353,2025,0,7.0,manana,2,3,mamonal,carrera,choque,vehiculo,sin_dato,0,0.06573,0,ok,0.51776
+1339368,2025,0,7.0,manana,3,1,bosque,diagonal,choque,vehiculo,sin_dato,112,0.01321,0,ok,0.26007
+1339373,2025,0,7.0,manana,1,1,bocagrande,calle,choque,vehiculo,sin_dato,139,0.00888,0,ok,0.08869
+1339374,2025,0,7.0,manana,1,3,pasacaballo,desconocido,choque,vehiculo,sin_dato,134,0.1986,1,FP,0.66205
+1339375,2025,0,13.0,tarde,2,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,121,0.02204,0,ok,0.14963
+1339376,2025,0,19.0,noche,2,2,colombiaton,carrera,choque,vehiculo,sin_dato,139,0.14451,1,FP,0.46225
+1339378,2025,0,9.0,manana,3,2,la boquilla,desconocido,choque,vehiculo,sin_dato,112,0.04671,0,ok,0.33027
+1339181,2025,0,19.0,noche,3,3,santa lucia,calle,choque,vehiculo,sin_dato,103,0.02913,0,ok,0.18749
+202502697,2025,1,21.0,noche,0,2,nuevo paraiso,calle,choque,vehiculo,sin_dato,0,0.05838,0,FN,0.44437
+1339183,2025,0,9.0,manana,4,1,centro,calle,choque,vehiculo,sin_dato,112,0.00803,0,ok,0.14191
+1339185,2025,0,14.0,tarde,4,1,bocagrande,calle,atropello,sin_dato,sin_dato,139,0.07911,0,ok,0.23289
+1339186,2025,0,10.0,manana,5,3,ciudad jardin,calle,choque,vehiculo,sin_dato,123,0.0915,0,ok,0.56121
+1339187,2025,0,23.0,noche,5,2,bayunca,calle,choque,vehiculo,sin_dato,112,0.35552,1,FP,0.7363
+1339194,2025,0,5.0,madrugada,0,2,13 de junio,diagonal,atropello,sin_dato,sin_dato,114,0.18516,1,FP,0.58841
+1339195,2025,0,22.0,noche,0,1,paseo bolivar,calle,choque,vehiculo,sin_dato,139,0.04825,0,ok,0.38509
+1339204,2025,0,14.0,tarde,2,1,getsemani,calle,atropello,sin_dato,sin_dato,411,0.06428,0,ok,0.3245
+1339182,2025,1,5.0,madrugada,6,2,la esperanza,calle,choque,vehiculo,sin_dato,114,0.0531,0,FN,0.57381
+1339215,2025,0,10.0,manana,5,3,anita,diagonal,choque,vehiculo,sin_dato,139,0.01634,0,ok,0.08128
+1339216,2025,0,22.0,noche,5,2,el pozon,carrera,choque,vehiculo,sin_dato,112,0.10116,0,ok,0.62677
+1339221,2025,0,23.0,noche,5,2,olaya,calle,atropello,sin_dato,sin_dato,139,0.1807,1,FP,0.66724
+1339222,2025,0,23.0,noche,3,3,el socorro,calle,atropello,sin_dato,sin_dato,139,0.16815,1,FP,0.66241
+1339256,2025,0,17.0,tarde,4,3,almirante colon,diagonal,choque,vehiculo,sin_dato,123,0.02189,0,ok,0.28772
+1339207,2025,1,1.0,madrugada,6,3,alameda la victoria,calle,choque,vehiculo,sin_dato,121,0.07455,0,FN,0.47693
+1339377,2025,0,13.0,tarde,5,1,villa sandra,calle,choque,vehiculo,sin_dato,94,0.00935,0,ok,0.24819
+1339382,2025,0,21.0,noche,4,2,las gaviotas,diagonal,choque,vehiculo,objeto fijo,112,0.06188,0,ok,0.67338
+1341318,2025,0,22.0,noche,5,2,olaya,calle,atropello,sin_dato,sin_dato,112,0.15741,1,FP,0.65909
+1339370,2025,0,3.0,madrugada,0,3,vista hermosa,diagonal,choque,vehiculo,sin_dato,132,0.0633,0,ok,0.51928
+1339188,2025,0,23.0,noche,6,1,el country,transversal,choque,vehiculo,sin_dato,115,0.0611,0,ok,0.24694
+1339191,2025,0,22.0,noche,3,1,bruselas,diagonal,atropello,sin_dato,sin_dato,409,0.2095,1,FP,0.53886
+1339196,2025,0,8.0,manana,4,2,los alpes,transversal,choque,vehiculo,sin_dato,157,0.01833,0,ok,0.11944
+1339200,2025,0,14.0,tarde,1,1,daniel lemaitre,calle,choque,vehiculo,sin_dato,106,0.01144,0,ok,0.07615
+1339217,2025,0,23.0,noche,6,3,san fernando,calle,choque,vehiculo,sin_dato,121,0.0484,0,ok,0.18655
+1339367,2025,0,11.0,manana,6,3,mamonal,carrera,choque,vehiculo,sin_dato,105,0.09217,0,ok,0.62213
+1339371,2025,0,21.0,noche,2,3,ceballos,diagonal,choque,vehiculo,objeto fijo,103,0.07304,0,ok,0.54031
+1339379,2025,0,8.0,manana,5,3,arroz barato,calle,choque,vehiculo,sin_dato,134,0.11834,1,FP,0.28755
+1339383,2025,0,5.0,madrugada,2,1,bazurto,calle,atropello,sin_dato,sin_dato,94,0.17999,1,FP,0.80574
+1339385,2025,0,15.0,tarde,2,1,centro,carrera,choque,vehiculo,objeto fijo,139,0.04641,0,ok,0.25134
+1339386,2025,0,9.0,manana,5,1,torices,calle,choque,vehiculo,sin_dato,112,0.01057,0,ok,0.02697
+1339387,2025,0,19.0,noche,2,1,bocagrande,calle,choque,vehiculo,sin_dato,123,0.06447,0,ok,0.14342
+1339388,2025,0,3.0,madrugada,3,1,bazurto,calle,choque,vehiculo,sin_dato,116,0.0484,0,ok,0.56491
+1339389,2025,0,9.0,manana,3,2,colombiaton,carrera,atropello,sin_dato,sin_dato,139,0.06909,0,ok,0.61676
+1339461,2025,0,16.0,tarde,3,1,manga,calle,choque,vehiculo,sin_dato,139,0.00698,0,ok,0.14747
+1339462,2025,0,0.0,madrugada,5,1,centro,calle,atropello,sin_dato,sin_dato,145,0.17156,1,FP,0.55559
+1339369,2025,1,2.0,madrugada,0,1,san isidro,diagonal,choque,objeto fijo,muro,114,0.27607,1,ok,0.85714
+1339475,2025,1,18.0,noche,6,1,via baru,avenida,choque,vehiculo,sin_dato,139,0.30523,1,ok,0.83431
+1338837,2025,0,8.0,manana,2,2,las palmeras,transversal,atropello,sin_dato,sin_dato,401,0.04909,0,ok,0.26859
+1339197,2025,0,17.0,tarde,0,2,manzanillo del mar,desconocido,choque,vehiculo,sin_dato,122,0.0408,0,ok,0.24696
+1339198,2025,0,11.0,manana,0,3,la esmeralda,calle,atropello,sin_dato,sin_dato,139,0.05825,0,ok,0.54426
+1339201,2025,0,11.0,manana,4,3,mamonal,transversal,choque,vehiculo,sin_dato,203,0.06703,0,ok,0.30467
+1339384,2025,0,6.0,manana,2,1,san francisco,carrera,atropello,sin_dato,sin_dato,143,0.08573,0,ok,0.68809
+1339393,2025,1,1.0,madrugada,0,1,torices,calle,choque,vehiculo,sin_dato,114,0.05977,0,FN,0.06579
+1339463,2025,0,16.0,tarde,0,3,mamonal,desconocido,choque,vehiculo,sin_dato,121,0.12854,1,FP,0.54436
+1339470,2025,0,11.0,manana,6,1,tacarigua,diagonal,choque,vehiculo,objeto fijo,102,0.06526,0,ok,0.40126
+1339476,2025,0,15.0,tarde,0,3,pasacaballo,calle,choque,vehiculo,sin_dato,112,0.16436,1,FP,0.64629
+1341077,2025,0,23.0,noche,6,2,olaya,calle,choque,vehiculo,sin_dato,0,0.05276,0,ok,0.39659
+1339205,2025,0,10.0,manana,6,3,el socorro,calle,choque,vehiculo,sin_dato,106,0.03246,0,ok,0.28697
+1339219,2025,0,12.0,tarde,2,1,crespo,carrera,choque,vehiculo,sin_dato,103,0.03113,0,ok,0.2338
+1339299,2025,0,14.0,tarde,3,3,san fernando,calle,choque,vehiculo,sin_dato,112,0.00832,0,ok,0.10345
+1339444,2025,0,15.0,tarde,2,1,centro,carrera,choque,vehiculo,sin_dato,0,0.01593,0,ok,0.1728
+1341078,2025,0,22.0,noche,6,2,bicentenario,desconocido,choque,vehiculo,sin_dato,112,0.11338,1,FP,0.43844
+1339013,2025,0,11.0,manana,6,3,via campana,desconocido,choque,vehiculo,sin_dato,122,0.04334,0,ok,0.28179
+1339085,2025,0,7.0,manana,2,1,manga,carrera,choque,vehiculo,sin_dato,139,0.03665,0,ok,0.16411
+1339192,2025,0,20.0,noche,5,1,bocagrande,calle,choque,vehiculo,objeto fijo,112,0.0523,0,ok,0.23508
+1339199,2025,0,18.0,noche,6,3,el socorro,calle,volcamiento,sin_dato,sin_dato,115,0.08641,0,ok,0.55419
+1339230,2025,0,5.0,madrugada,4,1,armenia,calle,choque,vehiculo,sin_dato,139,0.04865,0,ok,0.70535
+1339343,2025,1,1.0,madrugada,0,2,el pozon,transversal,atropello,sin_dato,sin_dato,157,0.2104,1,ok,0.73115
+1339363,2025,0,7.0,manana,1,3,san pedro,calle,choque,vehiculo,sin_dato,139,0.01094,0,ok,0.16391
+1339366,2025,0,5.0,madrugada,1,3,los caracoles,calle,atropello,sin_dato,sin_dato,114,0.1584,1,FP,0.69189
+1339372,2025,0,13.0,tarde,1,1,el prado,carrera,atropello,sin_dato,sin_dato,142,0.08532,0,ok,0.50313
+1339380,2025,0,12.0,tarde,4,3,mamonal,calle,choque,vehiculo,vehiculo estacionado,121,0.11411,1,FP,0.69327
+1339381,2025,0,15.0,tarde,5,3,san fernando,calle,atropello,sin_dato,sin_dato,0,0.08291,0,ok,0.26518
+1339390,2025,0,15.0,tarde,2,1,canapote,calle,choque,vehiculo,sin_dato,112,0.01575,0,ok,0.28296
+1339391,2025,0,10.0,manana,0,1,el prado,carrera,choque,vehiculo,sin_dato,115,0.04237,0,ok,0.2902
+1339392,2025,0,11.0,manana,1,1,el cabrero,carrera,atropello,sin_dato,sin_dato,112,0.05812,0,ok,0.55337
+1339394,2025,0,5.0,madrugada,0,3,la concepcion,calle,choque,vehiculo,sin_dato,121,0.05055,0,ok,0.58986
+1339396,2025,0,21.0,noche,5,3,ciudadela 2000,calle,atropello,sin_dato,sin_dato,139,0.09318,0,ok,0.65242
+1339397,2025,0,5.0,madrugada,0,3,anita,transversal,choque,vehiculo,sin_dato,112,0.03643,0,ok,0.10665
+1339398,2025,0,12.0,tarde,3,3,mamonal,desconocido,choque,vehiculo,sin_dato,0,0.11929,1,FP,0.47255
+1339399,2025,0,6.0,manana,5,1,manga,calle,atropello,sin_dato,sin_dato,145,0.09377,0,ok,0.30132
+1339400,2025,0,17.0,tarde,5,2,la candelaria,calle,choque,vehiculo,sin_dato,121,0.04049,0,ok,0.46424
+1339401,2025,0,17.0,tarde,2,1,manga,calle,choque,vehiculo,sin_dato,112,0.01369,0,ok,0.16036
+1339403,2025,0,12.0,tarde,3,1,san isidro,transversal,choque,vehiculo,sin_dato,139,0.02071,0,ok,0.11023
+1339404,2025,0,21.0,noche,2,1,centro,calle,choque,vehiculo,sin_dato,139,0.03092,0,ok,0.21675
+1339405,2025,0,21.0,noche,5,2,el libano,calle,atropello,sin_dato,sin_dato,139,0.14157,1,FP,0.62727
+1339406,2025,0,8.0,manana,4,1,torices,calle,choque,vehiculo,sin_dato,139,0.00985,0,ok,0.02689
+1339407,2025,0,20.0,noche,4,2,olaya,calle,choque,vehiculo,sin_dato,139,0.04195,0,ok,0.37821
+1339408,2025,0,6.0,manana,4,2,olaya,calle,atropello,sin_dato,sin_dato,139,0.08026,0,ok,0.49857
+1339409,2025,0,14.0,tarde,4,3,san fernando,calle,atropello,sin_dato,sin_dato,157,0.08439,0,ok,0.26393
+1339410,2025,0,5.0,madrugada,4,3,simon bolivar,calle,choque,objeto fijo,poste,114,0.24914,1,FP,0.84447
+1339412,2025,1,17.0,tarde,4,1,via baru,avenida,choque,vehiculo,sin_dato,114,0.24717,1,ok,0.78558
+1339413,2025,0,6.0,manana,4,2,olaya,calle,choque,vehiculo,sin_dato,122,0.03553,0,ok,0.24573
+1339414,2025,0,21.0,noche,4,2,villa estrella,transversal,choque,vehiculo,sin_dato,103,0.04606,0,ok,0.14544
+1339415,2025,0,10.0,manana,6,1,san isidro,diagonal,choque,vehiculo,sin_dato,122,0.02725,0,ok,0.25414
+1339416,2025,0,6.0,manana,0,2,el pozon,carrera,choque,vehiculo,sin_dato,139,0.07541,0,ok,0.43358
+1339418,2025,0,19.0,noche,0,3,arroz barato,calle,atropello,sin_dato,sin_dato,139,0.16908,1,FP,0.65348
+1339419,2025,0,19.0,noche,0,3,san fernando,calle,choque,vehiculo,sin_dato,112,0.02326,0,ok,0.15757
+1339420,2025,0,20.0,noche,1,2,camino del medio,calle,choque,vehiculo,sin_dato,121,0.11085,1,FP,0.76826
+1339434,2025,0,14.0,tarde,2,3,providencia,carrera,choque,vehiculo,sin_dato,122,0.02444,0,ok,0.28754
+1339443,2025,0,13.0,tarde,2,2,olaya,calle,choque,vehiculo,sin_dato,139,0.01933,0,ok,0.25089
+1339446,2025,0,21.0,noche,5,2,nuevo paraiso,calle,choque,vehiculo,sin_dato,132,0.03554,0,ok,0.46054
+1339447,2025,0,2.0,madrugada,6,1,san isidro,diagonal,choque,objeto fijo,otro,214,0.19105,1,FP,0.58902
+1339448,2025,0,17.0,tarde,5,1,bosque,diagonal,choque,vehiculo,sin_dato,139,0.01695,0,ok,0.30358
+1339450,2025,0,14.0,tarde,5,1,amberes,calle,atropello,sin_dato,sin_dato,139,0.08491,0,ok,0.61149
+1339451,2025,0,6.0,manana,2,2,las gaviotas,transversal,choque,vehiculo,sin_dato,122,0.03723,0,ok,0.22896
+1339453,2025,1,2.0,madrugada,3,1,espinal,calle,atropello,sin_dato,sin_dato,409,0.19923,1,ok,0.65955
+1339454,2025,0,17.0,tarde,1,1,pie de la popa,calle,atropello,sin_dato,sin_dato,157,0.06989,0,ok,0.56893
+1339456,2025,0,14.0,tarde,6,3,los caracoles,diagonal,choque,vehiculo,sin_dato,103,0.02795,0,ok,0.19666
+1339457,2025,0,19.0,noche,0,3,santa lucia,calle,atropello,sin_dato,sin_dato,139,0.08479,0,ok,0.40027
+1339458,2025,0,15.0,tarde,1,1,pie de la popa,calle,choque,vehiculo,sin_dato,122,0.01979,0,ok,0.29497
+1339459,2025,0,19.0,noche,1,3,santa clara,carrera,choque,vehiculo,sin_dato,121,0.10348,0,ok,0.43219
+1339460,2025,0,17.0,tarde,1,2,olaya,calle,atropello,sin_dato,sin_dato,139,0.11198,1,FP,0.54609
+1339464,2025,0,10.0,manana,6,3,san fernando,calle,choque,vehiculo,sin_dato,112,0.01605,0,ok,0.11887
+1339465,2025,0,18.0,noche,6,2,alcibia,calle,atropello,sin_dato,sin_dato,114,0.12648,1,FP,0.65692
+1339466,2025,0,6.0,manana,0,2,via al mar,desconocido,choque,vehiculo,sin_dato,101,0.05426,0,ok,0.20027
+1339467,2025,0,6.0,manana,4,1,centro,calle,choque,vehiculo,sin_dato,139,0.0075,0,ok,0.12916
+1339468,2025,0,14.0,tarde,2,3,santa monica,calle,choque,vehiculo,sin_dato,139,0.02108,0,ok,0.1225
+1339469,2025,0,7.0,manana,3,2,bicentenario,carrera,choque,vehiculo,sin_dato,139,0.07332,0,ok,0.33889
+1339472,2025,0,19.0,noche,1,2,las palmeras,desconocido,choque,vehiculo,sin_dato,144,0.03926,0,ok,0.32354
+1339473,2025,0,13.0,tarde,2,3,simon bolivar,calle,choque,vehiculo,sin_dato,103,0.02637,0,ok,0.19074
+1339477,2025,1,14.0,tarde,3,2,tesca,calle,choque,vehiculo,sin_dato,122,0.04742,0,FN,0.4824
+1339479,2025,1,1.0,madrugada,3,1,bruselas,diagonal,choque,objeto fijo,muro,114,0.19175,1,ok,0.81496
+1339480,2025,0,9.0,manana,5,3,nelson mandela,desconocido,atropello,sin_dato,sin_dato,157,0.13198,1,FP,0.64105
+1339502,2025,0,21.0,noche,5,3,ternera,calle,choque,vehiculo,sin_dato,139,0.02928,0,ok,0.21334
+1339503,2025,0,11.0,manana,4,3,san fernando,calle,choque,vehiculo,sin_dato,121,0.01738,0,ok,0.12234
+1339504,2025,0,17.0,tarde,2,1,bosque,transversal,choque,vehiculo,sin_dato,122,0.01429,0,ok,0.15441
+1339505,2025,0,13.0,tarde,5,1,crespo,desconocido,choque,vehiculo,sin_dato,121,0.06968,0,ok,0.20607
+1339506,2025,1,0.0,madrugada,3,1,bazurto,calle,atropello,sin_dato,sin_dato,139,0.22038,1,ok,0.77188
+1339507,2025,0,12.0,tarde,3,1,armenia,calle,atropello,sin_dato,sin_dato,133,0.13718,1,FP,0.64654
+1339508,2025,0,15.0,tarde,3,1,bocagrande,calle,volcamiento,sin_dato,sin_dato,139,0.09317,0,ok,0.19186
+1339509,2025,0,23.0,noche,3,1,zaragocilla,calle,choque,vehiculo,sin_dato,139,0.05106,0,ok,0.41568
+1339510,2025,1,2.0,madrugada,4,2,olaya,calle,choque,vehiculo,sin_dato,157,0.06422,0,FN,0.50802
+1339511,2025,0,8.0,manana,3,3,ternera,diagonal,choque,vehiculo,sin_dato,104,0.01354,0,ok,0.1289
+1339512,2025,0,13.0,tarde,4,2,olaya,calle,choque,vehiculo,sin_dato,142,0.02073,0,ok,0.24981
+1339513,2025,0,16.0,tarde,4,1,centro,desconocido,atropello,sin_dato,sin_dato,145,0.04716,0,ok,0.36334
+1339515,2025,0,18.0,noche,4,1,pie de la popa,calle,choque,vehiculo,sin_dato,121,0.0239,0,ok,0.38527
+1339516,2025,0,21.0,noche,5,2,via perimetral,carrera,choque,vehiculo,sin_dato,115,0.0551,0,ok,0.25454
+1339518,2025,0,6.0,manana,6,1,bruselas,diagonal,choque,vehiculo,sin_dato,106,0.0253,0,ok,0.16752
+1339519,2025,0,14.0,tarde,6,2,el pozon,calle,atropello,sin_dato,sin_dato,139,0.09833,0,ok,0.68042
+1339520,2025,0,15.0,tarde,6,1,centro,desconocido,atropello,sin_dato,sin_dato,157,0.06242,0,ok,0.35153
+1339521,2025,0,16.0,tarde,6,1,via baru,avenida,choque,vehiculo,sin_dato,104,0.20827,1,FP,0.7501
+1339522,2025,0,17.0,tarde,6,2,fredonia,calle,choque,vehiculo,sin_dato,114,0.0309,0,ok,0.0486
+1339523,2025,0,5.0,madrugada,2,1,manga,calle,otro,sin_dato,sin_dato,103,0.18523,1,FP,0.62461
+1339524,2025,0,23.0,noche,6,1,torices,calle,choque,sin_dato,sin_dato,139,0.1447,1,FP,0.03364
+1339525,2025,1,1.0,madrugada,0,1,bosque,diagonal,choque,vehiculo,sin_dato,114,0.07234,0,FN,0.49419
+1339526,2025,0,19.0,noche,6,1,daniel lemaitre,calle,choque,vehiculo,sin_dato,104,0.05202,0,ok,0.12681
+1339528,2025,0,11.0,manana,1,3,santa lucia,calle,choque,vehiculo,sin_dato,139,0.02038,0,ok,0.14354
+1339529,2025,0,21.0,noche,4,3,los caracoles,diagonal,choque,vehiculo,sin_dato,122,0.03509,0,ok,0.30269
+1339530,2025,0,17.0,tarde,0,3,la concepcion,calle,choque,vehiculo,sin_dato,123,0.02346,0,ok,0.3353
+1339531,2025,0,13.0,tarde,0,1,el country,transversal,choque,vehiculo,sin_dato,103,0.00945,0,ok,0.13274
+1339532,2025,0,14.0,tarde,6,3,el socorro,calle,choque,vehiculo,sin_dato,127,0.03228,0,ok,0.2647
+1339533,2025,0,16.0,tarde,1,3,mamonal,carrera,choque,vehiculo,sin_dato,132,0.1001,0,ok,0.6073
+1339534,2025,0,5.0,madrugada,0,1,bosque,diagonal,choque,objeto fijo,muro,110,0.21273,1,FP,0.90138
+1339535,2025,1,1.0,madrugada,4,1,bazurto,calle,atropello,sin_dato,sin_dato,116,0.20698,1,ok,0.78819
+1339536,2025,0,7.0,manana,2,1,bosque,diagonal,choque,vehiculo,sin_dato,112,0.00816,0,ok,0.25272
+1339537,2025,0,2.0,madrugada,6,3,alameda la victoria,calle,volcamiento,sin_dato,sin_dato,139,0.13378,1,FP,0.69526
+1339538,2025,0,5.0,madrugada,3,3,san pedro martir,calle,choque,vehiculo,sin_dato,143,0.03264,0,ok,0.286
+1339539,2025,0,10.0,manana,3,3,vista hermosa,desconocido,choque,vehiculo,sin_dato,121,0.01544,0,ok,0.30674
+1339540,2025,0,18.0,noche,3,3,el recreo,carrera,choque,vehiculo,sin_dato,122,0.07055,0,ok,0.38425
+1339541,2025,0,11.0,manana,6,1,san francisco,carrera,atropello,sin_dato,sin_dato,157,0.08731,0,ok,0.75816
+1339542,2025,0,2.0,madrugada,0,3,mamonal,carrera,choque,objeto fijo,muro,139,0.36792,1,FP,0.96029
+1339543,2025,0,13.0,tarde,1,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,112,0.04091,0,ok,0.33229
+1339544,2025,1,5.0,madrugada,6,1,bazurto,calle,choque,objeto fijo,otro,114,0.13188,1,ok,0.71046
+1339545,2025,0,23.0,noche,3,2,bicentenario,carrera,choque,vehiculo,sin_dato,115,0.16376,1,FP,0.52367
+1339546,2025,0,5.0,madrugada,2,2,la boquilla,desconocido,choque,vehiculo,sin_dato,139,0.08403,0,ok,0.62566
+1339547,2025,0,19.0,noche,2,1,chile,diagonal,otro,sin_dato,sin_dato,139,0.15622,1,FP,0.65013
+1339548,2025,0,7.0,manana,4,1,crespo,calle,choque,vehiculo,sin_dato,121,0.02417,0,ok,0.21364
+1339549,2025,0,1.0,madrugada,5,1,el country,diagonal,atropello,sin_dato,sin_dato,411,0.16889,1,FP,0.75759
+1339550,2025,1,3.0,madrugada,4,1,el prado,calle,atropello,sin_dato,sin_dato,411,0.17238,1,ok,0.74088
+1339551,2025,0,23.0,noche,3,1,centro,desconocido,atropello,sin_dato,sin_dato,411,0.12793,1,FP,0.51265
+1339552,2025,0,12.0,tarde,0,3,policarpa,calle,choque,vehiculo,sin_dato,122,0.0728,0,ok,0.26693
+1339553,2025,0,19.0,noche,3,1,bosque,diagonal,atropello,sin_dato,sin_dato,139,0.15999,1,FP,0.64159
+1339554,2025,0,4.0,madrugada,6,2,el pozon,carrera,atropello,objeto fijo,otro,114,0.20737,1,FP,0.95727
+1339555,2025,0,18.0,noche,5,3,jorge eliecer gaitan,calle,choque,vehiculo,sin_dato,139,0.02838,0,ok,0.35159
+1339556,2025,0,16.0,tarde,5,2,las palmeras,transversal,choque,vehiculo,sin_dato,121,0.0389,0,ok,0.13652
+1339557,2025,0,15.0,tarde,5,3,el socorro,calle,atropello,sin_dato,sin_dato,139,0.07241,0,ok,0.5191
+1339558,2025,0,18.0,noche,6,1,bosque,diagonal,choque,vehiculo,sin_dato,115,0.0949,0,ok,0.37278
+1339559,2025,0,8.0,manana,4,1,centro,calle,atropello,sin_dato,sin_dato,411,0.05824,0,ok,0.32942
+1339560,2025,0,17.0,tarde,0,2,villa estrella,transversal,choque,vehiculo,sin_dato,98,0.03141,0,ok,0.0967
+1339562,2025,0,9.0,manana,1,3,villa rosita,transversal,otro,sin_dato,sin_dato,145,0.06467,0,ok,0.24662
+1339563,2025,0,8.0,manana,1,3,villa rosita,carrera,atropello,sin_dato,sin_dato,139,0.04752,0,ok,0.46042
+1339564,2025,0,10.0,manana,0,2,los alpes,diagonal,atropello,sin_dato,sin_dato,409,0.1086,1,FP,0.50252
+1339565,2025,0,8.0,manana,3,3,ciudad jardin,carrera,choque,vehiculo,sin_dato,112,0.07425,0,ok,0.60679
+1339567,2025,0,3.0,madrugada,0,3,nelson mandela,calle,choque,vehiculo,sin_dato,104,0.06153,0,ok,0.61819
+1339568,2025,0,19.0,noche,4,3,alameda la victoria,calle,choque,vehiculo,sin_dato,139,0.02981,0,ok,0.36469
+1339569,2025,0,1.0,madrugada,5,3,mamonal,carrera,volcamiento,sin_dato,sin_dato,139,0.18796,1,FP,0.8861
+1339570,2025,0,18.0,noche,3,3,san jose de los campanos,calle,atropello,sin_dato,sin_dato,139,0.10253,0,ok,0.47248
+1339571,2025,0,22.0,noche,3,1,canapote,calle,choque,vehiculo,sin_dato,139,0.02914,0,ok,0.42492
+1339572,2025,0,6.0,manana,4,3,santa clara,calle,choque,vehiculo,sin_dato,202,0.02141,0,ok,0.263
+1339573,2025,0,18.0,noche,4,2,olaya,carrera,choque,vehiculo,sin_dato,114,0.06265,0,ok,0.41569
+1339575,2025,0,22.0,noche,4,1,bosque,diagonal,choque,vehiculo,sin_dato,122,0.09177,0,ok,0.42737
+1339576,2025,0,16.0,tarde,6,2,13 de junio,diagonal,choque,vehiculo,sin_dato,116,0.02467,0,ok,0.15218
+1339577,2025,0,12.0,tarde,5,1,martinez martelo,diagonal,caida ocupante,sin_dato,sin_dato,139,0.10532,0,ok,0.39183
+1339578,2025,0,1.0,madrugada,6,2,alcibia,calle,atropello,sin_dato,sin_dato,114,0.18645,1,FP,0.77934
+1339579,2025,0,8.0,manana,3,1,los ejecutivos,calle,choque,vehiculo,sin_dato,115,0.00956,0,ok,0.27419
+1339580,2025,0,13.0,tarde,1,1,centro,calle,choque,vehiculo,sin_dato,121,0.00621,0,ok,0.13762
+1339582,2025,0,11.0,manana,4,1,bosque,diagonal,choque,vehiculo,sin_dato,115,0.02728,0,ok,0.31544
+1339583,2025,0,18.0,noche,5,1,marbella,calle,atropello,sin_dato,sin_dato,409,0.12741,1,FP,0.52848
+1339584,2025,0,7.0,manana,0,1,el country,transversal,choque,vehiculo,sin_dato,114,0.00953,0,ok,0.13695
+1339585,2025,0,5.0,madrugada,0,2,via al mar,desconocido,choque,vehiculo,sin_dato,105,0.08944,0,ok,0.5019
+1339586,2025,0,12.0,tarde,0,2,bicentenario,carrera,atropello,sin_dato,sin_dato,139,0.11238,1,FP,0.57412
+1339587,2025,0,16.0,tarde,0,1,crespo,carrera,choque,vehiculo,sin_dato,103,0.02819,0,ok,0.27655
+1339588,2025,0,6.0,manana,3,1,bosque,diagonal,choque,vehiculo,sin_dato,122,0.00747,0,ok,0.25185
+1339589,2025,0,12.0,tarde,3,3,rubi,calle,choque,sin_dato,sin_dato,103,0.07455,0,ok,0.17192
+1339591,2025,0,15.0,tarde,4,1,cuatro vientos,calle,atropello,sin_dato,sin_dato,97,0.08055,0,ok,0.38626
+1339592,2025,0,22.0,noche,5,1,daniel lemaitre,calle,choque,vehiculo,sin_dato,139,0.03313,0,ok,0.14451
+1339593,2025,0,12.0,tarde,6,1,el prado,diagonal,choque,vehiculo,sin_dato,139,0.02472,0,ok,0.22365
+1339594,2025,0,15.0,tarde,6,3,antonio jose de sucre,calle,atropello,sin_dato,sin_dato,139,0.07475,0,ok,0.55524
+1339595,2025,0,17.0,tarde,6,2,el pozon,carrera,choque,vehiculo,sin_dato,139,0.06754,0,ok,0.53048
+1339596,2025,0,19.0,noche,6,1,bazurto,calle,choque,vehiculo,sin_dato,127,0.04972,0,ok,0.42558
+1339598,2025,0,11.0,manana,0,1,pie de la popa,calle,choque,vehiculo,sin_dato,139,0.04022,0,ok,0.31727
+1339600,2025,0,13.0,tarde,2,1,centro,carrera,choque,vehiculo,sin_dato,121,0.01764,0,ok,0.16239
+1339601,2025,0,8.0,manana,2,3,mamonal,desconocido,choque,vehiculo,sin_dato,121,0.09172,0,ok,0.51819
+1339602,2025,0,16.0,tarde,2,2,olaya,calle,choque,vehiculo,sin_dato,139,0.01644,0,ok,0.27499
+1339604,2025,0,19.0,noche,2,3,ciudadela 2000,desconocido,atropello,sin_dato,sin_dato,402,0.07728,0,ok,0.64042
+1339606,2025,0,15.0,tarde,6,2,el pozon,carrera,choque,vehiculo,sin_dato,115,0.0541,0,ok,0.50059
+1339610,2025,0,8.0,manana,2,3,albornoz,calle,atropello,sin_dato,sin_dato,127,0.0666,0,ok,0.54997
+1339611,2025,0,13.0,tarde,4,3,pasacaballo,desconocido,choque,vehiculo,sin_dato,134,0.25179,1,FP,0.68367
+1339612,2025,0,9.0,manana,5,1,bosque,diagonal,atropello,sin_dato,sin_dato,134,0.08928,0,ok,0.548
+1339614,2025,0,7.0,manana,5,1,amberes,calle,choque,vehiculo,sin_dato,121,0.04906,0,ok,0.34797
+1339615,2025,0,20.0,noche,5,1,torices,calle,choque,vehiculo,sin_dato,115,0.02044,0,ok,0.04496
+1339616,2025,1,2.0,madrugada,6,2,olaya,calle,choque,vehiculo,sin_dato,104,0.06401,0,FN,0.52347
+1339617,2025,0,23.0,noche,5,2,13 de junio,carrera,choque,vehiculo,sin_dato,122,0.06232,0,ok,0.2921
+1339618,2025,0,9.0,manana,6,2,boston,carrera,atropello,sin_dato,sin_dato,139,0.08936,0,ok,0.46119
+1339619,2025,0,13.0,tarde,1,1,san isidro,diagonal,choque,vehiculo,sin_dato,157,0.02807,0,ok,0.22285
+1339620,2025,0,17.0,tarde,2,3,blas de lezo,calle,choque,vehiculo,sin_dato,123,0.01385,0,ok,0.23875
+1339941,2025,0,12.0,tarde,1,3,blas de lezo,calle,atropello,sin_dato,sin_dato,139,0.07569,0,ok,0.41888
+1339942,2025,0,16.0,tarde,3,2,las palmeras,diagonal,choque,vehiculo,sin_dato,127,0.0452,0,ok,0.25542
+1339943,2025,0,13.0,tarde,3,1,zaragocilla,calle,choque,vehiculo,sin_dato,104,0.01703,0,ok,0.26604
+1339944,2025,0,23.0,noche,4,3,la carolina,carrera,volcamiento,sin_dato,sin_dato,116,0.16789,1,FP,0.60733
+1339945,2025,0,21.0,noche,5,1,marbella,calle,choque,vehiculo,sin_dato,112,0.02744,0,ok,0.30736
+1339946,2025,0,14.0,tarde,5,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,139,0.0313,0,ok,0.16673
+1339949,2025,0,7.0,manana,4,1,san francisco,calle,choque,vehiculo,sin_dato,104,0.06972,0,ok,0.40758
+1339950,2025,0,12.0,tarde,3,2,via perimetral,calle,choque,vehiculo,objeto fijo,112,0.07446,0,ok,0.18252
+1339951,2025,0,21.0,noche,4,2,el pozon,carrera,choque,vehiculo,sin_dato,122,0.13128,1,FP,0.64344
+1339952,2025,0,12.0,tarde,6,1,san isidro,diagonal,choque,vehiculo,sin_dato,103,0.0406,0,ok,0.22994
+1339953,2025,0,18.0,noche,3,1,bosque,diagonal,choque,vehiculo,sin_dato,121,0.0671,0,ok,0.38314
+1339954,2025,0,3.0,madrugada,0,2,olaya,calle,choque,vehiculo,sin_dato,114,0.05961,0,ok,0.51246
+1339955,2025,0,14.0,tarde,2,3,nelson mandela,carrera,choque,vehiculo,sin_dato,139,0.05649,0,ok,0.4167
+1339956,2025,0,14.0,tarde,5,3,la consolata,calle,atropello,sin_dato,sin_dato,139,0.05753,0,ok,0.51862
+1339957,2025,0,7.0,manana,3,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.00656,0,ok,0.09935
+1339958,2025,0,19.0,noche,5,1,el cabrero,carrera,choque,vehiculo,sin_dato,0,0.06061,0,ok,0.37839
+1339959,2025,0,8.0,manana,4,1,junin,calle,choque,vehiculo,sin_dato,139,0.01446,0,ok,0.28526
+1339962,2025,0,5.0,madrugada,4,3,los caracoles,desconocido,choque,vehiculo,sin_dato,139,0.03859,0,ok,0.47115
+1339963,2025,0,17.0,tarde,4,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,157,0.03164,0,ok,0.18653
+1339964,2025,0,23.0,noche,4,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,139,0.10741,0,ok,0.52835
+1339965,2025,0,12.0,tarde,3,1,crespo,calle,atropello,sin_dato,sin_dato,409,0.07181,0,ok,0.41951
+1339966,2025,0,14.0,tarde,3,3,mamonal,carrera,choque,vehiculo,sin_dato,139,0.05764,0,ok,0.5283
+1339967,2025,0,22.0,noche,3,3,los caracoles,carrera,choque,vehiculo,sin_dato,115,0.07977,0,ok,0.36212
+1339969,2025,0,19.0,noche,1,2,olaya,calle,atropello,sin_dato,sin_dato,112,0.18525,1,FP,0.64143
+1339971,2025,0,22.0,noche,6,1,escallon villa,calle,choque,vehiculo,sin_dato,115,0.05795,0,ok,0.56766
+1339974,2025,0,12.0,tarde,6,2,via al mar,carrera,caida ocupante,sin_dato,otro,301,0.1203,1,FP,0.34282
+1339975,2025,0,16.0,tarde,6,1,martinez martelo,carrera,choque,vehiculo,sin_dato,139,0.04322,0,ok,0.22131
+1339978,2025,0,22.0,noche,6,3,san jose de los campanos,carrera,choque,vehiculo,sin_dato,114,0.10646,0,ok,0.32544
+1339979,2025,0,13.0,tarde,3,3,mamonal,carrera,choque,vehiculo,sin_dato,139,0.06689,0,ok,0.54761
+1339980,2025,0,2.0,madrugada,4,1,canapote,calle,choque,vehiculo,sin_dato,115,0.05403,0,ok,0.54876
+1339981,2025,0,17.0,tarde,4,1,piedra de bolivar,carrera,choque,vehiculo,sin_dato,157,0.03676,0,ok,0.36785
+1339982,2025,0,7.0,manana,5,1,centro,desconocido,choque,vehiculo,sin_dato,139,0.01878,0,ok,0.13931
+1339983,2025,0,13.0,tarde,1,1,manga,calle,choque,vehiculo,sin_dato,103,0.00675,0,ok,0.13408
+1339985,2025,0,21.0,noche,0,2,la boquilla,calle,volcamiento,sin_dato,sin_dato,303,0.19009,1,FP,0.61806
+1339986,2025,0,15.0,tarde,0,2,bayunca,carrera,choque,vehiculo,sin_dato,112,0.05377,0,ok,0.83986
+1339987,2025,0,13.0,tarde,0,1,piedra de bolivar,carrera,choque,vehiculo,sin_dato,123,0.02084,0,ok,0.30894
+1339988,2025,0,18.0,noche,0,1,bazurto,calle,choque,vehiculo,sin_dato,139,0.04935,0,ok,0.39767
+1339989,2025,0,11.0,manana,0,3,mamonal,calle,choque,vehiculo,sin_dato,139,0.09982,0,ok,0.52299
+1339990,2025,0,19.0,noche,0,3,el milagro,calle,atropello,sin_dato,sin_dato,409,0.11589,1,FP,0.63193
+1339991,2025,0,12.0,tarde,1,1,centro,calle,choque,vehiculo,sin_dato,102,0.00645,0,ok,0.12622
+1339993,2025,0,21.0,noche,4,1,crespo,calle,choque,vehiculo,sin_dato,112,0.03101,0,ok,0.32524
+1339994,2025,0,21.0,noche,1,1,torices,calle,choque,vehiculo,sin_dato,104,0.01633,0,ok,0.04589
+1339995,2025,0,11.0,manana,5,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.00729,0,ok,0.11454
+1339996,2025,1,17.0,tarde,4,2,ruta 90,desconocido,choque,vehiculo,sin_dato,139,0.02498,0,FN,0.27129
+1339997,2025,0,5.0,madrugada,3,2,alcibia,calle,choque,vehiculo,sin_dato,139,0.04542,0,ok,0.59443
+1339999,2025,0,13.0,tarde,5,1,crespo,calle,choque,vehiculo,sin_dato,0,0.02918,0,ok,0.21776
+1340000,2025,0,17.0,tarde,3,1,bosque,diagonal,choque,objeto fijo,muro,139,0.21633,1,FP,0.76895
+1340021,2025,0,13.0,tarde,5,3,ceballos,carrera,choque,vehiculo,sin_dato,121,0.03713,0,ok,0.36611
+1340024,2025,0,14.0,tarde,5,1,marbella,calle,choque,vehiculo,sin_dato,112,0.01271,0,ok,0.20281
+1340026,2025,1,20.0,noche,5,2,pontezuela,desconocido,choque,vehiculo,sin_dato,114,0.04119,0,FN,0.5152
+1340027,2025,0,22.0,noche,5,2,la esperanza,calle,choque,vehiculo,sin_dato,114,0.04471,0,ok,0.44569
+1340028,2025,0,22.0,noche,6,3,ceballos,carrera,choque,vehiculo,sin_dato,139,0.11368,1,FP,0.53455
+1340029,2025,0,23.0,noche,5,2,el pozon,transversal,volcamiento,sin_dato,sin_dato,303,0.1872,1,FP,0.60004
+1340030,2025,0,21.0,noche,6,2,el pozon,carrera,choque,vehiculo,sin_dato,122,0.09453,0,ok,0.6365
+1340031,2025,0,2.0,madrugada,3,1,bazurto,calle,atropello,sin_dato,sin_dato,139,0.21056,1,FP,0.79916
+1340033,2025,0,22.0,noche,6,2,olaya,calle,atropello,sin_dato,sin_dato,114,0.12672,1,FP,0.67063
+1340034,2025,0,6.0,manana,1,3,mamonal,carrera,choque,vehiculo,sin_dato,139,0.05087,0,ok,0.50392
+1340036,2025,0,11.0,manana,1,3,arroz barato,calle,atropello,sin_dato,sin_dato,139,0.11496,1,FP,0.5964
+1340037,2025,0,16.0,tarde,0,1,espinal,calle,atropello,sin_dato,sin_dato,411,0.08786,0,ok,0.42609
+1340038,2025,0,9.0,manana,4,1,bruselas,calle,choque,vehiculo,sin_dato,122,0.00902,0,ok,0.20054
+1340039,2025,0,18.0,noche,1,1,zaragocilla,calle,choque,vehiculo,sin_dato,122,0.04405,0,ok,0.36198
+1340041,2025,1,3.0,madrugada,0,2,villa estrella,carrera,atropello,vehiculo,sin_dato,139,0.13453,1,ok,0.78833
+1340042,2025,0,0.0,madrugada,4,3,parque heredia,carrera,choque,vehiculo,sin_dato,112,0.10186,0,ok,0.53584
+1340043,2025,0,18.0,noche,6,2,el pozon,desconocido,atropello,sin_dato,sin_dato,139,0.08584,0,ok,0.79053
+1340044,2025,0,7.0,manana,6,1,avenida crisanto luque,diagonal,choque,vehiculo,sin_dato,115,0.02724,0,ok,0.28469
+1340046,2025,1,7.0,manana,2,1,via baru,avenida,volcamiento,sin_dato,sin_dato,116,0.37896,1,ok,0.86547
+1340047,2025,0,10.0,manana,2,1,el country,calle,choque,vehiculo,sin_dato,121,0.01428,0,ok,0.30455
+1340048,2025,0,11.0,manana,2,1,centro,calle,choque,vehiculo,sin_dato,102,0.00914,0,ok,0.16493
+1340049,2025,0,20.0,noche,2,3,ceballos,diagonal,choque,vehiculo,sin_dato,103,0.05892,0,ok,0.44035
+1340050,2025,0,9.0,manana,2,2,via al mar,desconocido,choque,vehiculo,sin_dato,122,0.03914,0,ok,0.25898
+1340051,2025,0,17.0,tarde,2,2,las gaviotas,carrera,choque,vehiculo,sin_dato,157,0.06091,0,ok,0.53811
+1340052,2025,0,12.0,tarde,6,2,alcibia,calle,choque,vehiculo,sin_dato,127,0.04252,0,ok,0.28792
+1340053,2025,0,20.0,noche,4,1,pie de la popa,calle,choque,vehiculo,sin_dato,139,0.02039,0,ok,0.42607
+1340054,2025,0,3.0,madrugada,5,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,132,0.06002,0,ok,0.63884
+1340055,2025,0,17.0,tarde,4,3,blas de lezo,calle,choque,vehiculo,sin_dato,139,0.01814,0,ok,0.25351
+1340056,2025,0,5.0,madrugada,3,2,olaya,calle,choque,vehiculo,sin_dato,112,0.04192,0,ok,0.56023
+1340057,2025,0,22.0,noche,4,1,amberes,calle,atropello,sin_dato,sin_dato,139,0.17997,1,FP,0.76391
+1340058,2025,0,17.0,tarde,4,1,torices,carrera,choque,vehiculo,sin_dato,139,0.02715,0,ok,0.04171
+1340060,2025,0,8.0,manana,5,1,castillo grande,calle,choque,vehiculo,sin_dato,139,0.01704,0,ok,0.32403
+1340063,2025,0,17.0,tarde,2,2,el pozon,transversal,choque,vehiculo,sin_dato,139,0.07138,0,ok,0.28216
+1340064,2025,0,1.0,madrugada,4,1,bazurto,calle,choque,objeto fijo,sin_dato,114,0.13372,1,FP,0.84301
+1340065,2025,0,16.0,tarde,2,1,bocagrande,carrera,choque,vehiculo,sin_dato,121,0.01835,0,ok,0.13035
+1340066,2025,0,12.0,tarde,3,1,marbella,carrera,choque,vehiculo,sin_dato,121,0.03935,0,ok,0.22179
+1340067,2025,0,22.0,noche,3,1,cuatro vientos,carrera,choque,vehiculo,sin_dato,112,0.07001,0,ok,0.33178
+1340068,2025,0,16.0,tarde,5,2,olaya,calle,choque,vehiculo,sin_dato,104,0.02311,0,ok,0.28474
+1340069,2025,1,17.0,tarde,4,1,bosque,diagonal,choque,vehiculo,sin_dato,139,0.01606,0,FN,0.31114
+1340070,2025,0,21.0,noche,4,1,el country,diagonal,choque,vehiculo,sin_dato,123,0.05827,0,ok,0.4212
+1340073,2025,0,0.0,madrugada,0,1,crespo,calle,choque,vehiculo,sin_dato,112,0.08202,0,ok,0.426
+1340074,2025,0,10.0,manana,5,3,santa lucia,calle,choque,vehiculo,sin_dato,98,0.01615,0,ok,0.14828
+1340075,2025,0,8.0,manana,2,2,republica de venezuela,carrera,atropello,sin_dato,sin_dato,139,0.09038,0,ok,0.67099
+1340076,2025,0,10.0,manana,5,3,el recreo,carrera,choque,vehiculo,sin_dato,139,0.03203,0,ok,0.33014
+1340077,2025,0,1.0,madrugada,2,3,san pedro,calle,choque,vehiculo,sin_dato,115,0.07539,0,ok,0.37782
+1340078,2025,0,22.0,noche,6,1,centro,carrera,choque,vehiculo,sin_dato,122,0.09528,0,ok,0.29221
+1340079,2025,0,20.0,noche,0,1,el country,transversal,choque,vehiculo,sin_dato,114,0.04869,0,ok,0.22546
+1340081,2025,0,10.0,manana,0,2,los alpes,calle,choque,vehiculo,sin_dato,112,0.02415,0,ok,0.25948
+1340082,2025,1,16.0,tarde,0,2,tesca,calle,choque,vehiculo,sin_dato,139,0.0545,0,FN,0.51234
+1340083,2025,0,16.0,tarde,0,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,139,0.04358,0,ok,0.37971
+1340084,2025,0,4.0,madrugada,1,1,torices,calle,choque,vehiculo,sin_dato,142,0.03505,0,ok,0.08724
+1340085,2025,0,8.0,manana,2,1,cuatro vientos,calle,choque,vehiculo,sin_dato,142,0.01879,0,ok,0.17059
+1340086,2025,1,7.0,manana,5,2,la floresta,desconocido,atropello,sin_dato,sin_dato,94,0.07361,0,FN,0.63137
+1340087,2025,0,6.0,manana,1,3,mamonal,carrera,choque,vehiculo,sin_dato,0,0.10733,0,ok,0.56945
+1340090,2025,0,8.0,manana,3,1,centro,carrera,choque,vehiculo,sin_dato,121,0.03007,0,ok,0.17877
+1340091,2025,0,17.0,tarde,3,3,el socorro,calle,choque,vehiculo,sin_dato,139,0.02329,0,ok,0.31331
+1340092,2025,0,18.0,noche,3,3,mamonal,carrera,choque,vehiculo,objeto fijo,121,0.11408,1,FP,0.73966
+1340094,2025,0,17.0,tarde,3,3,ternera,calle,choque,vehiculo,sin_dato,112,0.01757,0,ok,0.15726
+1340095,2025,0,14.0,tarde,5,3,mamonal,carrera,otro,sin_dato,sin_dato,139,0.10069,0,ok,0.77606
+1340096,2025,0,7.0,manana,5,1,marbella,desconocido,choque,vehiculo,objeto fijo,121,0.05716,0,ok,0.28414
+1340101,2025,0,23.0,noche,3,1,centro,calle,choque,vehiculo,sin_dato,106,0.03868,0,ok,0.25072
+1340108,2025,0,12.0,tarde,1,1,manga,calle,choque,vehiculo,sin_dato,139,0.00627,0,ok,0.13422
+1340113,2025,1,8.0,manana,1,3,san jose de los campanos,carrera,choque,vehiculo,sin_dato,139,0.03117,0,FN,0.20215
+1341446,2025,0,7.0,manana,5,1,getsemani,carrera,choque,vehiculo,sin_dato,127,0.03347,0,ok,0.17351
+1344819,2025,0,14.0,tarde,3,3,la concepcion,carrera,choque,vehiculo,sin_dato,123,0.02102,0,ok,0.3604
+202503229,2025,1,5.0,madrugada,0,3,mamonal,carrera,volcamiento,sin_dato,sin_dato,0,0.18062,1,ok,0.89383
+202504024,2025,1,11.0,manana,0,1,piedra de bolivar,desconocido,choque,objeto fijo,otro,0,0.15581,1,ok,0.40406
+202504032,2025,1,23.0,noche,6,2,olaya,calle,choque,vehiculo,objeto fijo,0,0.05472,0,FN,0.53826
+202504175,2025,1,22.0,noche,5,1,armenia,calle,caida ocupante,sin_dato,objeto fijo,0,0.18183,1,ok,0.88897
+202504209,2025,1,16.0,tarde,4,3,san jose de los campanos,calle,choque,sin_dato,sin_dato,0,0.09044,0,FN,0.12366
+202504350,2025,1,7.0,manana,2,1,santana,avenida,atropello,sin_dato,sin_dato,0,0.33764,1,ok,0.7119
+202517679,2025,1,20.0,noche,5,1,el prado,desconocido,atropello,sin_dato,sin_dato,0,0.07247,0,FN,0.60576
+202524999,2025,1,3.0,madrugada,6,3,blas de lezo,transversal,caida ocupante,sin_dato,sin_dato,0,0.1573,1,ok,0.60008
+1340110,2025,1,8.0,manana,4,2,el pozon,desconocido,choque,vehiculo,sin_dato,132,0.07508,0,FN,0.45037
+1339973,2025,0,7.0,manana,4,1,daniel lemaitre,calle,choque,vehiculo,sin_dato,122,0.0225,0,ok,0.08222
+1340040,2025,1,1.0,madrugada,0,2,olaya,calle,choque,vehiculo,sin_dato,0,0.10347,0,FN,0.48951
+1340080,2025,0,3.0,madrugada,6,2,olaya,calle,choque,vehiculo,sin_dato,115,0.05537,0,ok,0.5356
+1340099,2025,0,1.0,madrugada,0,2,la maria,calle,choque,vehiculo,sin_dato,114,0.0975,0,ok,0.50658
+1340100,2025,0,21.0,noche,0,2,el pozon,carrera,atropello,sin_dato,sin_dato,139,0.17658,1,FP,0.83435
+1340102,2025,0,10.0,manana,6,3,el campestre,carrera,choque,vehiculo,sin_dato,104,0.02993,0,ok,0.04399
+1340103,2025,1,10.0,manana,6,3,el recreo,diagonal,choque,vehiculo,objeto fijo,139,0.08384,0,FN,0.38185
+1340105,2025,0,8.0,manana,4,1,centro,carrera,choque,vehiculo,sin_dato,121,0.03372,0,ok,0.17912
+1340112,2025,0,5.0,madrugada,0,3,san jose de los campanos,calle,atropello,sin_dato,sin_dato,157,0.15718,1,FP,0.6703
+1340115,2025,0,7.0,manana,2,1,centro,calle,choque,objeto fijo,otro,116,0.10685,0,ok,0.20446
+1340116,2025,0,13.0,tarde,2,3,villa rosita,transversal,choque,vehiculo,sin_dato,127,0.01498,0,ok,0.09601
+1340117,2025,0,15.0,tarde,2,1,bosque,diagonal,caida ocupante,sin_dato,sin_dato,121,0.10964,1,FP,0.60001
+1340118,2025,0,11.0,manana,2,3,el socorro,calle,choque,vehiculo,sin_dato,0,0.02932,0,ok,0.30634
+1340119,2025,0,15.0,tarde,2,1,crespo,calle,atropello,sin_dato,sin_dato,0,0.07626,0,ok,0.46172
+1340120,2025,0,17.0,tarde,2,1,manga,calle,choque,vehiculo,sin_dato,506,0.01023,0,ok,0.16551
+1340122,2025,0,18.0,noche,2,2,la candelaria,calle,atropello,sin_dato,sin_dato,410,0.16545,1,FP,0.77809
+1340123,2025,0,20.0,noche,2,3,mamonal,carrera,choque,vehiculo,sin_dato,139,0.13454,1,FP,0.68231
+1340128,2025,0,23.0,noche,5,1,bocagrande,calle,atropello,sin_dato,sin_dato,121,0.14978,1,FP,0.4112
+1340129,2025,0,5.0,madrugada,6,3,pasacaballo,desconocido,choque,vehiculo,sin_dato,104,0.3397,1,FP,0.89098
+1340137,2025,0,12.0,tarde,0,3,san pedro,transversal,atropello,sin_dato,sin_dato,139,0.07591,0,ok,0.20252
+1340138,2025,0,16.0,tarde,0,1,centro,calle,caida ocupante,sin_dato,sin_dato,128,0.08651,0,ok,0.40227
+1339781,2025,0,5.0,madrugada,2,2,el pozon,carrera,choque,vehiculo,sin_dato,139,0.09491,0,ok,0.77475
+1339784,2025,0,6.0,manana,5,2,olaya,calle,choque,vehiculo,sin_dato,104,0.04108,0,ok,0.25284
+1339948,2025,0,10.0,manana,2,1,bosque,diagonal,atropello,sin_dato,sin_dato,157,0.13125,1,FP,0.57358
+1339968,2025,0,4.0,madrugada,4,2,el pozon,carrera,choque,vehiculo,sin_dato,115,0.08065,0,ok,0.77454
+1339972,2025,1,2.0,madrugada,0,3,ternera,calle,choque,vehiculo,sin_dato,114,0.06163,0,FN,0.31749
+1339976,2025,0,19.0,noche,4,3,providencia,diagonal,choque,vehiculo,sin_dato,102,0.0343,0,ok,0.36823
+1340032,2025,0,5.0,madrugada,6,3,los caracoles,diagonal,choque,vehiculo,sin_dato,115,0.04188,0,ok,0.46639
+1340104,2025,0,15.0,tarde,5,1,el prado,diagonal,choque,vehiculo,sin_dato,123,0.0262,0,ok,0.26051
+1340109,2025,1,16.0,tarde,3,3,mamonal,carrera,choque,vehiculo,sin_dato,139,0.05767,0,FN,0.56366
+1340132,2025,0,16.0,tarde,6,1,bosque,diagonal,choque,vehiculo,sin_dato,102,0.03515,0,ok,0.30771
+1340133,2025,0,10.0,manana,4,1,avenida crisanto luque,diagonal,choque,vehiculo,sin_dato,157,0.02366,0,ok,0.32439
+1340134,2025,0,4.0,madrugada,6,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,112,0.05563,0,ok,0.4079
+1336962,2025,0,7.0,manana,1,2,el pozon,carrera,atropello,sin_dato,sin_dato,127,0.11736,1,FP,0.73482
+1339159,2025,0,0.0,madrugada,2,3,santa monica,calle,choque,vehiculo,sin_dato,122,0.06465,0,ok,0.28893
+1339495,2025,0,19.0,noche,3,2,via perimetral,carrera,atropello,sin_dato,sin_dato,157,0.13652,1,FP,0.50024
+1339574,2025,0,12.0,tarde,6,2,el pozon,transversal,choque,vehiculo,sin_dato,139,0.05545,0,ok,0.24584
+1339621,2025,0,16.0,tarde,1,2,la esperanza,calle,choque,vehiculo,sin_dato,139,0.08667,0,ok,0.31554
+1339622,2025,0,6.0,manana,2,2,ruta 90,desconocido,choque,vehiculo,sin_dato,122,0.05805,0,ok,0.21818
+1339624,2025,0,19.0,noche,2,1,bosque,diagonal,choque,vehiculo,sin_dato,112,0.04792,0,ok,0.39905
+1339625,2025,0,0.0,madrugada,3,2,los alpes,calle,choque,vehiculo,sin_dato,112,0.07539,0,ok,0.47999
+1339626,2025,0,11.0,manana,3,2,el pozon,calle,choque,vehiculo,sin_dato,123,0.08141,0,ok,0.47107
+1339627,2025,0,16.0,tarde,3,2,manzanillo del mar,desconocido,choque,vehiculo,sin_dato,121,0.02238,0,ok,0.27291
+1339635,2025,0,18.0,noche,5,2,el pozon,transversal,choque,vehiculo,sin_dato,139,0.09463,0,ok,0.35322
+1339636,2025,0,21.0,noche,5,3,la consolata,calle,choque,vehiculo,sin_dato,137,0.02292,0,ok,0.41177
+1339701,2025,0,19.0,noche,5,3,mamonal,carrera,choque,vehiculo,sin_dato,133,0.20536,1,FP,0.68165
+1339786,2025,0,2.0,madrugada,2,1,escallon villa,calle,choque,objeto fijo,muro,115,0.2181,1,FP,0.93493
+1339789,2025,0,7.0,manana,0,2,san jose obrero,calle,choque,vehiculo,sin_dato,114,0.0281,0,ok,0.33452
+1339791,2025,0,23.0,noche,0,1,la campina,diagonal,choque,vehiculo,sin_dato,112,0.08909,0,ok,0.43874
+1339794,2025,0,16.0,tarde,2,1,lo amador,carrera,atropello,sin_dato,sin_dato,112,0.08469,0,ok,0.45668
+1339795,2025,0,17.0,tarde,2,1,barrio espana,calle,choque,vehiculo,sin_dato,139,0.01838,0,ok,0.13192
+1339796,2025,0,15.0,tarde,3,2,la esperanza,calle,choque,vehiculo,sin_dato,139,0.06701,0,ok,0.31476
+1339797,2025,0,20.0,noche,3,2,13 de junio,calle,atropello,sin_dato,sin_dato,157,0.12303,1,FP,0.46473
+1339798,2025,0,7.0,manana,4,1,bocagrande,calle,choque,vehiculo,sin_dato,121,0.01084,0,ok,0.10758
+1339799,2025,0,14.0,tarde,4,2,villa estrella,carrera,choque,vehiculo,sin_dato,102,0.02735,0,ok,0.23178
+1339800,2025,1,4.0,madrugada,6,3,rossedal,calle,choque,objeto fijo,otro,114,0.20302,1,ok,0.6757
+1339801,2025,0,6.0,manana,4,1,centro,carrera,choque,vehiculo,sin_dato,121,0.03726,0,ok,0.17334
+1339802,2025,0,16.0,tarde,4,1,marbella,carrera,volcamiento,sin_dato,sin_dato,116,0.1061,0,ok,0.44428
+1339803,2025,0,8.0,manana,3,1,getsemani,calle,choque,vehiculo,sin_dato,101,0.00733,0,ok,0.15892
+1339804,2025,0,20.0,noche,4,1,centro,carrera,choque,vehiculo,sin_dato,103,0.06776,0,ok,0.29038
+1339805,2025,0,5.0,madrugada,2,3,santa lucia,calle,atropello,sin_dato,sin_dato,308,0.14077,1,FP,0.61383
+1339806,2025,0,5.0,madrugada,5,2,castellana,calle,choque,objeto fijo,sin_dato,139,0.1401,1,FP,0.89263
+1339807,2025,0,0.0,madrugada,0,3,ceballos,transversal,atropello,sin_dato,sin_dato,139,0.19551,1,FP,0.61719
+1339808,2025,0,16.0,tarde,6,1,manga,calle,choque,objeto fijo,muro,157,0.16256,1,FP,0.59712
+1339809,2025,0,12.0,tarde,6,2,olaya,calle,choque,vehiculo,sin_dato,104,0.03572,0,ok,0.26264
+1339812,2025,0,7.0,manana,0,2,alcibia,calle,choque,vehiculo,sin_dato,142,0.047,0,ok,0.29516
+1339814,2025,0,15.0,tarde,3,1,el cabrero,calle,atropello,sin_dato,sin_dato,410,0.09032,0,ok,0.48758
+1339815,2025,0,21.0,noche,6,1,bosque,diagonal,choque,objeto fijo,muro,116,0.21956,1,FP,0.84587
+1339816,2025,0,3.0,madrugada,1,1,centro,calle,atropello,sin_dato,sin_dato,409,0.18508,1,FP,0.60642
+1339817,2025,0,7.0,manana,0,1,daniel lemaitre,calle,choque,vehiculo,sin_dato,123,0.01833,0,ok,0.08049
+1339818,2025,0,7.0,manana,0,2,los cerezos,diagonal,choque,vehiculo,sin_dato,121,0.02967,0,ok,0.33488
+1339998,2025,0,23.0,noche,0,2,la floresta,calle,choque,vehiculo,sin_dato,57,0.0964,0,ok,0.53014
+1340088,2025,0,15.0,tarde,4,2,bicentenario,desconocido,choque,vehiculo,sin_dato,122,0.03359,0,ok,0.33426
+1340106,2025,0,9.0,manana,1,2,castellana,calle,choque,vehiculo,sin_dato,121,0.03391,0,ok,0.37875
+1340124,2025,0,13.0,tarde,1,1,pie de la popa,calle,choque,vehiculo,sin_dato,139,0.02899,0,ok,0.29079
+1340130,2025,0,21.0,noche,1,1,bruselas,calle,choque,vehiculo,sin_dato,121,0.03516,0,ok,0.29582
+1340131,2025,0,5.0,madrugada,4,1,manga,calle,choque,vehiculo,sin_dato,112,0.02799,0,ok,0.38563
+1340135,2025,0,12.0,tarde,2,2,viejo porvenir,diagonal,choque,vehiculo,sin_dato,122,0.03409,0,ok,0.3336
+1340136,2025,0,23.0,noche,5,3,parque heredia,diagonal,choque,objeto fijo,vehiculo estacionado,114,0.25194,1,FP,0.89051
+1340139,2025,0,3.0,madrugada,3,3,los corales,diagonal,choque,vehiculo,sin_dato,139,0.03922,0,ok,0.32428
+1340140,2025,0,20.0,noche,5,1,bocagrande,carrera,choque,vehiculo,sin_dato,104,0.05805,0,ok,0.18552
+202505403,2025,1,9.0,manana,3,3,mamonal,desconocido,atropello,sin_dato,sin_dato,0,0.08758,0,FN,0.75838
+202505494,2025,1,22.0,noche,6,1,el carmen,desconocido,atropello,sin_dato,sin_dato,0,0.13501,1,ok,0.70111
+1339243,2025,0,16.0,tarde,1,3,mamonal,desconocido,choque,vehiculo,sin_dato,146,0.08581,0,ok,0.54589
+1339628,2025,0,5.0,madrugada,6,2,el libano,calle,choque,vehiculo,sin_dato,122,0.04669,0,ok,0.54021
+1339631,2025,0,19.0,noche,3,2,el pozon,carrera,choque,vehiculo,sin_dato,114,0.12373,1,FP,0.62757
+1339632,2025,0,11.0,manana,6,3,arroz barato,calle,atropello,sin_dato,sin_dato,139,0.11582,1,FP,0.61107
+1339634,2025,0,15.0,tarde,5,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,112,0.04453,0,ok,0.383
+1339637,2025,0,3.0,madrugada,0,1,el country,transversal,choque,vehiculo,sin_dato,115,0.0803,0,ok,0.35509
+1339638,2025,0,19.0,noche,5,1,manga,calle,volcamiento,sin_dato,sin_dato,139,0.10334,0,ok,0.39668
+1339641,2025,0,21.0,noche,4,1,bosque,diagonal,choque,vehiculo,sin_dato,115,0.03781,0,ok,0.42637
+1339642,2025,0,21.0,noche,4,2,villa estrella,carrera,choque,vehiculo,sin_dato,139,0.07452,0,ok,0.349
+1339643,2025,0,1.0,madrugada,5,1,bosque,diagonal,choque,objeto fijo,muro,114,0.17178,1,FP,0.89222
+1339652,2025,0,14.0,tarde,6,1,barrio chino,calle,choque,vehiculo,sin_dato,122,0.02024,0,ok,0.29676
+1339655,2025,0,20.0,noche,0,1,via baru,avenida,atropello,sin_dato,sin_dato,139,0.31424,1,FP,0.93206
+1339656,2025,0,12.0,tarde,0,3,nelson mandela,carrera,choque,vehiculo,sin_dato,139,0.02565,0,ok,0.37894
+1339702,2025,0,10.0,manana,2,1,el prado,diagonal,choque,vehiculo,sin_dato,139,0.02284,0,ok,0.26786
+1339703,2025,0,20.0,noche,5,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.04289,0,ok,0.17384
+1339705,2025,0,12.0,tarde,0,1,centro,calle,atropello,sin_dato,sin_dato,97,0.07911,0,ok,0.31381
+1339706,2025,0,14.0,tarde,3,2,alcibia,calle,choque,vehiculo,sin_dato,102,0.05049,0,ok,0.31371
+1339707,2025,0,12.0,tarde,1,3,ceballos,diagonal,atropello,sin_dato,sin_dato,139,0.13148,1,FP,0.55102
+1339708,2025,0,16.0,tarde,1,1,centro,calle,choque,vehiculo,sin_dato,103,0.00904,0,ok,0.16299
+1339709,2025,0,23.0,noche,1,2,la boquilla,calle,choque,vehiculo,sin_dato,123,0.08101,0,ok,0.47001
+1339712,2025,0,12.0,tarde,5,1,santana,calle,choque,vehiculo,sin_dato,139,0.01583,0,ok,0.25197
+1339716,2025,0,7.0,manana,3,1,bocagrande,desconocido,choque,vehiculo,sin_dato,122,0.00326,0,ok,0.10007
+1339717,2025,0,8.0,manana,4,1,el cabrero,carrera,atropello,sin_dato,sin_dato,157,0.08105,0,ok,0.54498
+1339718,2025,0,11.0,manana,4,3,san fernando,calle,choque,vehiculo,sin_dato,142,0.01251,0,ok,0.13325
+1339719,2025,1,19.0,noche,4,3,santa lucia,diagonal,choque,vehiculo,sin_dato,139,0.02355,0,FN,0.20545
+1339720,2025,0,18.0,noche,4,2,villa estrella,calle,choque,vehiculo,sin_dato,139,0.04143,0,ok,0.27167
+1339792,2025,1,10.0,manana,0,2,la boquilla,desconocido,choque,vehiculo,sin_dato,121,0.04852,0,FN,0.35051
+1339819,2025,0,20.0,noche,0,2,13 de junio,diagonal,choque,vehiculo,sin_dato,102,0.03891,0,ok,0.21836
+1340107,2025,0,14.0,tarde,0,2,el pozon,carrera,choque,vehiculo,sin_dato,104,0.06278,0,ok,0.48707
+202505530,2025,1,22.0,noche,6,1,buenos aires,transversal,choque,vehiculo,sin_dato,0,0.05415,0,FN,0.25754
+1339629,2025,0,17.0,tarde,1,3,los caracoles,diagonal,choque,vehiculo,sin_dato,122,0.02028,0,ok,0.22001
+1339633,2025,0,14.0,tarde,2,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,139,0.0193,0,ok,0.17702
+1339644,2025,0,6.0,manana,2,3,ceballos,diagonal,choque,vehiculo,sin_dato,139,0.03029,0,ok,0.30353
+1339654,2025,0,13.0,tarde,3,2,el pozon,carrera,atropello,sin_dato,sin_dato,157,0.16536,1,FP,0.73026
+1339660,2025,0,6.0,manana,2,3,ternera,avenida,atropello,sin_dato,sin_dato,0,0.14354,1,FP,0.27929
+1339661,2025,0,8.0,manana,3,2,fredonia,calle,atropello,sin_dato,sin_dato,409,0.06415,0,ok,0.12237
+1339662,2025,0,11.0,manana,3,1,manga,calle,atropello,sin_dato,sin_dato,112,0.07897,0,ok,0.37877
+1339663,2025,0,8.0,manana,3,1,crespo,calle,choque,vehiculo,sin_dato,112,0.02483,0,ok,0.22782
+1339711,2025,0,10.0,manana,1,1,crespo,carrera,choque,objeto fijo,poste,119,0.13098,1,FP,0.7225
+1339713,2025,0,0.0,madrugada,6,3,el campestre,calle,choque,vehiculo,sin_dato,112,0.06536,0,ok,0.07777
+1339715,2025,0,14.0,tarde,1,1,bazurto,calle,choque,vehiculo,sin_dato,122,0.01965,0,ok,0.31578
+1340008,2025,0,15.0,tarde,2,1,getsemani,calle,choque,vehiculo,sin_dato,121,0.00776,0,ok,0.16662
+202524836,2025,1,18.0,noche,4,3,bomba el amparo,avenida,atropello,sin_dato,sin_dato,0,0.1315,1,ok,0.59996
+1339811,2025,0,23.0,noche,6,1,pie de la popa,calle,choque,vehiculo,sin_dato,139,0.04012,0,ok,0.47713
+1339090,2025,0,7.0,manana,4,1,san isidro,diagonal,choque,vehiculo,sin_dato,157,0.02738,0,ok,0.25617
+1339645,2025,0,22.0,noche,1,3,ternera,diagonal,choque,vehiculo,sin_dato,142,0.04878,0,ok,0.23492
+1339647,2025,0,7.0,manana,1,1,pie de la popa,calle,choque,vehiculo,sin_dato,122,0.02591,0,ok,0.30107
+1339651,2025,0,13.0,tarde,4,1,torices,calle,choque,vehiculo,sin_dato,132,0.00941,0,ok,0.02877
+1339657,2025,0,16.0,tarde,4,1,via baru,carrera,atropello,sin_dato,sin_dato,143,0.29272,1,FP,0.9341
+1339658,2025,0,17.0,tarde,0,3,san fernando,calle,choque,vehiculo,sin_dato,112,0.0216,0,ok,0.1331
+1339664,2025,1,0.0,madrugada,4,3,ternera,calle,choque,vehiculo,sin_dato,0,0.07381,0,FN,0.31524
+1339665,2025,0,8.0,manana,4,2,el pozon,carrera,atropello,sin_dato,sin_dato,139,0.08957,0,ok,0.75782
+1339666,2025,0,3.0,madrugada,5,1,centro,calle,atropello,sin_dato,sin_dato,139,0.16275,1,FP,0.62127
+1339668,2025,0,10.0,manana,4,1,barrio espana,calle,choque,vehiculo,sin_dato,139,0.01785,0,ok,0.13591
+1339670,2025,0,21.0,noche,4,2,olaya,calle,atropello,sin_dato,sin_dato,410,0.1299,1,FP,0.67724
+1339671,2025,0,8.0,manana,6,1,centro historico,calle,choque,vehiculo,sin_dato,139,0.02101,0,ok,0.30382
+1339672,2025,0,19.0,noche,6,3,providencia,calle,atropello,sin_dato,sin_dato,139,0.06695,0,ok,0.64526
+1339674,2025,0,23.0,noche,6,1,la troncal,transversal,choque,sin_dato,sin_dato,114,0.12953,1,FP,0.20144
+1339675,2025,0,19.0,noche,2,1,martinez martelo,carrera,choque,vehiculo,sin_dato,139,0.08676,0,ok,0.29881
+1339678,2025,0,8.0,manana,2,3,ciudadela 2000,calle,choque,vehiculo,sin_dato,121,0.04494,0,ok,0.28672
+1339679,2025,0,8.0,manana,2,1,san isidro,diagonal,atropello,sin_dato,sin_dato,139,0.14235,1,FP,0.50261
+1339681,2025,0,18.0,noche,6,3,ceballos,diagonal,choque,vehiculo,sin_dato,139,0.07662,0,ok,0.43325
+1339683,2025,1,21.0,noche,6,2,via bayunca - pontezuela,desconocido,choque,vehiculo,sin_dato,189,0.28186,1,ok,0.31674
+1339684,2025,0,8.0,manana,0,1,centro historico,carrera,choque,vehiculo,sin_dato,121,0.04587,0,ok,0.34834
+1339685,2025,0,16.0,tarde,0,3,villa rosita,transversal,atropello,sin_dato,sin_dato,0,0.079,0,ok,0.27053
+1339688,2025,0,23.0,noche,6,3,la esmeralda,calle,choque,objeto fijo,hidrante,114,0.21159,1,FP,0.84153
+1339689,2025,0,18.0,noche,6,3,la carolina,carrera,choque,vehiculo,sin_dato,103,0.07937,0,ok,0.3717
+1339690,2025,0,21.0,noche,0,1,chambacu,calle,choque,vehiculo,sin_dato,139,0.03121,0,ok,0.2305
+1339691,2025,1,18.0,noche,2,3,san jose de los campanos,calle,choque,objeto fijo,muro,139,0.29547,1,ok,0.71278
+1339692,2025,0,14.0,tarde,2,1,bazurto,calle,choque,vehiculo,sin_dato,142,0.0252,0,ok,0.32607
+1339694,2025,0,9.0,manana,3,2,los alpes,diagonal,choque,vehiculo,sin_dato,104,0.02056,0,ok,0.26648
+1339696,2025,1,10.0,manana,3,2,via bayunca - pontezuela,calle,atropello,sin_dato,sin_dato,112,0.14704,1,ok,0.43202
+1339697,2025,1,2.0,madrugada,4,3,simon bolivar,calle,volcamiento,sin_dato,sin_dato,114,0.15457,1,ok,0.65546
+1339721,2025,0,9.0,manana,5,1,centro historico,calle,atropello,sin_dato,sin_dato,113,0.09125,0,ok,0.57945
+1339724,2025,0,15.0,tarde,5,1,crespo,calle,atropello,sin_dato,sin_dato,409,0.07955,0,ok,0.48091
+1339725,2025,0,20.0,noche,5,2,la maria,calle,choque,vehiculo,sin_dato,0,0.02948,0,ok,0.40666
+1339726,2025,0,18.0,noche,6,1,bocagrande,carrera,choque,vehiculo,sin_dato,139,0.06753,0,ok,0.18398
+1339727,2025,0,22.0,noche,6,3,el educador,calle,choque,vehiculo,sin_dato,115,0.05114,0,ok,0.44179
+1339728,2025,0,18.0,noche,6,2,el pozon,carrera,choque,vehiculo,sin_dato,115,0.09468,0,ok,0.61107
+1339751,2025,0,21.0,noche,3,2,13 de junio,transversal,choque,vehiculo,sin_dato,104,0.02514,0,ok,0.12454
+1340125,2025,0,14.0,tarde,0,3,providencia,calle,atropello,sin_dato,sin_dato,127,0.07332,0,ok,0.51293
+1340126,2025,0,12.0,tarde,6,3,mamonal,calle,choque,vehiculo,sin_dato,157,0.07786,0,ok,0.46629
+1340127,2025,0,11.0,manana,4,1,daniel lemaitre,carrera,atropello,sin_dato,sin_dato,139,0.08885,0,ok,0.30388
+1341443,2025,0,10.0,manana,3,2,el pozon,transversal,choque,vehiculo,sin_dato,139,0.07006,0,ok,0.29145
+1339648,2025,0,14.0,tarde,3,3,mamonal,transversal,choque,vehiculo,objeto fijo,121,0.07556,0,ok,0.40782
+1339649,2025,0,5.0,madrugada,4,1,escallon villa,calle,choque,objeto fijo,poste,0,0.15476,1,FP,0.93845
+1339659,2025,0,14.0,tarde,3,3,mamonal,avenida,choque,vehiculo,objeto fijo,104,0.12277,1,FP,0.64646
+1339676,2025,0,15.0,tarde,3,2,la maria,calle,atropello,sin_dato,sin_dato,115,0.13359,1,FP,0.55063
+1339686,2025,0,1.0,madrugada,2,1,barrio espana,calle,choque,vehiculo,objeto fijo,139,0.07527,0,ok,0.37698
+1339687,2025,0,8.0,manana,4,3,los corales,diagonal,choque,vehiculo,sin_dato,121,0.01699,0,ok,0.14216
+1339695,2025,0,16.0,tarde,1,2,olaya,calle,choque,vehiculo,sin_dato,122,0.02527,0,ok,0.29493
+1339729,2025,0,10.0,manana,1,1,torices,calle,atropello,sin_dato,sin_dato,157,0.08496,0,ok,0.08985
+1339730,2025,0,17.0,tarde,1,1,zaragocilla,calle,choque,vehiculo,sin_dato,139,0.01842,0,ok,0.31466
+1339731,2025,0,4.0,madrugada,2,1,alto bosque,diagonal,choque,objeto fijo,poste,308,0.18484,1,FP,0.90013
+1339733,2025,0,9.0,manana,2,3,el socorro,calle,choque,vehiculo,sin_dato,102,0.02926,0,ok,0.29549
+1339734,2025,0,12.0,tarde,5,3,el carmelo,calle,choque,vehiculo,sin_dato,121,0.02916,0,ok,0.32709
+1339735,2025,0,12.0,tarde,2,1,amberes,calle,choque,vehiculo,sin_dato,157,0.04971,0,ok,0.35217
+1339736,2025,0,7.0,manana,6,3,nelson mandela,carrera,choque,vehiculo,sin_dato,115,0.06569,0,ok,0.43658
+1339737,2025,0,21.0,noche,6,2,el pozon,carrera,atropello,sin_dato,sin_dato,115,0.11062,1,FP,0.85711
+1339762,2025,0,18.0,noche,6,2,13 de junio,transversal,choque,vehiculo,sin_dato,114,0.03212,0,ok,0.11043
+1339766,2025,0,8.0,manana,6,1,el country,diagonal,atropello,sin_dato,sin_dato,137,0.10361,0,ok,0.5661
+1339767,2025,0,11.0,manana,6,1,paraguay,diagonal,choque,vehiculo,objeto fijo,115,0.06689,0,ok,0.37571
+1339768,2025,0,15.0,tarde,4,2,villa estrella,calle,choque,vehiculo,objeto fijo,139,0.05133,0,ok,0.29419
+1339769,2025,0,12.0,tarde,4,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,112,0.05789,0,ok,0.35842
+1339771,2025,0,17.0,tarde,4,2,tesca,calle,atropello,sin_dato,sin_dato,157,0.12496,1,FP,0.78687
+1339772,2025,0,8.0,manana,5,1,el prado,diagonal,choque,vehiculo,sin_dato,127,0.01926,0,ok,0.25732
+1339773,2025,0,21.0,noche,5,3,el milagro,calle,choque,vehiculo,sin_dato,112,0.02722,0,ok,0.42385
+1339774,2025,0,7.0,manana,1,1,bazurto,calle,choque,vehiculo,sin_dato,121,0.0291,0,ok,0.31416
+1339775,2025,0,4.0,madrugada,6,1,centro,calle,choque,vehiculo,objeto fijo,114,0.05672,0,ok,0.48868
+1339778,2025,0,8.0,manana,0,1,centro,carrera,caida ocupante,sin_dato,sin_dato,139,0.07169,0,ok,0.45337
+1339779,2025,0,18.0,noche,0,1,canapote,calle,atropello,sin_dato,sin_dato,139,0.11944,1,FP,0.65311
+1339780,2025,1,21.0,noche,0,3,santa monica,calle,choque,objeto fijo,muro,114,0.28437,1,ok,0.66573
+1339787,2025,0,5.0,madrugada,3,1,escallon villa,calle,choque,objeto fijo,poste,112,0.15261,1,FP,0.93756
+1339788,2025,0,0.0,madrugada,3,1,bazurto,calle,atropello,sin_dato,sin_dato,116,0.22159,1,FP,0.79324
+1339840,2025,0,0.0,madrugada,5,2,olaya,calle,choque,vehiculo,sin_dato,0,0.07499,0,ok,0.51205
+1339842,2025,0,22.0,noche,0,1,bosque,diagonal,choque,vehiculo,objeto fijo,139,0.06527,0,ok,0.54798
+1339843,2025,0,6.0,manana,1,1,martinez martelo,calle,choque,vehiculo,sin_dato,112,0.0177,0,ok,0.15671
+1339844,2025,0,11.0,manana,1,1,el prado,carrera,choque,vehiculo,objeto fijo,139,0.05124,0,ok,0.4424
+1339845,2025,1,18.0,noche,1,1,espinal,calle,choque,vehiculo,objeto fijo,121,0.0358,0,FN,0.37919
+1339846,2025,0,6.0,manana,1,1,torices,calle,atropello,sin_dato,sin_dato,157,0.12125,1,FP,0.075
+1339848,2025,0,20.0,noche,1,2,villa estrella,transversal,atropello,sin_dato,sin_dato,145,0.11456,1,FP,0.34524
+1339854,2025,0,7.0,manana,2,2,bicentenario,desconocido,choque,vehiculo,sin_dato,139,0.05069,0,ok,0.30919
+1339859,2025,0,6.0,manana,3,2,boston,calle,choque,vehiculo,objeto fijo,104,0.09027,0,ok,0.25903
+1339861,2025,0,19.0,noche,1,1,bazurto,calle,choque,vehiculo,sin_dato,103,0.05055,0,ok,0.4364
+1339862,2025,0,18.0,noche,1,1,bocagrande,carrera,atropello,sin_dato,sin_dato,139,0.08978,0,ok,0.38906
+1339863,2025,1,2.0,madrugada,2,2,la esperanza,calle,choque,vehiculo,sin_dato,139,0.07851,0,FN,0.56428
+1339864,2025,0,14.0,tarde,3,2,boston,carrera,choque,vehiculo,objeto fijo,0,0.05937,0,ok,0.32283
+1339865,2025,0,14.0,tarde,3,2,viejo porvenir,diagonal,choque,vehiculo,objeto fijo,139,0.0649,0,ok,0.47429
+1339881,2025,1,3.0,madrugada,4,3,san pedro martir,calle,choque,sin_dato,muro,114,0.22616,1,ok,0.31792
+1339680,2025,0,9.0,manana,4,2,la esperanza,calle,choque,vehiculo,sin_dato,112,0.06941,0,ok,0.32815
+1339693,2025,0,15.0,tarde,0,3,ceballos,transversal,choque,vehiculo,sin_dato,121,0.04262,0,ok,0.1838
+1339777,2025,0,10.0,manana,5,2,olaya,carrera,atropello,sin_dato,sin_dato,139,0.08518,0,ok,0.61888
+1339849,2025,0,21.0,noche,1,2,alcibia,calle,choque,vehiculo,sin_dato,121,0.04263,0,ok,0.45133
+1339868,2025,0,5.0,madrugada,6,3,san fernando,calle,choque,vehiculo,sin_dato,112,0.03864,0,ok,0.31908
+1339873,2025,0,9.0,manana,6,2,la maria,calle,choque,semoviente,sin_dato,139,0.08881,0,ok,0.40912
+1339882,2025,0,11.0,manana,4,1,bosque,diagonal,choque,vehiculo,sin_dato,123,0.0107,0,ok,0.32661
+1339883,2025,0,10.0,manana,0,1,bazurto,calle,choque,vehiculo,sin_dato,121,0.03803,0,ok,0.34374
+1341457,2025,0,20.0,noche,0,2,via perimetral,desconocido,choque,vehiculo,sin_dato,121,0.04475,0,ok,0.2263
+1339740,2025,0,8.0,manana,5,2,tesca,calle,caida ocupante,sin_dato,sin_dato,143,0.07116,0,ok,0.80242
+1339856,2025,0,4.0,madrugada,6,2,olaya,calle,choque,vehiculo,sin_dato,104,0.04616,0,ok,0.56676
+1339764,2025,0,12.0,tarde,1,1,manga,calle,atropello,sin_dato,sin_dato,157,0.10383,0,ok,0.32432
+1339738,2025,0,6.0,manana,1,3,san fernando,calle,choque,vehiculo,sin_dato,106,0.02302,0,ok,0.11111
+1339770,2025,0,11.0,manana,2,2,la esperanza,calle,choque,vehiculo,sin_dato,139,0.22613,1,FP,0.34836
+1339776,2025,0,20.0,noche,4,3,albornoz,carrera,choque,vehiculo,sin_dato,139,0.29777,1,FP,0.49504
+1339850,2025,0,16.0,tarde,1,3,mamonal,avenida,choque,vehiculo,sin_dato,139,0.12787,1,FP,0.49979
+1339858,2025,0,17.0,tarde,0,1,piedra de bolivar,calle,volcamiento,sin_dato,sin_dato,139,0.1126,1,FP,0.50616
+1339867,2025,0,2.0,madrugada,0,1,zaragocilla,calle,choque,vehiculo,sin_dato,139,0.06632,0,ok,0.53323
+1339874,2025,0,2.0,madrugada,6,3,el campestre,calle,choque,objeto fijo,poste,139,0.23852,1,FP,0.37748
+1339875,2025,0,21.0,noche,6,2,olaya,calle,choque,vehiculo,sin_dato,114,0.02574,0,ok,0.42463
+1339876,2025,0,17.0,tarde,0,1,crespo,calle,choque,vehiculo,sin_dato,112,0.02726,0,ok,0.25252
+1339877,2025,0,9.0,manana,3,3,la carolina,transversal,choque,vehiculo,sin_dato,121,0.01297,0,ok,0.12281
+1339886,2025,0,11.0,manana,2,3,albornoz,carrera,choque,vehiculo,sin_dato,139,0.21805,1,FP,0.40025
+1339887,2025,0,14.0,tarde,2,1,bosque,diagonal,choque,vehiculo,sin_dato,122,0.20978,1,FP,0.28699
+1339889,2025,0,16.0,tarde,2,1,centro,calle,choque,vehiculo,sin_dato,139,0.21666,1,FP,0.17148
+1339891,2025,0,0.0,madrugada,4,1,chambacu,calle,choque,vehiculo,sin_dato,115,0.04626,0,ok,0.31832
+1339892,2025,0,8.0,manana,3,1,el cabrero,calle,volcamiento,sin_dato,sin_dato,139,0.07673,0,ok,0.42871
+1339895,2025,0,9.0,manana,3,2,la boquilla,carrera,atropello,sin_dato,sin_dato,409,0.15087,1,FP,0.66733
+1339896,2025,0,5.0,madrugada,6,3,ceballos,transversal,choque,objeto fijo,vehiculo estacionado,114,0.24757,1,FP,0.90187
+1339899,2025,0,10.0,manana,4,2,tesca,carrera,atropello,sin_dato,sin_dato,112,0.11664,1,FP,0.81745
+1340141,2025,0,8.0,manana,5,2,bayunca,desconocido,choque,vehiculo,sin_dato,115,0.1767,1,FP,0.64213
+1340143,2025,0,15.0,tarde,5,3,nelson mandela,calle,atropello,sin_dato,sin_dato,115,0.13003,1,FP,0.6492
+1340144,2025,0,19.0,noche,5,3,san fernando,calle,choque,vehiculo,sin_dato,139,0.01982,0,ok,0.17946
+1340145,2025,1,11.0,manana,5,3,mamonal,carrera,choque,vehiculo,sin_dato,157,0.09616,0,FN,0.5785
+1340146,2025,0,18.0,noche,5,1,san francisco,carrera,choque,vehiculo,sin_dato,114,0.09744,0,ok,0.59534
+1340147,2025,0,20.0,noche,5,2,los alpes,diagonal,choque,vehiculo,sin_dato,114,0.02132,0,ok,0.36929
+1340150,2025,0,9.0,manana,6,3,ciudadela 2000,calle,choque,vehiculo,sin_dato,139,0.04822,0,ok,0.30495
+1340151,2025,0,5.0,madrugada,6,1,zaragocilla,calle,atropello,vehiculo,sin_dato,115,0.10229,0,ok,0.86222
+1340152,2025,0,21.0,noche,6,1,bocagrande,carrera,choque,vehiculo,sin_dato,102,0.06715,0,ok,0.20931
+1340153,2025,0,14.0,tarde,0,3,san pedro,calle,choque,vehiculo,sin_dato,104,0.03797,0,ok,0.18048
+1340161,2025,0,0.0,madrugada,6,2,olaya,calle,choque,vehiculo,sin_dato,139,0.07936,0,ok,0.5119
+1339263,2025,0,7.0,manana,2,3,el recreo,carrera,choque,vehiculo,sin_dato,139,0.03488,0,ok,0.31328
+1339723,2025,0,15.0,tarde,4,1,bosque,diagonal,choque,vehiculo,sin_dato,127,0.02894,0,ok,0.31458
+1339761,2025,0,18.0,noche,6,2,la esperanza,calle,choque,vehiculo,objeto fijo,134,0.04716,0,ok,0.53448
+1339763,2025,0,2.0,madrugada,6,2,los alpes,diagonal,volcamiento,sin_dato,sin_dato,112,0.13191,1,FP,0.69613
+1339841,2025,0,18.0,noche,0,3,arroz barato,calle,choque,vehiculo,sin_dato,139,0.07808,0,ok,0.40983
+1339880,2025,0,19.0,noche,0,2,los cerezos,diagonal,choque,vehiculo,sin_dato,121,0.04515,0,ok,0.47272
+1339885,2025,0,3.0,madrugada,0,1,bosque,diagonal,choque,vehiculo,sin_dato,121,0.07059,0,ok,0.56058
+1339890,2025,1,15.0,tarde,5,1,el prado,calle,atropello,sin_dato,sin_dato,94,0.07934,0,FN,0.52043
+1340142,2025,0,12.0,tarde,5,1,manga,calle,atropello,sin_dato,sin_dato,157,0.08591,0,ok,0.32821
+1340149,2025,0,3.0,madrugada,6,3,el milagro,calle,choque,vehiculo,sin_dato,139,0.04385,0,ok,0.5697
+1340155,2025,0,2.0,madrugada,1,3,los caracoles,diagonal,choque,vehiculo,sin_dato,114,0.05243,0,ok,0.44559
+1340156,2025,0,14.0,tarde,3,2,chiquinquira,calle,atropello,sin_dato,sin_dato,112,0.1481,1,FP,0.80871
+1340157,2025,0,0.0,madrugada,4,3,almirante colon,transversal,choque,vehiculo,sin_dato,217,0.08435,0,ok,0.33536
+1340162,2025,1,23.0,noche,0,1,bazurto,calle,choque,vehiculo,sin_dato,139,0.0565,0,FN,0.49054
+1340164,2025,0,13.0,tarde,1,2,los alpes,calle,choque,vehiculo,sin_dato,122,0.03007,0,ok,0.2501
+1340165,2025,0,13.0,tarde,1,2,boston,calle,choque,vehiculo,sin_dato,139,0.04446,0,ok,0.18781
+1340166,2025,0,15.0,tarde,1,2,villa olimpica,calle,atropello,sin_dato,sin_dato,409,0.13015,1,FP,0.64712
+1340167,2025,0,15.0,tarde,1,3,mamonal,desconocido,choque,vehiculo,sin_dato,122,0.10358,0,ok,0.57755
+1340171,2025,0,20.0,noche,3,1,el carmen,carrera,atropello,sin_dato,sin_dato,409,0.13401,1,FP,0.73078
+1340172,2025,0,10.0,manana,4,1,el cabrero,calle,choque,vehiculo,sin_dato,106,0.01286,0,ok,0.27414
+1340180,2025,0,13.0,tarde,1,1,centro,calle,choque,vehiculo,sin_dato,139,0.01014,0,ok,0.14852
+1340181,2025,0,18.0,noche,1,1,san francisco,calle,atropello,sin_dato,sin_dato,139,0.1213,1,FP,0.77233
+1340182,2025,0,2.0,madrugada,2,1,bosque,diagonal,choque,vehiculo,sin_dato,115,0.06867,0,ok,0.55792
+1340183,2025,0,20.0,noche,4,1,escallon villa,carrera,choque,vehiculo,sin_dato,93,0.08993,0,ok,0.61696
+1340188,2025,0,23.0,noche,6,3,la consolata,calle,atropello,vehiculo,sin_dato,114,0.08389,0,ok,0.78763
+1339897,2025,0,4.0,madrugada,6,3,el carmelo,calle,choque,vehiculo,sin_dato,115,0.04867,0,ok,0.64829
+1340158,2025,0,23.0,noche,0,1,amberes,calle,choque,vehiculo,sin_dato,112,0.07612,0,ok,0.5465
+1340187,2025,0,23.0,noche,6,2,manzanillo del mar,desconocido,choque,vehiculo,sin_dato,121,0.09537,0,ok,0.4236
+1340189,2025,0,2.0,madrugada,0,3,san pedro martir,desconocido,caida ocupante,sin_dato,sin_dato,157,0.20131,1,FP,0.60777
+1340190,2025,0,4.0,madrugada,0,2,la maria,calle,choque,vehiculo,sin_dato,139,0.07034,0,ok,0.5585
+1340194,2025,0,11.0,manana,0,1,pie del cerro,calle,choque,vehiculo,sin_dato,139,0.01456,0,ok,0.2578
+1340195,2025,0,19.0,noche,0,1,chambacu,calle,atropello,sin_dato,sin_dato,410,0.10409,0,ok,0.44797
+1339086,2025,0,18.0,noche,4,2,las palmeras,diagonal,choque,vehiculo,sin_dato,139,0.0361,0,ok,0.34832
+1339646,2025,0,19.0,noche,6,2,el pozon,carrera,atropello,sin_dato,sin_dato,139,0.10428,0,ok,0.83729
+1339699,2025,0,12.0,tarde,6,1,bocagrande,calle,choque,vehiculo,sin_dato,121,0.01478,0,ok,0.10254
+1339851,2025,0,22.0,noche,6,3,la concepcion,calle,choque,vehiculo,sin_dato,132,0.0636,0,ok,0.4972
+1339852,2025,0,13.0,tarde,5,3,ternera,calle,choque,vehiculo,sin_dato,102,0.02659,0,ok,0.14359
+1339853,2025,0,17.0,tarde,5,3,la concepcion,calle,choque,sin_dato,sin_dato,139,0.08009,0,ok,0.28434
+1339898,2025,0,3.0,madrugada,2,1,pie del cerro,calle,choque,objeto fijo,otro,114,0.12936,1,FP,0.59995
+1340159,2025,0,3.0,madrugada,0,3,blas de lezo,calle,choque,vehiculo,sin_dato,142,0.04705,0,ok,0.47704
+1340160,2025,0,3.0,madrugada,4,3,ceballos,transversal,choque,vehiculo,sin_dato,102,0.06269,0,ok,0.41469
+1340178,2025,0,8.0,manana,0,1,martinez martelo,diagonal,atropello,sin_dato,sin_dato,127,0.09587,0,ok,0.37333
+1340184,2025,0,19.0,noche,4,1,centro historico,carrera,choque,vehiculo,sin_dato,103,0.0858,0,ok,0.48188
+1340185,2025,0,3.0,madrugada,6,2,boston,calle,choque,vehiculo,sin_dato,112,0.05315,0,ok,0.43976
+1340196,2025,0,20.0,noche,1,1,las delicias,carrera,choque,vehiculo,sin_dato,115,0.0996,0,ok,0.47438
+1340221,2025,0,17.0,tarde,4,1,armenia,calle,atropello,sin_dato,sin_dato,157,0.14637,1,FP,0.73261
+1340222,2025,0,23.0,noche,3,1,bosque,diagonal,choque,vehiculo,sin_dato,114,0.09849,0,ok,0.47147
+1340224,2025,0,0.0,madrugada,5,3,blas de lezo,calle,choque,vehiculo,sin_dato,121,0.06967,0,ok,0.45109
+1340225,2025,0,20.0,noche,2,2,el pozon,transversal,atropello,sin_dato,sin_dato,127,0.12603,1,FP,0.66232
+1340226,2025,0,9.0,manana,5,3,blas de lezo,calle,choque,vehiculo,sin_dato,112,0.02123,0,ok,0.25182
+1340229,2025,0,14.0,tarde,5,3,el recreo,carrera,atropello,sin_dato,sin_dato,139,0.07698,0,ok,0.5836
+1340234,2025,0,19.0,noche,5,2,olaya,calle,atropello,sin_dato,sin_dato,139,0.07114,0,ok,0.65936
+1340239,2025,1,22.0,noche,6,3,santa monica,calle,choque,vehiculo,sin_dato,132,0.04863,0,FN,0.24086
+1340240,2025,0,11.0,manana,6,3,san fernando,calle,choque,vehiculo,sin_dato,132,0.02137,0,ok,0.14241
+1340242,2025,1,20.0,noche,6,2,chiquinquira,calle,choque,objeto fijo,muro,139,0.2516,1,ok,0.94778
+1340148,2025,1,22.0,noche,0,3,simon bolivar,calle,volcamiento,sin_dato,sin_dato,157,0.1507,1,ok,0.54495
+202507114,2025,1,1.0,madrugada,1,2,el libano,calle,choque,objeto fijo,otro,157,0.20792,1,ok,0.60576
+202507131,2025,1,18.0,noche,6,2,el pozon,carrera,atropello,sin_dato,sin_dato,0,0.09535,0,FN,0.83401
+1339893,2025,0,3.0,madrugada,1,3,san pedro,carrera,choque,vehiculo,sin_dato,139,0.08525,0,ok,0.4818
+1340173,2025,1,18.0,noche,3,1,bazurto,calle,choque,vehiculo,sin_dato,116,0.07048,0,FN,0.43924
+1340177,2025,0,4.0,madrugada,1,3,providencia,carrera,choque,vehiculo,sin_dato,114,0.09349,0,ok,0.6031
+1340227,2025,0,21.0,noche,5,3,mamonal,calle,atropello,sin_dato,sin_dato,112,0.13908,1,FP,0.85032
+1340243,2025,0,1.0,madrugada,0,2,boston,calle,choque,vehiculo,sin_dato,139,0.09053,0,ok,0.39834
+1340244,2025,0,13.0,tarde,2,3,el carmelo,calle,choque,vehiculo,sin_dato,139,0.02667,0,ok,0.347
+1340245,2025,0,16.0,tarde,2,1,manga,calle,choque,vehiculo,sin_dato,139,0.02034,0,ok,0.17198
+1340246,2025,0,22.0,noche,2,3,providencia,diagonal,atropello,sin_dato,sin_dato,139,0.15732,1,FP,0.6735
+1339698,2025,0,6.0,manana,2,1,san isidro,diagonal,choque,vehiculo,sin_dato,157,0.03338,0,ok,0.24274
+1340170,2025,0,9.0,manana,3,3,mamonal,carrera,choque,vehiculo,sin_dato,139,0.06123,0,ok,0.5977
+1340176,2025,0,8.0,manana,2,2,tesca,calle,choque,vehiculo,sin_dato,112,0.06811,0,ok,0.51984
+1340186,2025,0,5.0,madrugada,0,1,zaragocilla,calle,choque,vehiculo,sin_dato,139,0.04565,0,ok,0.57808
+1340223,2025,0,20.0,noche,4,3,mamonal,avenida,choque,vehiculo,sin_dato,121,0.22694,1,FP,0.67982
+1340228,2025,0,7.0,manana,0,3,blas de lezo,carrera,choque,vehiculo,sin_dato,122,0.02749,0,ok,0.26625
+1340230,2025,0,11.0,manana,0,2,el pozon,transversal,choque,vehiculo,sin_dato,139,0.075,0,ok,0.2971
+1340232,2025,0,18.0,noche,0,3,san jose de los campanos,carrera,choque,vehiculo,sin_dato,154,0.0741,0,ok,0.29753
+1340247,2025,0,7.0,manana,0,3,providencia,transversal,atropello,sin_dato,sin_dato,139,0.04528,0,ok,0.30671
+1340248,2025,0,12.0,tarde,4,1,crespo,calle,atropello,sin_dato,sin_dato,115,0.08754,0,ok,0.45723
+1340249,2025,0,12.0,tarde,3,1,marbella,carrera,choque,vehiculo,sin_dato,103,0.03414,0,ok,0.24424
+1340250,2025,0,20.0,noche,5,3,la carolina,calle,choque,vehiculo,sin_dato,139,0.03737,0,ok,0.34204
+1340251,2025,0,10.0,manana,5,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.01113,0,ok,0.12486
+1340253,2025,0,18.0,noche,5,3,mamonal,calle,choque,objeto fijo,inmueble,202,0.2446,1,FP,0.91084
+1340254,2025,0,15.0,tarde,5,2,el libano,calle,choque,vehiculo,sin_dato,121,0.03379,0,ok,0.27699
+1340255,2025,0,1.0,madrugada,6,1,torices,calle,choque,vehiculo,sin_dato,139,0.05676,0,ok,0.08258
+1340259,2025,0,22.0,noche,0,2,bayunca,avenida,atropello,sin_dato,sin_dato,139,0.29997,1,FP,0.89111
+1340263,2025,0,6.0,manana,6,2,el pozon,transversal,atropello,sin_dato,sin_dato,114,0.07635,0,ok,0.51619
+1340264,2025,0,20.0,noche,0,1,san isidro,diagonal,atropello,sin_dato,sin_dato,112,0.15418,1,FP,0.62875
+1340268,2025,0,9.0,manana,1,1,centro,calle,choque,vehiculo,sin_dato,102,0.00965,0,ok,0.16168
+1340269,2025,0,19.0,noche,1,2,la maria,calle,atropello,sin_dato,sin_dato,139,0.13745,1,FP,0.66045
+1340277,2025,0,16.0,tarde,2,2,boston,calle,choque,vehiculo,sin_dato,121,0.04314,0,ok,0.21405
+1339491,2025,0,15.0,tarde,1,3,terminal de transporte,transversal,choque,vehiculo,sin_dato,103,0.03321,0,ok,0.1701
+1339860,2025,0,18.0,noche,6,3,nelson mandela,calle,choque,vehiculo,sin_dato,139,0.05434,0,ok,0.50437
+1339901,2025,0,7.0,manana,4,2,el pozon,carrera,choque,vehiculo,sin_dato,139,0.0909,0,ok,0.5025
+1339902,2025,0,17.0,tarde,4,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,157,0.07092,0,ok,0.42667
+1339903,2025,0,8.0,manana,5,2,tesca,calle,atropello,sin_dato,sin_dato,139,0.0768,0,ok,0.76445
+1339905,2025,0,8.0,manana,6,1,martinez martelo,calle,choque,objeto fijo,arbol,110,0.14185,1,FP,0.58196
+1339906,2025,0,9.0,manana,1,2,olaya,calle,choque,vehiculo,sin_dato,112,0.06469,0,ok,0.3048
+1339908,2025,0,10.0,manana,6,3,ceballos,calle,choque,vehiculo,sin_dato,112,0.0442,0,ok,0.36563
+1339909,2025,0,10.0,manana,5,3,el socorro,calle,choque,vehiculo,sin_dato,157,0.04302,0,ok,0.32233
+1339911,2025,0,8.0,manana,0,1,armenia,calle,choque,vehiculo,sin_dato,139,0.03312,0,ok,0.43529
+1339914,2025,0,11.0,manana,0,3,la concepcion,calle,choque,vehiculo,sin_dato,123,0.02645,0,ok,0.36578
+1339916,2025,0,19.0,noche,0,1,el prado,calle,choque,vehiculo,sin_dato,139,0.07982,0,ok,0.35291
+1340154,2025,0,4.0,madrugada,0,1,los angeles,calle,atropello,sin_dato,sin_dato,112,0.18954,1,FP,0.79308
+1340168,2025,0,8.0,manana,1,1,san diego,carrera,choque,vehiculo,sin_dato,103,0.03515,0,ok,0.08406
+1340174,2025,0,23.0,noche,5,1,daniel lemaitre,calle,choque,vehiculo,sin_dato,115,0.03552,0,ok,0.1701
+1340179,2025,0,16.0,tarde,2,3,san fernando,calle,choque,vehiculo,sin_dato,122,0.01602,0,ok,0.12963
+1340192,2025,0,22.0,noche,1,3,villa rosita,transversal,choque,vehiculo,sin_dato,121,0.04893,0,ok,0.18252
+1340199,2025,0,18.0,noche,5,2,los alpes,calle,choque,vehiculo,sin_dato,112,0.02061,0,ok,0.35638
+1340200,2025,0,14.0,tarde,1,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,123,0.06086,0,ok,0.37832
+1340220,2025,0,13.0,tarde,4,1,bosque,diagonal,choque,vehiculo,sin_dato,142,0.02635,0,ok,0.29045
+1340235,2025,0,23.0,noche,1,2,flor del campo,avenida,choque,vehiculo,sin_dato,139,0.15301,1,FP,0.46307
+1340236,2025,0,3.0,madrugada,0,2,el pozon,carrera,choque,vehiculo,sin_dato,139,0.09336,0,ok,0.75973
+1340257,2025,0,3.0,madrugada,6,1,marbella,carrera,atropello,sin_dato,sin_dato,145,0.18916,1,FP,0.76085
+1340261,2025,0,1.0,madrugada,6,2,alcibia,calle,choque,vehiculo,sin_dato,127,0.06929,0,ok,0.57859
+1340265,2025,0,22.0,noche,6,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,139,0.08823,0,ok,0.2887
+1340266,2025,0,10.0,manana,5,3,la esmeralda,calle,choque,vehiculo,sin_dato,112,0.05001,0,ok,0.33395
+1340267,2025,0,7.0,manana,1,3,anita,diagonal,atropello,sin_dato,sin_dato,139,0.06455,0,ok,0.21198
+1340273,2025,0,7.0,manana,2,3,parque heredia,carrera,choque,vehiculo,sin_dato,132,0.03694,0,ok,0.31582
+1340275,2025,0,18.0,noche,2,1,martinez martelo,carrera,atropello,sin_dato,sin_dato,410,0.123,1,FP,0.54813
+1340278,2025,0,4.0,madrugada,0,2,nuevo paraiso,calle,choque,vehiculo,sin_dato,0,0.0582,0,ok,0.64195
+1340279,2025,0,5.0,madrugada,1,3,san fernando,calle,volcamiento,sin_dato,sin_dato,114,0.13747,1,FP,0.52129
+1340280,2025,1,10.0,manana,1,1,via baru,desconocido,choque,vehiculo,sin_dato,114,0.23234,1,ok,0.85504
+1340281,2025,0,16.0,tarde,0,1,centro historico,carrera,atropello,sin_dato,sin_dato,157,0.0898,0,ok,0.64178
+1340282,2025,1,20.0,noche,0,1,santana,calle,choque,vehiculo,sin_dato,127,0.23019,1,ok,0.63561
+1340283,2025,0,13.0,tarde,0,1,pie del cerro,calle,atropello,sin_dato,sin_dato,157,0.09496,0,ok,0.44687
+1340285,2025,0,14.0,tarde,1,3,san fernando,calle,choque,vehiculo,sin_dato,127,0.01315,0,ok,0.12339
+1340287,2025,0,12.0,tarde,1,3,san jose de los campanos,carrera,choque,vehiculo,sin_dato,122,0.03953,0,ok,0.20186
+1340288,2025,0,15.0,tarde,4,2,via perimetral,desconocido,choque,vehiculo,sin_dato,121,0.03254,0,ok,0.16937
+1340289,2025,0,8.0,manana,3,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,112,0.02113,0,ok,0.18784
+1340290,2025,0,20.0,noche,0,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,115,0.12612,1,FP,0.51537
+1340291,2025,0,22.0,noche,0,3,el educador,calle,atropello,sin_dato,sin_dato,115,0.13996,1,FP,0.69965
+1340292,2025,0,22.0,noche,1,3,santa lucia,calle,choque,vehiculo,sin_dato,121,0.04793,0,ok,0.23891
+1340294,2025,0,6.0,manana,3,2,olaya,calle,choque,vehiculo,sin_dato,104,0.05275,0,ok,0.27223
+1340295,2025,0,9.0,manana,3,3,blas de lezo,calle,atropello,sin_dato,sin_dato,157,0.06778,0,ok,0.50726
+1340298,2025,0,10.0,manana,3,1,los comuneros,calle,choque,vehiculo,sin_dato,157,0.01557,0,ok,0.31325
+1340299,2025,0,18.0,noche,3,2,13 de junio,calle,choque,vehiculo,sin_dato,139,0.03325,0,ok,0.22797
+1340300,2025,0,3.0,madrugada,1,3,ceballos,diagonal,choque,objeto fijo,vehiculo estacionado,157,0.24324,1,FP,0.94827
+1340304,2025,0,9.0,manana,6,3,santa lucia,transversal,choque,vehiculo,sin_dato,121,0.02875,0,ok,0.07695
+1340306,2025,0,23.0,noche,6,2,la quinta,calle,choque,objeto fijo,otro,116,0.13275,1,FP,0.18306
+1340307,2025,1,21.0,noche,0,1,san isidro,diagonal,atropello,sin_dato,sin_dato,139,0.19226,1,ok,0.65025
+1340308,2025,0,11.0,manana,4,1,san isidro,diagonal,choque,vehiculo,sin_dato,139,0.04621,0,ok,0.30479
+1340310,2025,0,21.0,noche,3,1,manga,calle,choque,vehiculo,sin_dato,112,0.02619,0,ok,0.26028
+1340311,2025,0,15.0,tarde,1,2,los alpes,calle,choque,vehiculo,sin_dato,112,0.02694,0,ok,0.2783
+1340312,2025,0,18.0,noche,0,2,olaya,calle,atropello,sin_dato,sin_dato,139,0.12724,1,FP,0.64033
+1340313,2025,0,8.0,manana,3,3,san fernando,carrera,choque,vehiculo,sin_dato,157,0.02415,0,ok,0.15328
+1340314,2025,0,15.0,tarde,4,1,san isidro,diagonal,choque,vehiculo,sin_dato,112,0.05389,0,ok,0.28225
+1340315,2025,0,18.0,noche,6,1,la troncal,diagonal,choque,vehiculo,sin_dato,139,0.06243,0,ok,0.41286
+1340317,2025,0,6.0,manana,2,2,los alpes,calle,choque,vehiculo,sin_dato,112,0.02413,0,ok,0.25343
+1340318,2025,0,9.0,manana,2,1,manga,calle,atropello,sin_dato,sin_dato,411,0.08217,0,ok,0.37849
+1340319,2025,0,10.0,manana,2,1,pie de la popa,calle,choque,vehiculo,sin_dato,121,0.03234,0,ok,0.34774
+1340320,2025,0,11.0,manana,2,1,bosque,diagonal,choque,vehiculo,sin_dato,139,0.01838,0,ok,0.34695
+1340321,2025,0,22.0,noche,6,1,pie del cerro,calle,choque,objeto fijo,muro,157,0.16449,1,FP,0.81431
+1340322,2025,0,11.0,manana,2,3,los jardines,calle,choque,vehiculo,sin_dato,123,0.02366,0,ok,0.33417
+1340323,2025,0,12.0,tarde,2,1,san francisco,calle,choque,vehiculo,sin_dato,104,0.08307,0,ok,0.41338
+1340324,2025,0,10.0,manana,3,3,parque heredia,carrera,choque,vehiculo,sin_dato,112,0.03895,0,ok,0.35551
+1340326,2025,0,3.0,madrugada,0,3,el campestre,calle,choque,vehiculo,sin_dato,139,0.04424,0,ok,0.09205
+1340327,2025,0,9.0,manana,3,3,santa clara,carrera,atropello,sin_dato,sin_dato,112,0.06526,0,ok,0.6402
+1340329,2025,0,15.0,tarde,2,3,san pedro martir,calle,atropello,sin_dato,sin_dato,112,0.12309,1,FP,0.29028
+1340330,2025,0,9.0,manana,4,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,139,0.03709,0,ok,0.41107
+1340332,2025,0,1.0,madrugada,1,2,viejo porvenir,diagonal,choque,vehiculo,sin_dato,104,0.10397,0,ok,0.62546
+1340336,2025,0,14.0,tarde,5,1,escallon villa,calle,atropello,sin_dato,sin_dato,139,0.0865,0,ok,0.68859
+1340337,2025,0,12.0,tarde,5,3,variante mamonal gambote,desconocido,choque,vehiculo,sin_dato,139,0.08129,0,ok,0.3301
+1340338,2025,0,21.0,noche,6,1,marbella,calle,choque,vehiculo,sin_dato,122,0.0558,0,ok,0.34679
+1340339,2025,0,9.0,manana,2,2,manzanillo del mar,desconocido,choque,vehiculo,sin_dato,103,0.04113,0,ok,0.28036
+1340340,2025,0,8.0,manana,5,2,los cerezos,diagonal,choque,vehiculo,sin_dato,134,0.0334,0,ok,0.38079
+1340363,2025,0,1.0,madrugada,0,1,la paz,calle,choque,vehiculo,sin_dato,115,0.11641,1,FP,0.5198
+1340364,2025,0,18.0,noche,6,2,via perimetral,carrera,atropello,sin_dato,sin_dato,139,0.08593,0,ok,0.51554
+1340366,2025,1,9.0,manana,1,1,via baru,desconocido,choque,vehiculo,sin_dato,116,0.23534,1,ok,0.81176
+1340375,2025,0,9.0,manana,3,1,bosque,diagonal,choque,vehiculo,sin_dato,121,0.00884,0,ok,0.31339
+1340377,2025,0,6.0,manana,3,3,ceballos,diagonal,choque,vehiculo,sin_dato,121,0.02981,0,ok,0.327
+1340404,2025,0,21.0,noche,4,3,el campestre,calle,atropello,sin_dato,sin_dato,139,0.12239,1,FP,0.15805
+1340406,2025,0,7.0,manana,5,2,via perimetral,carrera,choque,vehiculo,sin_dato,127,0.04154,0,ok,0.17354
+1341525,2025,0,18.0,noche,3,1,centro historico,calle,choque,vehiculo,sin_dato,103,0.04233,0,ok,0.41246
+1340271,2025,0,4.0,madrugada,1,3,nelson mandela,calle,choque,vehiculo,sin_dato,304,0.05722,0,ok,0.66984
+1340333,2025,0,23.0,noche,3,1,crespo,desconocido,atropello,sin_dato,sin_dato,109,0.16653,1,FP,0.66545
+1340334,2025,0,22.0,noche,4,2,olaya,calle,choque,vehiculo,sin_dato,112,0.03937,0,ok,0.45009
+1340335,2025,0,19.0,noche,0,1,san isidro,carrera,choque,vehiculo,sin_dato,103,0.10143,0,ok,0.42242
+1340367,2025,0,21.0,noche,1,1,bosque,carrera,choque,vehiculo,sin_dato,132,0.09095,0,ok,0.50432
+1340371,2025,0,3.0,madrugada,1,3,villa rosita,transversal,choque,vehiculo,sin_dato,139,0.07081,0,ok,0.2741
+1340373,2025,0,23.0,noche,1,2,olaya,calle,choque,vehiculo,sin_dato,139,0.07491,0,ok,0.45564
+1340376,2025,0,13.0,tarde,3,3,mamonal,calle,choque,vehiculo,sin_dato,115,0.07933,0,ok,0.52527
+1340378,2025,1,7.0,manana,6,2,el pozon,transversal,choque,vehiculo,sin_dato,139,0.05189,0,FN,0.27738
+1340379,2025,0,11.0,manana,6,1,canapote,calle,choque,vehiculo,sin_dato,112,0.06203,0,ok,0.35184
+1340380,2025,0,11.0,manana,2,2,la quinta,avenida,choque,vehiculo,sin_dato,0,0.10421,0,ok,0.06726
+1340381,2025,1,0.0,madrugada,1,3,san fernando,calle,choque,objeto fijo,otro,114,0.24913,1,ok,0.37389
+1340403,2025,0,12.0,tarde,4,3,santa monica,calle,choque,vehiculo,sin_dato,145,0.03298,0,ok,0.13548
+1340405,2025,0,3.0,madrugada,5,3,santa lucia,diagonal,choque,vehiculo,sin_dato,121,0.05833,0,ok,0.34735
+1340407,2025,0,18.0,noche,6,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,122,0.14313,1,FP,0.51079
+1340409,2025,0,13.0,tarde,6,1,pie de la popa,calle,choque,vehiculo,sin_dato,121,0.04312,0,ok,0.31764
+1340410,2025,0,20.0,noche,6,2,tesca,avenida,atropello,sin_dato,sin_dato,139,0.16398,1,FP,0.83679
+1340411,2025,0,4.0,madrugada,0,3,terminal de transporte,calle,choque,vehiculo,sin_dato,139,0.05518,0,ok,0.58206
+1340413,2025,0,18.0,noche,0,1,zaragocilla,calle,choque,objeto fijo,otro,137,0.14689,1,FP,0.50274
+1341442,2025,0,16.0,tarde,0,1,bocagrande,desconocido,atropello,sin_dato,sin_dato,112,0.09156,0,ok,0.29071
+202507562,2025,1,0.0,madrugada,0,3,santa monica,calle,caida ocupante,sin_dato,sin_dato,0,0.17957,1,ok,0.58317
+1340169,2025,1,2.0,madrugada,3,2,los caracoles,diagonal,choque,vehiculo,sin_dato,122,0.06999,0,FN,0.55817
+1340328,2025,0,22.0,noche,6,1,centro historico getsemani,calle,choque,vehiculo,sin_dato,132,0.04388,0,ok,0.47704
+202507948,2025,1,20.0,noche,3,2,olaya herrera,calle,atropello,sin_dato,sin_dato,0,0.11708,1,ok,0.75165
+1340401,2025,0,7.0,manana,4,1,el prado,calle,choque,vehiculo,sin_dato,0,0.02531,0,ok,0.2616
+1339894,2025,0,22.0,noche,5,1,bruselas,diagonal,choque,objeto fijo,muro,139,0.18511,1,FP,0.78394
+1340331,2025,0,11.0,manana,2,1,alcibia,carrera,choque,vehiculo,sin_dato,142,0.04994,0,ok,0.32791
+1340386,2025,0,6.0,manana,3,1,torices,calle,choque,vehiculo,sin_dato,121,0.00683,0,ok,0.03038
+1340389,2025,0,6.0,manana,3,3,san fernando,calle,choque,vehiculo,sin_dato,123,0.00881,0,ok,0.11765
+1340387,2025,0,8.0,manana,3,1,avenida pedro de heredia - solo bus,calle,atropello,sin_dato,sin_dato,139,0.10627,0,ok,0.56844
+1340274,2025,0,19.0,noche,4,1,canapote,calle,choque,vehiculo,sin_dato,103,0.03179,0,ok,0.43428
+1340416,2025,0,6.0,manana,4,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.01345,0,ok,0.11117
+1340388,2025,0,6.0,manana,4,3,santa monica,calle,choque,vehiculo,sin_dato,121,0.03273,0,ok,0.13611
+1340383,2025,0,23.0,noche,5,2,pozon,transversal,choque,vehiculo,sin_dato,112,0.08757,0,ok,0.32463
+1340384,2025,0,23.0,noche,5,1,bocagrande,calle,choque,vehiculo,sin_dato,145,0.03476,0,ok,0.20146
+1340385,2025,0,12.0,tarde,5,1,bocagrande,calle,choque,vehiculo,sin_dato,121,0.00909,0,ok,0.10062
+1341441,2025,0,13.0,tarde,5,1,marbella,calle,choque,vehiculo,sin_dato,0,0.02076,0,ok,0.21383
+1340382,2025,0,16.0,tarde,5,1,pie del cerro,calle,choque,vehiculo,sin_dato,115,0.01728,0,ok,0.26142
+1340390,2025,0,22.0,noche,5,1,la quinta,calle,choque,vehiculo,sin_dato,115,0.02906,0,ok,0.08007
+1340368,2025,0,21.0,noche,5,1,bosque,diagonal,choque,objeto fijo,muro,157,0.19295,1,FP,0.85414
+1340396,2025,0,20.0,noche,6,3,san fernando,calle,choque,vehiculo,sin_dato,114,0.02728,0,ok,0.20432
+1340398,2025,0,5.0,madrugada,6,3,pozon,transversal,choque,vehiculo,sin_dato,115,0.07723,0,ok,0.35044
+1340397,2025,0,16.0,tarde,6,3,la central,calle,choque,vehiculo,sin_dato,139,0.02726,0,ok,0.32725
+1340393,2025,0,19.0,noche,6,2,santa lucia - ronda real,calle,choque,vehiculo,sin_dato,139,0.03046,0,ok,0.5156
+1340392,2025,0,19.0,noche,6,3,providencia,diagonal,choque,vehiculo,sin_dato,123,0.03988,0,ok,0.39032
+1340391,2025,0,13.0,tarde,6,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.01661,0,ok,0.11297
+1340400,2025,0,19.0,noche,6,3,bellavista,calle,choque,vehiculo,sin_dato,127,0.04096,0,ok,0.43947
+1340395,2025,0,16.0,tarde,6,1,canapote,calle,choque,vehiculo,sin_dato,139,0.04796,0,ok,0.34207
+1340394,2025,0,15.0,tarde,6,1,barrio chino,calle,volcamiento,sin_dato,sin_dato,139,0.10179,0,ok,0.52036
+202508073,2025,1,21.0,noche,6,3,blas de lezo,desconocido,choque,vehiculo,sin_dato,0,0.06946,0,FN,0.38448
+1340360,2025,0,6.0,manana,0,2,avenida pedro de heredia,calle,choque,vehiculo,sin_dato,122,0.0402,0,ok,0.36119
+1340372,2025,0,4.0,madrugada,0,3,ternera,calle,choque,vehiculo,sin_dato,121,0.04535,0,ok,0.36078
+1340369,2025,1,23.0,noche,0,3,nelson mandela,desconocido,choque,objeto fijo,muro,139,0.31391,1,ok,0.90468
+1340446,2025,0,20.0,noche,1,3,socorro,carrera,choque,vehiculo,sin_dato,127,0.10145,0,ok,0.46806
+1340451,2025,0,7.0,manana,1,2,tesca,calle,choque,vehiculo,sin_dato,139,0.07764,0,ok,0.51346
+1340452,2025,0,5.0,madrugada,1,1,crespo,carrera,choque,vehiculo,sin_dato,122,0.09372,0,ok,0.58487
+1340453,2025,0,13.0,tarde,2,3,el campestre,carrera,choque,vehiculo,sin_dato,123,0.02989,0,ok,0.04085
+1340454,2025,0,16.0,tarde,2,2,san jose de los campanos,calle,choque,vehiculo,sin_dato,112,0.0555,0,ok,0.28576
+1340374,2025,0,19.0,noche,2,1,olaya herrera,calle,choque,vehiculo,sin_dato,123,0.05186,0,ok,0.40378
+1340455,2025,0,22.0,noche,2,1,torices,calle,choque,vehiculo,sin_dato,127,0.03032,0,ok,0.05588
+1340461,2025,0,19.0,noche,2,2,la castellana,calle,atropello,sin_dato,sin_dato,139,0.12317,1,FP,0.75374
+202508096,2025,1,19.0,noche,2,2,la castellana,calle,atropello,sin_dato,sin_dato,0,0.12317,1,ok,0.75374
+1340417,2025,0,20.0,noche,3,1,manga,calle,choque,vehiculo,sin_dato,123,0.02701,0,ok,0.25319
+1340457,2025,0,6.0,manana,3,1,marbella,carrera,choque,vehiculo,sin_dato,121,0.05116,0,ok,0.24832
+1340443,2025,0,19.0,noche,3,1,centro historico,calle,atropello,sin_dato,sin_dato,112,0.12562,1,FP,0.68428
+1340459,2025,0,16.0,tarde,3,3,santa monica,calle,atropello,sin_dato,sin_dato,127,0.07467,0,ok,0.35754
+1340408,2025,0,11.0,manana,4,2,boston,calle,choque,vehiculo,sin_dato,139,0.05022,0,ok,0.23596
+1340448,2025,0,13.0,tarde,4,2,via perimetral,carrera,choque,vehiculo,sin_dato,122,0.04775,0,ok,0.18226
+1340468,2025,0,12.0,tarde,4,3,parque heredia,diagonal,choque,vehiculo,sin_dato,122,0.03558,0,ok,0.2617
+1340473,2025,0,13.0,tarde,5,1,bruselas,diagonal,atropello,sin_dato,sin_dato,410,0.10256,0,ok,0.43271
+1340474,2025,0,14.0,tarde,5,1,pie del cerro,calle,choque,vehiculo,sin_dato,122,0.01509,0,ok,0.24809
+1340460,2025,0,13.0,tarde,5,2,via perimetral,carrera,choque,vehiculo,sin_dato,0,0.04086,0,ok,0.18115
+1340475,2025,1,19.0,noche,5,1,bazurto,calle,atropello,sin_dato,sin_dato,157,0.14608,1,ok,0.72095
+1340470,2025,0,9.0,manana,5,3,la consolata,calle,choque,vehiculo,sin_dato,102,0.04352,0,ok,0.32254
+1340477,2025,0,3.0,madrugada,6,1,chiquinquira,transversal,choque,vehiculo,sin_dato,0,0.12809,1,FP,0.58096
+1340414,2025,1,13.0,tarde,6,2,villa de aranjuez,carrera,choque,vehiculo,sin_dato,139,0.06287,0,FN,0.38444
+1340444,2025,0,19.0,noche,6,1,ruta 90,desconocido,choque,vehiculo,sin_dato,141,0.12683,1,FP,0.27304
+1340478,2025,0,3.0,madrugada,6,3,socorro,calle,choque,vehiculo,sin_dato,115,0.05633,0,ok,0.57635
+1340463,2025,0,20.0,noche,0,3,mamonal,carrera,choque,vehiculo,sin_dato,104,0.17101,1,FP,0.73582
+1340469,2025,0,17.0,tarde,0,2,olaya herrera,calle,choque,vehiculo,sin_dato,122,0.04218,0,ok,0.4087
+1340449,2025,0,20.0,noche,0,1,via perimetral,calle,choque,vehiculo,sin_dato,104,0.05356,0,ok,0.16568
+1340467,2025,0,16.0,tarde,0,3,olaya herrera,carrera,choque,vehiculo,sin_dato,139,0.04028,0,ok,0.35034
+1340472,2025,0,18.0,noche,1,3,vista hermosa,carrera,choque,vehiculo,sin_dato,157,0.11161,1,FP,0.4745
+1340445,2025,0,7.0,manana,1,1,via perimetral,desconocido,choque,vehiculo,sin_dato,127,0.02817,0,ok,0.10686
+1339915,2025,0,20.0,noche,1,3,fredonia,calle,choque,vehiculo,sin_dato,0,0.03374,0,ok,0.05272
+1339926,2025,0,9.0,manana,2,3,la carolina,transversal,choque,vehiculo,sin_dato,102,0.01657,0,ok,0.13106
+1339921,2025,0,12.0,tarde,2,1,espinal,calle,choque,vehiculo,sin_dato,139,0.01194,0,ok,0.20226
+1340418,2025,0,8.0,manana,2,2,chiquinquira,calle,atropello,sin_dato,sin_dato,139,0.11669,1,FP,0.81091
+1339934,2025,0,6.0,manana,3,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.01315,0,ok,0.11167
+1339928,2025,0,9.0,manana,3,2,los alpes,calle,atropello,sin_dato,sin_dato,409,0.09613,0,ok,0.54929
+1339932,2025,0,16.0,tarde,3,2,tesca,calle,choque,vehiculo,sin_dato,122,0.05837,0,ok,0.56411
+1339931,2025,0,13.0,tarde,3,1,daniel lemaitre,calle,choque,vehiculo,sin_dato,112,0.03254,0,ok,0.09309
+1339936,2025,0,8.0,manana,4,3,villa de aranjuez,desconocido,choque,vehiculo,sin_dato,139,0.05302,0,ok,0.2525
+1340501,2025,0,16.0,tarde,4,1,la matuna,diagonal,atropello,sin_dato,sin_dato,127,0.09143,0,ok,0.60455
+1340481,2025,0,12.0,tarde,4,1,bocagrande,calle,choque,vehiculo,sin_dato,121,0.01225,0,ok,0.10538
+1340484,2025,0,15.0,tarde,4,1,bocagrande,calle,choque,vehiculo,sin_dato,104,0.01064,0,ok,0.12014
+1340485,2025,0,17.0,tarde,4,1,centro historico,calle,choque,vehiculo,sin_dato,121,0.02615,0,ok,0.37002
+1339940,2025,0,9.0,manana,4,3,el campestre,calle,choque,vehiculo,sin_dato,139,0.01659,0,ok,0.03723
+1339937,2025,0,4.0,madrugada,4,3,pozon,transversal,volcamiento,sin_dato,sin_dato,0,0.16273,1,FP,0.53734
+1340482,2025,0,11.0,manana,4,1,armenia,calle,atropello,sin_dato,sin_dato,116,0.14915,1,FP,0.74571
+1340483,2025,0,3.0,madrugada,5,3,simon bolivar,calle,choque,sin_dato,otro,139,0.16903,1,FP,0.20157
+1340479,2025,0,19.0,noche,5,2,nuevo bosque,diagonal,atropello,sin_dato,sin_dato,139,0.119,1,FP,0.8305
+1339929,2025,0,21.0,noche,6,3,puente baru,desconocido,choque,vehiculo,sin_dato,139,0.25862,1,FP,0.60906
+1340487,2025,0,6.0,manana,6,2,las palmeras,diagonal,choque,vehiculo,sin_dato,139,0.04511,0,ok,0.25157
+1340309,2025,0,10.0,manana,6,2,pozon,carrera,choque,vehiculo,sin_dato,139,0.06695,0,ok,0.45222
+1339930,2025,0,6.0,manana,6,1,centro historico getsemani,calle,choque,vehiculo,sin_dato,132,0.02515,0,ok,0.31215
+1339935,2025,0,10.0,manana,6,1,centro historico,avenida,choque,vehiculo,sin_dato,139,0.09466,0,ok,0.32956
+1339933,2025,0,5.0,madrugada,6,2,las gaviotas,calle,choque,vehiculo,sin_dato,115,0.06573,0,ok,0.76657
+1340490,2025,0,15.0,tarde,6,1,paraguay,transversal,choque,vehiculo,sin_dato,139,0.03916,0,ok,0.14277
+1340493,2025,0,22.0,noche,6,2,republica de venezuela,carrera,atropello,sin_dato,sin_dato,115,0.1544,1,FP,0.82374
+1340415,2025,0,3.0,madrugada,6,3,vista hermosa,carrera,atropello,sin_dato,sin_dato,114,0.17948,1,FP,0.84621
+1340486,2025,0,0.0,madrugada,6,3,santa lucia,calle,choque,objeto fijo,muro,114,0.28243,1,FP,0.78061
+1340500,2025,0,13.0,tarde,0,1,torices,calle,atropello,sin_dato,sin_dato,139,0.09255,0,ok,0.08198
+1340506,2025,0,12.0,tarde,0,1,pie de la popa,calle,choque,vehiculo,sin_dato,139,0.0381,0,ok,0.30323
+1340498,2025,0,6.0,manana,0,3,ternera,calle,choque,vehiculo,sin_dato,114,0.01416,0,ok,0.14044
+1340464,2025,0,3.0,madrugada,0,2,olaya herrera,diagonal,atropello,sin_dato,sin_dato,114,0.2356,1,FP,0.84337
+1340505,2025,0,10.0,manana,0,1,torices,calle,atropello,sin_dato,sin_dato,139,0.2312,1,FP,0.10154
+1340499,2025,0,9.0,manana,0,1,pie del cerro,calle,atropello,sin_dato,sin_dato,409,0.09232,0,ok,0.49807
+1340420,2025,0,12.0,tarde,1,3,santa lucia,calle,choque,vehiculo,sin_dato,127,0.02848,0,ok,0.13698
+1339922,2025,0,11.0,manana,1,1,bocagrande,calle,atropello,sin_dato,sin_dato,157,0.10897,1,FP,0.3164
+1340465,2025,0,6.0,manana,2,3,ceballos,transversal,choque,vehiculo,sin_dato,115,0.02796,0,ok,0.18016
+1340521,2025,0,16.0,tarde,3,2,pozon,carrera,choque,vehiculo,sin_dato,112,0.06113,0,ok,0.4436
+1340508,2025,0,15.0,tarde,3,1,manga,calle,choque,vehiculo,sin_dato,142,0.01586,0,ok,0.17666
+1340488,2025,0,3.0,madrugada,3,1,zaragocilla,calle,choque,vehiculo,sin_dato,139,0.08553,0,ok,0.57332
+1340509,2025,0,19.0,noche,3,3,las gaviotas,diagonal,atropello,sin_dato,sin_dato,139,0.13911,1,FP,0.72946
+1339884,2025,0,15.0,tarde,4,3,socorro,calle,choque,vehiculo,sin_dato,506,0.02396,0,ok,0.31732
+1340513,2025,0,22.0,noche,4,3,ternera,calle,choque,vehiculo,sin_dato,114,0.0529,0,ok,0.26578
+1340441,2025,0,6.0,manana,4,1,san isidro,diagonal,choque,vehiculo,sin_dato,132,0.04909,0,ok,0.26151
+1340510,2025,0,1.0,madrugada,4,3,blas de lezo,calle,choque,vehiculo,sin_dato,157,0.08053,0,ok,0.48651
+1340466,2025,0,10.0,manana,5,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,139,0.05952,0,ok,0.432
+1340522,2025,0,2.0,madrugada,5,1,alcibia,calle,choque,objeto fijo,poste,114,0.15945,1,FP,0.86138
+1340494,2025,0,15.0,tarde,5,3,san fernando,carrera,choque,vehiculo,sin_dato,104,0.0365,0,ok,0.16532
+1340507,2025,0,7.0,manana,5,1,marbella,carrera,atropello,sin_dato,sin_dato,411,0.09528,0,ok,0.52046
+202508459,2025,1,21.0,noche,5,2,olaya herrera,avenida,atropello,sin_dato,sin_dato,0,0.18458,1,ok,0.75305
+1340528,2025,0,17.0,tarde,6,1,el cabrero,calle,choque,vehiculo,sin_dato,139,0.03355,0,ok,0.29924
+202508484,2025,1,11.0,manana,6,3,villa estrella,transversal,atropello,sin_dato,sin_dato,0,0.06387,0,FN,0.20249
+1340529,2025,0,22.0,noche,6,1,la esperanza,carrera,choque,vehiculo,sin_dato,139,0.07991,0,ok,0.446
+1340517,2025,0,8.0,manana,0,3,ternera,calle,choque,vehiculo,sin_dato,115,0.01791,0,ok,0.15308
+1340504,2025,0,2.0,madrugada,0,2,barrio anita,diagonal,choque,vehiculo,sin_dato,112,0.09798,0,ok,0.6415
+1339835,2025,0,16.0,tarde,0,1,castillogrande,calle,atropello,sin_dato,sin_dato,157,0.13513,1,FP,0.6343
+1340531,2025,1,17.0,tarde,0,1,via baru - playa blanca,desconocido,choque,vehiculo,sin_dato,114,0.25159,1,ok,0.64631
+1339923,2025,1,5.0,madrugada,0,1,boca grande avenida san martan calle 15 con carrera 2 base naval,calle,choque,objeto fijo,bordillo vial,114,0.15827,1,ok,0.91119
+1340497,2025,0,18.0,noche,1,3,san fernando,calle,caida ocupante,sin_dato,sin_dato,143,0.1524,1,FP,0.4612
+1340361,2025,0,0.0,madrugada,1,2,villa estrella,calle,choque,vehiculo,sin_dato,122,0.10128,0,ok,0.39848
+1340534,2025,0,18.0,noche,1,2,ciudad jardin,calle,atropello,sin_dato,sin_dato,139,0.14986,1,FP,0.91232
+1340495,2025,0,10.0,manana,1,2,bosque,diagonal,choque,vehiculo,sin_dato,122,0.05441,0,ok,0.43514
+1340608,2025,0,16.0,tarde,2,1,bosque,diagonal,atropello,sin_dato,sin_dato,139,0.11858,1,FP,0.59951
+1340606,2025,0,13.0,tarde,2,3,mamonal,carrera,choque,vehiculo,sin_dato,121,0.06382,0,ok,0.55815
+1340601,2025,0,8.0,manana,2,1,torices,calle,choque,vehiculo,sin_dato,127,0.00824,0,ok,0.03316
+1340602,2025,0,9.0,manana,2,3,pozon,transversal,caida ocupante,sin_dato,sin_dato,139,0.08079,0,ok,0.38943
+1340603,2025,0,10.0,manana,2,3,el ruby,calle,choque,vehiculo,sin_dato,139,0.02103,0,ok,0.31459
+1340607,2025,0,10.0,manana,2,1,marbella,calle,choque,vehiculo,sin_dato,121,0.01659,0,ok,0.2418
+1340611,2025,0,19.0,noche,2,2,villa rosita,transversal,choque,vehiculo,sin_dato,121,0.03623,0,ok,0.25111
+1340610,2025,0,20.0,noche,2,3,la consolata,carrera,choque,vehiculo,sin_dato,123,0.10503,0,ok,0.48647
+1340609,2025,0,19.0,noche,2,3,via baru,desconocido,volcamiento,sin_dato,sin_dato,301,0.24948,1,FP,0.92711
+1340620,2025,0,18.0,noche,3,3,albornoz,calle,choque,vehiculo,sin_dato,139,0.07289,0,ok,0.43922
+1340519,2025,0,7.0,manana,3,1,el prado,diagonal,choque,vehiculo,sin_dato,127,0.02756,0,ok,0.26627
+1340618,2025,0,8.0,manana,3,2,olaya herrera,carrera,atropello,sin_dato,sin_dato,139,0.11267,1,FP,0.71251
+1340621,2025,0,21.0,noche,4,3,la concepcion.,carrera,choque,vehiculo,sin_dato,139,0.10845,0,ok,0.48409
+1340492,2025,0,15.0,tarde,4,1,espinal,carrera,choque,vehiculo,sin_dato,139,0.03091,0,ok,0.27516
+1340489,2025,0,8.0,manana,4,1,lo amador,calle,choque,vehiculo,sin_dato,132,0.01051,0,ok,0.19298
+1340491,2025,0,10.0,manana,4,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.01311,0,ok,0.13494
+1340496,2025,0,5.0,madrugada,4,1,bosque,diagonal,choque,vehiculo,sin_dato,139,0.09847,0,ok,0.61406
+1340503,2025,0,14.0,tarde,5,2,pozon,carrera,choque,sin_dato,objeto fijo,127,0.12229,1,FP,0.42637
+1340630,2025,0,22.0,noche,5,2,trece de junio,calle,choque,vehiculo,sin_dato,114,0.03933,0,ok,0.54612
+1340631,2025,0,12.0,tarde,5,1,bocagrande,calle,choque,vehiculo,sin_dato,121,0.01697,0,ok,0.11004
+1340628,2025,0,14.0,tarde,5,2,pozon,carrera,choque,vehiculo,sin_dato,127,0.044,0,ok,0.41268
+1340627,2025,0,15.0,tarde,5,2,las gaviotas,carrera,choque,vehiculo,sin_dato,230,0.07273,0,ok,0.55392
+1340614,2025,0,21.0,noche,6,2,la boquilla,calle,atropello,sin_dato,sin_dato,112,0.1612,1,FP,0.72664
+1339924,2025,0,15.0,tarde,6,1,el cabrero,carrera,choque,vehiculo,sin_dato,121,0.04436,0,ok,0.33084
+1340633,2025,0,21.0,noche,6,3,la consolata,calle,choque,vehiculo,sin_dato,114,0.03041,0,ok,0.44441
+1340632,2025,0,15.0,tarde,6,2,olaya herrera,calle,atropello,sin_dato,sin_dato,116,0.09689,0,ok,0.66509
+1340520,2025,0,17.0,tarde,6,1,via perimetral,carrera,choque,vehiculo,sin_dato,132,0.05772,0,ok,0.15185
+202508732,2025,1,3.0,madrugada,6,1,el country,transversal,otro,sin_dato,objeto fijo,0,0.1856,1,ok,0.76222
+1340634,2025,0,12.0,tarde,0,1,san francisco,calle,choque,vehiculo,sin_dato,139,0.07662,0,ok,0.41759
+1340535,2025,0,15.0,tarde,0,2,las palmeras,diagonal,choque,vehiculo,sin_dato,112,0.06025,0,ok,0.26463
+1340434,2025,0,7.0,manana,0,3,via pasacaballos,carrera,choque,vehiculo,sin_dato,122,0.11885,1,FP,0.43531
+1340622,2025,0,20.0,noche,0,2,las palmeras,transversal,atropello,sin_dato,sin_dato,409,0.12559,1,FP,0.43765
+1340612,2025,0,9.0,manana,2,1,piedra de bolivar,calle,atropello,sin_dato,sin_dato,125,0.10944,1,FP,0.58429
+1340272,2025,0,14.0,tarde,2,1,centro historico,carrera,atropello,sin_dato,sin_dato,402,0.10894,1,FP,0.64546
+1340532,2025,0,6.0,manana,2,3,mamonal,avenida,choque,vehiculo,sin_dato,104,0.13481,1,FP,0.52575
+1340638,2025,0,10.0,manana,2,1,bosque,diagonal,choque,vehiculo,sin_dato,112,0.01649,0,ok,0.33516
+202508984,2025,1,19.0,noche,2,2,olaya herrera,calle,atropello,sin_dato,sin_dato,0,0.14428,1,ok,0.74895
+1339925,2025,0,13.0,tarde,2,2,zaragocilla,calle,choque,vehiculo,sin_dato,202,0.04245,0,ok,0.38786
+1340636,2025,0,8.0,manana,3,1,centro historico,carrera,atropello,sin_dato,sin_dato,145,0.0936,0,ok,0.63904
+1340623,2025,0,16.0,tarde,3,3,san fernando,calle,atropello,sin_dato,sin_dato,139,0.11774,1,FP,0.32949
+1340526,2025,0,20.0,noche,3,2,olaya herrera,desconocido,caida ocupante,sin_dato,sin_dato,0,0.21246,1,FP,0.81844
+1340648,2025,0,15.0,tarde,4,1,avenida pedro de heredia - solo bus,calle,atropello,sin_dato,sin_dato,145,0.10179,0,ok,0.59032
+1340650,2025,0,9.0,manana,4,3,barrio anita,transversal,choque,vehiculo,sin_dato,139,0.0182,0,ok,0.15987
+1340645,2025,0,8.0,manana,4,1,la quinta,calle,atropello,sin_dato,sin_dato,157,0.09886,0,ok,0.12524
+1340651,2025,0,16.0,tarde,4,1,bocagrande,calle,choque,vehiculo,sin_dato,112,0.01412,0,ok,0.13117
+1340652,2025,0,21.0,noche,5,2,bruselas,diagonal,choque,vehiculo,sin_dato,112,0.02983,0,ok,0.42262
+1340525,2025,0,13.0,tarde,5,1,el cabrero,avenida,atropello,sin_dato,sin_dato,409,0.14097,1,FP,0.47508
+1340613,2025,0,8.0,manana,5,1,castillogrande,calle,atropello,sin_dato,sin_dato,157,0.10227,0,ok,0.62266
+1340515,2025,0,16.0,tarde,5,3,urbanizacion simon bolivar,calle,atropello,sin_dato,sin_dato,139,0.07612,0,ok,0.5793
+1340666,2025,0,9.0,manana,6,1,marbella,carrera,atropello,sin_dato,sin_dato,157,0.11048,1,FP,0.54612
+1340642,2025,0,20.0,noche,6,3,el campestre,calle,choque,vehiculo,sin_dato,106,0.03742,0,ok,0.05973
+1340661,2025,0,10.0,manana,6,1,marbella,avenida,choque,vehiculo,sin_dato,103,0.11352,1,FP,0.22235
+1340667,2025,0,16.0,tarde,6,1,alcibia,carrera,choque,vehiculo,sin_dato,142,0.05588,0,ok,0.32874
+1340670,2025,0,23.0,noche,6,2,olaya herrera,calle,atropello,sin_dato,sin_dato,139,0.17329,1,FP,0.79432
+1340660,2025,0,2.0,madrugada,6,1,daniel lemaitre,carrera,choque,vehiculo,sin_dato,114,0.11271,1,FP,0.29287
+1340641,2025,0,16.0,tarde,6,1,bosque,diagonal,atropello,sin_dato,sin_dato,112,0.08854,0,ok,0.59626
+1340624,2025,0,18.0,noche,6,3,la consolata,calle,atropello,sin_dato,sin_dato,139,0.08292,0,ok,0.67054
+1340653,2025,0,20.0,noche,1,2,ruta 90,desconocido,choque,vehiculo,sin_dato,308,0.1977,1,FP,0.34649
+1340669,2025,0,12.0,tarde,2,1,castillogrande,calle,choque,vehiculo,sin_dato,132,0.02925,0,ok,0.33946
+1340671,2025,0,16.0,tarde,2,2,olaya herrera,carrera,choque,vehiculo,sin_dato,139,0.04128,0,ok,0.47904
+1340672,2025,0,17.0,tarde,3,2,barrio espana,calle,choque,vehiculo,sin_dato,139,0.05301,0,ok,0.2156
+1340673,2025,0,17.0,tarde,3,3,ternera,calle,choque,vehiculo,sin_dato,139,0.02941,0,ok,0.18377
+1340684,2025,0,13.0,tarde,4,3,ciudad jardin,diagonal,choque,vehiculo,sin_dato,139,0.10343,0,ok,0.59266
+202508804,2025,1,22.0,noche,4,3,via la cordialidad - urbanizacion la india,desconocido,choque,vehiculo,sin_dato,0,0.10552,0,FN,0.40984
+1340654,2025,1,16.0,tarde,4,1,bosque,diagonal,choque,vehiculo,sin_dato,0,0.03293,0,FN,0.34349
+1340675,2025,0,20.0,noche,4,2,colombiaton,carrera,atropello,sin_dato,sin_dato,143,0.14931,1,FP,0.77682
+1339918,2025,0,16.0,tarde,4,1,crespo,calle,atropello,sin_dato,sin_dato,157,0.11105,1,FP,0.53829
+1340679,2025,0,22.0,noche,5,1,el prado,diagonal,choque,vehiculo,sin_dato,139,0.05624,0,ok,0.42572
+1340643,2025,0,20.0,noche,5,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,157,0.04366,0,ok,0.29221
+1340625,2025,0,9.0,manana,5,2,pozon,carrera,choque,vehiculo,sin_dato,121,0.07176,0,ok,0.44582
+1340676,2025,1,6.0,manana,5,3,villa estrella,carrera,choque,vehiculo,sin_dato,139,0.0623,0,FN,0.1621
+1340663,2025,0,12.0,tarde,5,2,bosque,diagonal,choque,vehiculo,sin_dato,121,0.0553,0,ok,0.3994
+1340681,2025,0,22.0,noche,6,2,albornoz,carrera,choque,objeto fijo,baranda,139,0.21307,1,FP,0.92882
+1340683,2025,0,16.0,tarde,6,3,zaragocilla,calle,choque,vehiculo,sin_dato,139,0.04754,0,ok,0.32504
+1340682,2025,0,10.0,manana,6,1,torices,calle,atropello,sin_dato,sin_dato,139,0.12054,1,FP,0.1022
+1340686,2025,0,21.0,noche,0,1,olaya herrera,calle,choque,vehiculo,sin_dato,139,0.07277,0,ok,0.42065
+1340640,2025,0,11.0,manana,0,1,bosque,diagonal,choque,vehiculo,sin_dato,114,0.02751,0,ok,0.34018
+1340685,2025,0,20.0,noche,0,1,la esperanza,calle,atropello,sin_dato,sin_dato,139,0.13353,1,FP,0.61668
+1340665,2025,0,14.0,tarde,1,2,pozon,carrera,choque,vehiculo,sin_dato,139,0.06357,0,ok,0.41405
+1340664,2025,0,11.0,manana,1,2,mamonal,carrera,choque,vehiculo,sin_dato,121,0.08101,0,ok,0.74129
+1340237,2025,0,11.0,manana,1,3,el recreo,calle,choque,vehiculo,sin_dato,142,0.0456,0,ok,0.32553
+1340688,2025,0,17.0,tarde,1,3,via baru,avenida,choque,vehiculo,sin_dato,115,0.20223,1,FP,0.78845
+1340678,2025,0,21.0,noche,1,1,avenida pedro de heredia,carrera,choque,vehiculo,sin_dato,142,0.10601,0,ok,0.51306
+1340687,2025,0,6.0,manana,1,1,centro historico,calle,caida ocupante,sin_dato,sin_dato,115,0.15674,1,FP,0.6609
+1340691,2025,0,15.0,tarde,2,1,centro historico,calle,choque,vehiculo,sin_dato,506,0.01999,0,ok,0.33301
+1340692,2025,0,15.0,tarde,2,3,bomba del amparo,calle,atropello,sin_dato,sin_dato,139,0.09927,0,ok,0.56602
+1340690,2025,0,11.0,manana,2,1,pie de la popa,calle,atropello,sin_dato,sin_dato,94,0.12446,1,FP,0.63563
+1340697,2025,0,18.0,noche,2,2,las palmeras,carrera,choque,vehiculo,sin_dato,139,0.08692,0,ok,0.40615
+1340693,2025,0,12.0,tarde,2,3,san pedro,calle,atropello,sin_dato,sin_dato,127,0.10534,0,ok,0.41002
+1340696,2025,0,22.0,noche,2,2,olaya herrera,carrera,atropello,sin_dato,sin_dato,139,0.22877,1,FP,0.82235
+1340655,2025,0,13.0,tarde,3,1,crespo,desconocido,choque,vehiculo,sin_dato,121,0.04298,0,ok,0.24444
+1340698,2025,0,17.0,tarde,4,1,san isidro,diagonal,choque,vehiculo,sin_dato,132,0.07594,0,ok,0.31737
+1340699,2025,0,11.0,manana,4,1,centro historico getsemani,calle,atropello,sin_dato,sin_dato,407,0.11791,1,FP,0.63339
+1340689,2025,0,9.0,manana,4,3,santa clara - corredor de carga,diagonal,atropello,sin_dato,sin_dato,112,0.09515,0,ok,0.60011
+1340680,2025,0,8.0,manana,4,1,amberes,calle,choque,vehiculo,sin_dato,142,0.064,0,ok,0.41646
+1340701,2025,0,12.0,tarde,5,3,avenida pedro de heredia,calle,choque,vehiculo,sin_dato,104,0.03087,0,ok,0.27151
+1340702,2025,0,20.0,noche,5,2,avenida crisanto luque,diagonal,choque,vehiculo,sin_dato,139,0.04093,0,ok,0.55925
+1340703,2025,0,22.0,noche,6,2,pozon,carrera,atropello,sin_dato,sin_dato,139,0.15688,1,FP,0.80469
+1340657,2025,0,7.0,manana,6,3,mamonal,carrera,choque,vehiculo,sin_dato,112,0.12884,1,FP,0.65316
+1340700,2025,0,20.0,noche,0,1,bosque,diagonal,choque,objeto fijo,muro,201,0.18986,1,FP,0.84529
+1340713,2025,0,21.0,noche,0,2,villa estrella,carrera,atropello,sin_dato,sin_dato,112,0.21416,1,FP,0.63402
+1340717,2025,0,16.0,tarde,0,1,bocagrande,calle,caida ocupante,sin_dato,sin_dato,139,0.13961,1,FP,0.34466
+1340718,2025,1,21.0,noche,1,3,mamonal,carrera,choque,vehiculo,sin_dato,139,0.17961,1,ok,0.72965
+1340656,2025,0,14.0,tarde,2,2,pozon,carrera,atropello,sin_dato,sin_dato,411,0.11402,1,FP,0.68704
+1340719,2025,0,8.0,manana,2,1,marbella,calle,choque,vehiculo,sin_dato,132,0.02088,0,ok,0.23695
+1340707,2025,0,16.0,tarde,2,1,nuevo bosque,diagonal,choque,vehiculo,sin_dato,132,0.06343,0,ok,0.42906
+1340639,2025,0,9.0,manana,2,1,bosque,diagonal,atropello,sin_dato,sin_dato,139,0.14026,1,FP,0.58125
+1340658,2025,0,8.0,manana,2,1,torices,calle,choque,vehiculo,sin_dato,139,0.02565,0,ok,0.03246
+1340662,2025,0,11.0,manana,3,1,la maria,calle,choque,vehiculo,sin_dato,157,0.0383,0,ok,0.26481
+1340743,2025,0,19.0,noche,4,3,san fernando,calle,choque,vehiculo,sin_dato,142,0.02646,0,ok,0.19894
+1340730,2025,1,7.0,manana,4,1,la campiaa,diagonal,choque,vehiculo,sin_dato,0,0.03492,0,FN,0.32009
+1340727,2025,0,2.0,madrugada,4,1,la quinta,calle,choque,vehiculo,sin_dato,121,0.1003,0,ok,0.12854
+1340741,2025,0,10.0,manana,4,2,via perimetral,desconocido,choque,vehiculo,sin_dato,104,0.05628,0,ok,0.18694
+1340731,2025,0,9.0,manana,4,1,crespo,calle,choque,vehiculo,sin_dato,112,0.03523,0,ok,0.27295
+1340732,2025,0,7.0,manana,4,2,mamonal,carrera,choque,vehiculo,sin_dato,121,0.0984,0,ok,0.70689
+1340539,2025,0,13.0,tarde,4,1,la matuna,calle,atropello,sin_dato,sin_dato,139,0.10931,1,FP,0.57778
+1340735,2025,0,14.0,tarde,4,1,pie de la popa,calle,atropello,sin_dato,sin_dato,127,0.11784,1,FP,0.60623
+1340709,2025,0,9.0,manana,6,3,san fernando,calle,choque,vehiculo,sin_dato,139,0.0582,0,ok,0.14502
+202509057,2025,1,4.0,madrugada,6,2,villa estrella,calle,choque,vehiculo,sin_dato,0,0.08314,0,FN,0.46655
+1340710,2025,0,17.0,tarde,6,3,san fernando,calle,choque,vehiculo,sin_dato,112,0.0363,0,ok,0.15603
+1340722,2025,0,22.0,noche,6,2,ruta 90a via bayunca,desconocido,choque,vehiculo,sin_dato,139,0.05861,0,ok,0.59022
+1340668,2025,0,16.0,tarde,6,2,via manzanillo del mar,desconocido,choque,vehiculo,sin_dato,114,0.04344,0,ok,0.30903
+1340749,2025,0,13.0,tarde,0,3,mamonal,calle,choque,vehiculo,sin_dato,139,0.05876,0,ok,0.49741
+1340737,2025,0,7.0,manana,0,1,bomba el amparo transversal 54,calle,choque,vehiculo,sin_dato,139,0.02824,0,ok,0.29375
+1340750,2025,0,18.0,noche,0,3,terminal de transporte,carrera,choque,vehiculo,sin_dato,104,0.10768,0,ok,0.51458
+1340748,2025,0,12.0,tarde,0,3,ternera,diagonal,choque,objeto fijo,vehiculo estacionado,116,0.18919,1,FP,0.65734
+1340746,2025,0,7.0,manana,0,2,alcibia,calle,atropello,sin_dato,sin_dato,139,0.14489,1,FP,0.58834
+1340714,2025,0,3.0,madrugada,0,2,pozon,avenida,choque,vehiculo,sin_dato,157,0.16881,1,FP,0.59986
+202509113,2025,1,19.0,noche,1,2,pozon,desconocido,caida ocupante,sin_dato,sin_dato,0,0.21377,1,ok,0.78201
+1340705,2025,0,21.0,noche,1,2,villa de la candelaria,transversal,choque,vehiculo,sin_dato,121,0.04566,0,ok,0.32166
+1339920,2025,0,8.0,manana,1,2,olaya herrera,carrera,choque,vehiculo,sin_dato,157,0.05686,0,ok,0.44467
+1340704,2025,0,21.0,noche,1,2,villa de aranjuez,carrera,choque,vehiculo,sin_dato,139,0.09569,0,ok,0.5906
+202509143,2025,1,19.0,noche,1,3,bicentenario,desconocido,choque,vehiculo,sin_dato,0,0.08267,0,FN,0.34702
+1340712,2025,0,16.0,tarde,2,2,villa estrella transversal 54,carrera,choque,vehiculo,sin_dato,139,0.04677,0,ok,0.49667
+1340755,2025,0,7.0,manana,2,1,torices,calle,choque,vehiculo,sin_dato,112,0.01694,0,ok,0.03339
+1340764,2025,0,15.0,tarde,2,3,mamonal,carrera,choque,vehiculo,sin_dato,139,0.21229,1,FP,0.60217
+1340728,2025,0,16.0,tarde,2,1,bosque,diagonal,atropello,sin_dato,sin_dato,139,0.1278,1,FP,0.58243
+1340763,2025,0,21.0,noche,3,1,centro historico,carrera,choque,objeto fijo,vehiculo estacionado,139,0.17895,1,FP,0.93296
+1340760,2025,0,19.0,noche,3,1,bosque,diagonal,atropello,sin_dato,sin_dato,139,0.17707,1,FP,0.70059
+1340762,2025,0,22.0,noche,3,1,alcibia,calle,choque,vehiculo,sin_dato,139,0.06312,0,ok,0.39838
+1340715,2025,0,1.0,madrugada,3,3,san jose de los campanos,calle,choque,vehiculo,sin_dato,112,0.07689,0,ok,0.40503
+1340758,2025,0,15.0,tarde,3,2,mamonal,diagonal,volcamiento,sin_dato,sin_dato,139,0.17258,1,FP,0.78769
+1340757,2025,1,10.0,manana,3,1,espinal,calle,choque,objeto fijo,otro,114,0.25347,1,ok,0.34366
+1340725,2025,0,0.0,madrugada,3,1,centro historico,calle,atropello,sin_dato,sin_dato,113,0.29584,1,FP,0.79601
+1340756,2025,0,4.0,madrugada,3,2,la boquilla carrera 9#46-25,carrera,choque,objeto fijo,sin_dato,139,0.20879,1,FP,0.89275
+1340616,2025,1,16.0,tarde,4,2,las palmeras,desconocido,atropello,sin_dato,sin_dato,0,0.06795,0,FN,0.56222
+1340769,2025,0,19.0,noche,4,1,escallon villa carrera 54 con calle 30,calle,atropello,sin_dato,sin_dato,112,0.1272,1,FP,0.69442
+1340708,2025,0,5.0,madrugada,4,2,villa olimpica,calle,choque,vehiculo,sin_dato,114,0.06989,0,ok,0.7048
+1340768,2025,0,4.0,madrugada,4,1,bosque,diagonal,choque,objeto fijo,bordillo vial,114,0.33559,1,FP,0.90737
+1340724,2025,0,18.0,noche,5,1,bocagrande,calle,atropello,sin_dato,sin_dato,139,0.10254,0,ok,0.38686
+1340726,2025,0,19.0,noche,5,3,olaya herrera,desconocido,atropello,sin_dato,sin_dato,139,0.09374,0,ok,0.67732
+1340781,2025,0,6.0,manana,6,3,el recreo,carrera,choque,vehiculo,sin_dato,102,0.0606,0,ok,0.32685
+1340782,2025,0,12.0,tarde,6,1,manga,calle,choque,vehiculo,sin_dato,123,0.02756,0,ok,0.16423
+1340776,2025,0,2.0,madrugada,6,2,cuatro vientos,calle,choque,vehiculo,sin_dato,114,0.0881,0,ok,0.52915
+1340783,2025,0,18.0,noche,6,3,san isidro,diagonal,atropello,sin_dato,sin_dato,112,0.12042,1,FP,0.6304
+1340787,2025,0,19.0,noche,0,3,mamonal,avenida,choque,vehiculo,sin_dato,104,0.1615,1,FP,0.57877
+1340350,2025,0,20.0,noche,0,1,crespo,calle,choque,vehiculo,sin_dato,121,0.27432,1,FP,0.38616
+1340774,2025,0,9.0,manana,1,1,el prado,calle,choque,vehiculo,sin_dato,139,0.04823,0,ok,0.28236
+1340770,2025,0,22.0,noche,1,2,los alpes transversal 54#54-34,transversal,choque,vehiculo,sin_dato,139,0.05913,0,ok,0.36774
+1340791,2025,0,10.0,manana,1,2,olaya herrera,calle,atropello,sin_dato,sin_dato,139,0.13719,1,FP,0.69364
+1340591,2025,0,14.0,tarde,1,1,daniel lemaitre,calle,atropello,sin_dato,sin_dato,157,0.11822,1,FP,0.24238
+1340527,2025,1,19.0,noche,1,1,bazurto,calle,atropello,sin_dato,sin_dato,139,0.28604,1,ok,0.72745
+1340792,2025,0,0.0,madrugada,2,1,bosque,diagonal,choque,vehiculo,sin_dato,139,0.11226,1,FP,0.55053
+1340780,2025,1,3.0,madrugada,2,3,ternera,diagonal,choque,objeto fijo,bordillo vial,114,0.25531,1,ok,0.78095
