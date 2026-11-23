@@ -201,6 +201,49 @@ class TestResponsable(unittest.TestCase):
         self.assertEqual(list(solo_elegibles({"g": sub})["g"]), ["a"])
 
 
+class TestApp(unittest.TestCase):
+    def test_formulario_deriva_igual_que_preprocess(self):
+        import datetime as dt
+        from src.app_utils import fila_desde_formulario
+        raw = make_synthetic(n=300, seed=5).rename(columns={"BARRIO": "barrio"})
+        df, _ = clean(raw)
+        for r in df.sample(25, random_state=0).itertuples():
+            f = fila_desde_formulario(r.fecha_dt if isinstance(r.fecha_dt, dt.date) else pd.Timestamp(r.fecha_dt).date(),
+                                      int(r.hora), r.barrio, r.localidad, r.tipo_via, r.clase_accidente, r.choque_con,
+                                      r.objeto_fijo, r.lat, r.lon).iloc[0]
+            for c in ("mes", "dia_semana", "es_finde", "es_noche", "franja"):
+                self.assertEqual(f[c], getattr(r, c), c)
+        with self.assertRaises(ValueError):
+            fila_desde_formulario(dt.date(2025, 1, 1), 24, "x", "1", "calle", "choque", "vehiculo", "sin_dato")
+
+    def test_app_streamlit_corre_y_alerta(self):
+        import os
+        from streamlit.testing.v1 import AppTest
+        with tempfile.TemporaryDirectory() as d:
+            d = Path(d)
+            make_synthetic(n=3000).to_csv(d / "raw.csv", index=False)
+            run = lambda *a: subprocess.run([sys.executable, "-m", *a], cwd=ROOT, capture_output=True, text=True)
+            self.assertEqual(run("src.preprocess", "--input", str(d / "raw.csv"), "--output", str(d / "c.csv"),
+                                 "--summary", str(d / "s.json")).returncode, 0)
+            self.assertEqual(run("src.baseline", "--processed", str(d / "c.csv"), "--outdir", str(d)).returncode, 0)
+            self.assertEqual(run("src.train", "--rapido", "--processed", str(d / "c.csv"), "--outdir", str(d)).returncode, 0)
+            p = run("src.export_model", "--processed", str(d / "c.csv"), "--outdir", str(d), "--salida", str(d / "m.joblib"))
+            self.assertEqual(p.returncode, 0, p.stderr)
+            os.environ["MODELO_PATH"] = str(d / "m.joblib")
+            try:
+                at = AppTest.from_file(str(ROOT / "app" / "app.py"), default_timeout=60).run()
+                self.assertFalse(at.exception)
+                at.button[0].click().run()                       # "Estimar"
+                self.assertFalse(at.exception)
+                self.assertEqual(len(at.metric), 1)
+                at.slider(key="umbral").set_value(0.02).run()    # umbral mínimo -> alerta
+                self.assertTrue(any("ALERTA" in e.value for e in at.error))
+                at.slider(key="umbral").set_value(0.60).run()    # umbral alto -> normalmente sin alerta
+                self.assertFalse(at.exception)
+            finally:
+                os.environ.pop("MODELO_PATH", None)
+
+
 class TestEndToEnd(unittest.TestCase):
     def test_train_rapido_no_toca_la_prueba(self):
         with tempfile.TemporaryDirectory() as d:

@@ -28,6 +28,8 @@ VIA_VACIO = {"", "0"}
 # choque_con / objeto_fijo: la forma de decir "sin dato" cambia según el año ("0" en 2020-22, vacío en 2023-24,
 # "No" en 2025; "Choque con" son 8 celdas con el nombre de la columna). Se unifican para que la codificación
 # no delate el año del registro.
+FRANJA_BINS = [-1, 5, 11, 17, 23]                       # 0-5 madrugada, 6-11 mañana, 12-17 tarde, 18-23 noche
+FRANJA_LABELS = ["madrugada", "manana", "tarde", "noche"]
 SIN_DATO = "sin_dato"
 SIN_DATO_TOKENS = {"", "0", "no", "desconocido", "choque con"}
 COLS_SIN_DATO = ["choque_con", "objeto_fijo"]
@@ -169,7 +171,7 @@ def clean(raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     df["hora"] = df["hora"].map(parse_hour) if "hora" in df.columns else np.nan
     log["hora_sin_interpretar"] = int(df["hora"].isna().sum())
     df["es_noche"] = np.where(df["hora"].isna(), np.nan, ((df["hora"] >= 18) | (df["hora"] < 6)).astype(float))
-    df["franja"] = pd.cut(df["hora"], bins=[-1, 5, 11, 17, 23], labels=["madrugada", "manana", "tarde", "noche"]).astype(object)
+    df["franja"] = pd.cut(df["hora"], bins=FRANJA_BINS, labels=FRANJA_LABELS).astype(object)
 
     # 4. Coordenadas (comas decimales, signo perdido, fuera de Cartagena)
     lat = to_float(df["latitud"]) if "latitud" in df.columns else pd.Series(np.nan, index=df.index)
