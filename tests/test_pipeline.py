@@ -188,6 +188,19 @@ class TestErrores(unittest.TestCase):
         self.assertEqual(categorizar(dia, "FP")[0], "FP4")
 
 
+class TestResponsable(unittest.TestCase):
+    def test_subgrupos_no_elegibles_no_se_evaluan(self):
+        from src.responsible import por_subgrupo, solo_elegibles
+        rng = np.random.default_rng(2)
+        df = pd.DataFrame({"g": ["a"] * 400 + ["b"] * 25, "fatal": np.r_[(rng.random(400) < 0.1).astype(int), np.ones(25, int)],
+                           "p": rng.random(425)})
+        sub = por_subgrupo(df, "p", 0.5, "g", n_boot=50)
+        self.assertTrue(sub["a"]["elegible"])
+        self.assertFalse(sub["b"]["elegible"])           # n < 30
+        self.assertNotIn("recall", sub["b"])
+        self.assertEqual(list(solo_elegibles({"g": sub})["g"]), ["a"])
+
+
 class TestEndToEnd(unittest.TestCase):
     def test_train_rapido_no_toca_la_prueba(self):
         with tempfile.TemporaryDirectory() as d:

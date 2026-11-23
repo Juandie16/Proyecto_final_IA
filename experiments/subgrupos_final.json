@@ -1,0 +1,464 @@
+{
+  "fecha_ejecucion_utc": "2026-11-23T04:12:52+00:00",
+  "semilla": 42,
+  "evaluado_en": "prueba 2025 (predicciones de la evaluación única; aquí no se reentrena ni se elige nada)",
+  "criterio_elegibilidad": {
+    "n_min": 30,
+    "fatales_min": 10
+  },
+  "localidad_nombres_CONFIRMAR": {
+    "1": "Histórica y del Caribe Norte",
+    "2": "De la Virgen y Turística",
+    "3": "Industrial y de la Bahía"
+  },
+  "modelo": {
+    "nombre": "random_forest",
+    "umbral": 0.10850807838110652,
+    "global": {
+      "n": 1390,
+      "n_fatal": 115,
+      "prevalencia": 0.0827,
+      "umbral": 0.108508,
+      "pr_auc": 0.2226,
+      "roc_auc": 0.7124,
+      "precision": 0.1574,
+      "recall": 0.4696,
+      "f1_fatal": 0.2358,
+      "f1_macro": 0.5425,
+      "tasa_alerta": 0.2468,
+      "matriz_confusion": {
+        "tn": 986,
+        "fp": 289,
+        "fn": 61,
+        "tp": 54
+      }
+    },
+    "subgrupos": {
+      "franja": {
+        "madrugada": {
+          "n": 208,
+          "n_fatal": 36,
+          "elegible": true,
+          "prevalencia": 0.1731,
+          "recall": 0.5833,
+          "precision": 0.2333,
+          "tasa_alerta": 0.4327,
+          "tasa_falsas_alarmas": 0.4012,
+          "proba_media": 0.1209,
+          "ic95": {
+            "recall": [
+              0.423,
+              0.7334
+            ],
+            "precision": [
+              0.1477,
+              0.3215
+            ]
+          }
+        },
+        "manana": {
+          "n": 383,
+          "n_fatal": 23,
+          "elegible": true,
+          "prevalencia": 0.0601,
+          "recall": 0.3913,
+          "precision": 0.1765,
+          "tasa_alerta": 0.1332,
+          "tasa_falsas_alarmas": 0.1167,
+          "proba_media": 0.0599,
+          "ic95": {
+            "recall": [
+              0.1923,
+              0.6087
+            ],
+            "precision": [
+              0.08,
+              0.2831
+            ]
+          }
+        },
+        "noche": {
+          "n": 388,
+          "n_fatal": 39,
+          "elegible": true,
+          "prevalencia": 0.1005,
+          "recall": 0.5641,
+          "precision": 0.1528,
+          "tasa_alerta": 0.3711,
+          "tasa_falsas_alarmas": 0.3496,
+          "proba_media": 0.0987,
+          "ic95": {
+            "recall": [
+              0.4117,
+              0.7317
+            ],
+            "precision": [
+              0.0956,
+              0.2174
+            ]
+          }
+        },
+        "tarde": {
+          "n": 411,
+          "n_fatal": 17,
+          "elegible": true,
+          "prevalencia": 0.0414,
+          "recall": 0.1176,
+          "precision": 0.0345,
+          "tasa_alerta": 0.1411,
+          "tasa_falsas_alarmas": 0.1421,
+          "proba_media": 0.0619,
+          "ic95": {
+            "recall": [
+              0.0,
+              0.3077
+            ],
+            "precision": [
+              0.0,
+              0.0862
+            ]
+          }
+        }
+      },
+      "localidad": {
+        "1": {
+          "n": 604,
+          "n_fatal": 43,
+          "elegible": true,
+          "prevalencia": 0.0712,
+          "recall": 0.6047,
+          "precision": 0.1831,
+          "tasa_alerta": 0.2351,
+          "tasa_falsas_alarmas": 0.2068,
+          "proba_media": 0.0755,
+          "ic95": {
+            "recall": [
+              0.4467,
+              0.7561
+            ],
+            "precision": [
+              0.1167,
+              0.25
+            ]
+          }
+        },
+        "2": {
+          "n": 366,
+          "n_fatal": 37,
+          "elegible": true,
+          "prevalencia": 0.1011,
+          "recall": 0.3514,
+          "precision": 0.1287,
+          "tasa_alerta": 0.276,
+          "tasa_falsas_alarmas": 0.2675,
+          "proba_media": 0.0874,
+          "ic95": {
+            "recall": [
+              0.2,
+              0.5122
+            ],
+            "precision": [
+              0.0645,
+              0.1978
+            ]
+          }
+        },
+        "3": {
+          "n": 420,
+          "n_fatal": 35,
+          "elegible": true,
+          "prevalencia": 0.0833,
+          "recall": 0.4286,
+          "precision": 0.15,
+          "tasa_alerta": 0.2381,
+          "tasa_falsas_alarmas": 0.2208,
+          "proba_media": 0.0815,
+          "ic95": {
+            "recall": [
+              0.2749,
+              0.5833
+            ],
+            "precision": [
+              0.0857,
+              0.22
+            ]
+          }
+        }
+      }
+    },
+    "criterio_4": {
+      "recall_global": 0.4696,
+      "tolerancia": 0.15,
+      "brecha_por_subgrupo": {
+        "franja=madrugada": -0.1137,
+        "franja=manana": 0.0783,
+        "franja=noche": -0.0945,
+        "franja=tarde": 0.352,
+        "localidad=1": -0.1351,
+        "localidad=2": 0.1182,
+        "localidad=3": 0.041
+      },
+      "subgrupos_que_fallan": {
+        "franja=tarde": 0.352
+      },
+      "cumple": false
+    }
+  },
+  "linea_base_umbral_validacion": {
+    "umbral": 0.552242,
+    "global": {
+      "n": 1390,
+      "n_fatal": 115,
+      "prevalencia": 0.0827,
+      "umbral": 0.552242,
+      "pr_auc": 0.154,
+      "roc_auc": 0.6894,
+      "precision": 0.1522,
+      "recall": 0.5043,
+      "f1_fatal": 0.2339,
+      "f1_macro": 0.5337,
+      "tasa_alerta": 0.2741,
+      "matriz_confusion": {
+        "tn": 952,
+        "fp": 323,
+        "fn": 57,
+        "tp": 58
+      }
+    },
+    "subgrupos": {
+      "franja": {
+        "madrugada": {
+          "n": 208,
+          "n_fatal": 36,
+          "elegible": true,
+          "prevalencia": 0.1731,
+          "recall": 0.6111,
+          "precision": 0.1818,
+          "tasa_alerta": 0.5817,
+          "tasa_falsas_alarmas": 0.5756,
+          "proba_media": 0.5863,
+          "ic95": {
+            "recall": [
+              0.4545,
+              0.7632
+            ],
+            "precision": [
+              0.1138,
+              0.25
+            ]
+          }
+        },
+        "manana": {
+          "n": 383,
+          "n_fatal": 23,
+          "elegible": true,
+          "prevalencia": 0.0601,
+          "recall": 0.3913,
+          "precision": 0.1452,
+          "tasa_alerta": 0.1619,
+          "tasa_falsas_alarmas": 0.1472,
+          "proba_media": 0.3365,
+          "ic95": {
+            "recall": [
+              0.1904,
+              0.6
+            ],
+            "precision": [
+              0.0652,
+              0.2395
+            ]
+          }
+        },
+        "noche": {
+          "n": 388,
+          "n_fatal": 39,
+          "elegible": true,
+          "prevalencia": 0.1005,
+          "recall": 0.5385,
+          "precision": 0.1579,
+          "tasa_alerta": 0.3428,
+          "tasa_falsas_alarmas": 0.3209,
+          "proba_media": 0.4766,
+          "ic95": {
+            "recall": [
+              0.3793,
+              0.6957
+            ],
+            "precision": [
+              0.1007,
+              0.2286
+            ]
+          }
+        },
+        "tarde": {
+          "n": 411,
+          "n_fatal": 17,
+          "elegible": true,
+          "prevalencia": 0.0414,
+          "recall": 0.3529,
+          "precision": 0.0923,
+          "tasa_alerta": 0.1582,
+          "tasa_falsas_alarmas": 0.1497,
+          "proba_media": 0.3444,
+          "ic95": {
+            "recall": [
+              0.1429,
+              0.6002
+            ],
+            "precision": [
+              0.0322,
+              0.1667
+            ]
+          }
+        }
+      },
+      "localidad": {
+        "1": {
+          "n": 604,
+          "n_fatal": 43,
+          "elegible": true,
+          "prevalencia": 0.0712,
+          "recall": 0.5814,
+          "precision": 0.1866,
+          "tasa_alerta": 0.2219,
+          "tasa_falsas_alarmas": 0.1943,
+          "proba_media": 0.3793,
+          "ic95": {
+            "recall": [
+              0.4255,
+              0.75
+            ],
+            "precision": [
+              0.1176,
+              0.2552
+            ]
+          }
+        },
+        "2": {
+          "n": 366,
+          "n_fatal": 37,
+          "elegible": true,
+          "prevalencia": 0.1011,
+          "recall": 0.4865,
+          "precision": 0.1333,
+          "tasa_alerta": 0.3689,
+          "tasa_falsas_alarmas": 0.3556,
+          "proba_media": 0.4826,
+          "ic95": {
+            "recall": [
+              0.3331,
+              0.6522
+            ],
+            "precision": [
+              0.0781,
+              0.1917
+            ]
+          }
+        },
+        "3": {
+          "n": 420,
+          "n_fatal": 35,
+          "elegible": true,
+          "prevalencia": 0.0833,
+          "recall": 0.4286,
+          "precision": 0.1339,
+          "tasa_alerta": 0.2667,
+          "tasa_falsas_alarmas": 0.2519,
+          "proba_media": 0.4085,
+          "ic95": {
+            "recall": [
+              0.2608,
+              0.6
+            ],
+            "precision": [
+              0.0702,
+              0.1967
+            ]
+          }
+        }
+      }
+    },
+    "criterio_4": {
+      "recall_global": 0.5043,
+      "tolerancia": 0.15,
+      "brecha_por_subgrupo": {
+        "franja=madrugada": -0.1068,
+        "franja=manana": 0.113,
+        "franja=noche": -0.0342,
+        "franja=tarde": 0.1514,
+        "localidad=1": -0.0771,
+        "localidad=2": 0.0178,
+        "localidad=3": 0.0757
+      },
+      "subgrupos_que_fallan": {
+        "franja=tarde": 0.1514
+      },
+      "cumple": false
+    }
+  },
+  "barrios_n30_tasa_alerta_vs_real": [
+    {
+      "barrio": "mamonal",
+      "n": 61,
+      "fatales": 7,
+      "tasa_real": 0.1148,
+      "tasa_alerta": 0.4754,
+      "proba_media": 0.1206,
+      "alerta_sobre_global": 1.9263
+    },
+    {
+      "barrio": "bosque",
+      "n": 60,
+      "fatales": 3,
+      "tasa_real": 0.05,
+      "tasa_alerta": 0.3167,
+      "proba_media": 0.0863,
+      "alerta_sobre_global": 1.2831
+    },
+    {
+      "barrio": "el pozon",
+      "n": 44,
+      "fatales": 5,
+      "tasa_real": 0.1136,
+      "tasa_alerta": 0.2955,
+      "proba_media": 0.1017,
+      "alerta_sobre_global": 1.1971
+    },
+    {
+      "barrio": "olaya",
+      "n": 53,
+      "fatales": 5,
+      "tasa_real": 0.0943,
+      "tasa_alerta": 0.1698,
+      "proba_media": 0.0726,
+      "alerta_sobre_global": 0.6881
+    },
+    {
+      "barrio": "centro",
+      "n": 42,
+      "fatales": 0,
+      "tasa_real": 0.0,
+      "tasa_alerta": 0.1429,
+      "proba_media": 0.0589,
+      "alerta_sobre_global": 0.5788
+    },
+    {
+      "barrio": "san fernando",
+      "n": 35,
+      "fatales": 2,
+      "tasa_real": 0.0571,
+      "tasa_alerta": 0.1429,
+      "proba_media": 0.0527,
+      "alerta_sobre_global": 0.5788
+    },
+    {
+      "barrio": "bocagrande",
+      "n": 39,
+      "fatales": 0,
+      "tasa_real": 0.0,
+      "tasa_alerta": 0.1026,
+      "proba_media": 0.0462,
+      "alerta_sobre_global": 0.4156
+    }
+  ]
+}
