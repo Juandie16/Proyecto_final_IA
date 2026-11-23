@@ -139,6 +139,18 @@ class TestCodificacionesDelDATT(unittest.TestCase):
             self.assertFalse(self.df[col].isin(["0", "no", "desconocido", "choque con"]).any(), col)
 
 
+class TestExploracion(unittest.TestCase):
+    def test_wilson_y_resumen_sin_prueba(self):
+        from src.explore import resumen, wilson
+        lo, hi = wilson(10, 100)
+        self.assertTrue(0 < lo < 0.10 < hi < 0.2)
+        self.assertEqual(wilson(0, 50)[0], 0.0)
+        df, _ = clean(make_synthetic(n=1500, seed=3).rename(columns={"BARRIO": "barrio"}))
+        res = resumen(df, {})
+        # las tasas descriptivas NO usan la prueba (2025)
+        self.assertEqual(res["n_periodo_tasas"], int(df["split"].isin(["train", "val"]).sum()))
+
+
 class TestEndToEnd(unittest.TestCase):
     def test_baseline_corre_y_supera_al_mayoritario_en_auc(self):
         with tempfile.TemporaryDirectory() as d:

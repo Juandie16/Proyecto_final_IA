@@ -1,0 +1,723 @@
+{
+  "fecha_ejecucion_utc": "2026-11-23T03:53:27+00:00",
+  "semilla": 42,
+  "periodo_tasas": "2020-2024 (entrenamiento + validación); 2025 excluido salvo conteos",
+  "n_periodo_tasas": 6103,
+  "fatales_periodo_tasas": 454,
+  "tasa_global_periodo": 0.0744,
+  "tablas": {
+    "anio": [
+      {
+        "anio": 2020,
+        "n": 978,
+        "fatales": 58,
+        "tasa": 0.0593,
+        "ic95_bajo": 0.0462,
+        "ic95_alto": 0.0759
+      },
+      {
+        "anio": 2021,
+        "n": 1317,
+        "fatales": 77,
+        "tasa": 0.0585,
+        "ic95_bajo": 0.047,
+        "ic95_alto": 0.0725
+      },
+      {
+        "anio": 2022,
+        "n": 1301,
+        "fatales": 103,
+        "tasa": 0.0792,
+        "ic95_bajo": 0.0657,
+        "ic95_alto": 0.0951
+      },
+      {
+        "anio": 2023,
+        "n": 1254,
+        "fatales": 103,
+        "tasa": 0.0821,
+        "ic95_bajo": 0.0682,
+        "ic95_alto": 0.0986
+      },
+      {
+        "anio": 2024,
+        "n": 1253,
+        "fatales": 113,
+        "tasa": 0.0902,
+        "ic95_bajo": 0.0756,
+        "ic95_alto": 0.1073
+      },
+      {
+        "anio": 2025,
+        "n": 1390,
+        "fatales": 115,
+        "tasa": 0.0827,
+        "ic95_bajo": 0.0694,
+        "ic95_alto": 0.0984
+      }
+    ],
+    "franja": [
+      {
+        "franja": "madrugada",
+        "n": 780,
+        "fatales": 105,
+        "tasa": 0.1346,
+        "ic95_bajo": 0.1124,
+        "ic95_alto": 0.1604
+      },
+      {
+        "franja": "manana",
+        "n": 1813,
+        "fatales": 96,
+        "tasa": 0.053,
+        "ic95_bajo": 0.0436,
+        "ic95_alto": 0.0642
+      },
+      {
+        "franja": "tarde",
+        "n": 1888,
+        "fatales": 109,
+        "tasa": 0.0577,
+        "ic95_bajo": 0.0481,
+        "ic95_alto": 0.0692
+      },
+      {
+        "franja": "noche",
+        "n": 1622,
+        "fatales": 144,
+        "tasa": 0.0888,
+        "ic95_bajo": 0.0759,
+        "ic95_alto": 0.1036
+      }
+    ],
+    "hora": [
+      {
+        "hora": "0.0",
+        "n": 122,
+        "fatales": 15,
+        "tasa": 0.123,
+        "ic95_bajo": 0.0759,
+        "ic95_alto": 0.193
+      },
+      {
+        "hora": "1.0",
+        "n": 139,
+        "fatales": 26,
+        "tasa": 0.1871,
+        "ic95_bajo": 0.131,
+        "ic95_alto": 0.26
+      },
+      {
+        "hora": "2.0",
+        "n": 119,
+        "fatales": 17,
+        "tasa": 0.1429,
+        "ic95_bajo": 0.0911,
+        "ic95_alto": 0.2169
+      },
+      {
+        "hora": "3.0",
+        "n": 119,
+        "fatales": 17,
+        "tasa": 0.1429,
+        "ic95_bajo": 0.0911,
+        "ic95_alto": 0.2169
+      },
+      {
+        "hora": "4.0",
+        "n": 92,
+        "fatales": 12,
+        "tasa": 0.1304,
+        "ic95_bajo": 0.0762,
+        "ic95_alto": 0.2143
+      },
+      {
+        "hora": "5.0",
+        "n": 189,
+        "fatales": 18,
+        "tasa": 0.0952,
+        "ic95_bajo": 0.0611,
+        "ic95_alto": 0.1455
+      },
+      {
+        "hora": "6.0",
+        "n": 244,
+        "fatales": 14,
+        "tasa": 0.0574,
+        "ic95_bajo": 0.0345,
+        "ic95_alto": 0.094
+      },
+      {
+        "hora": "7.0",
+        "n": 357,
+        "fatales": 13,
+        "tasa": 0.0364,
+        "ic95_bajo": 0.0214,
+        "ic95_alto": 0.0613
+      },
+      {
+        "hora": "8.0",
+        "n": 330,
+        "fatales": 15,
+        "tasa": 0.0455,
+        "ic95_bajo": 0.0277,
+        "ic95_alto": 0.0736
+      },
+      {
+        "hora": "9.0",
+        "n": 303,
+        "fatales": 15,
+        "tasa": 0.0495,
+        "ic95_bajo": 0.0302,
+        "ic95_alto": 0.0801
+      },
+      {
+        "hora": "10.0",
+        "n": 295,
+        "fatales": 21,
+        "tasa": 0.0712,
+        "ic95_bajo": 0.047,
+        "ic95_alto": 0.1064
+      },
+      {
+        "hora": "11.0",
+        "n": 284,
+        "fatales": 18,
+        "tasa": 0.0634,
+        "ic95_bajo": 0.0405,
+        "ic95_alto": 0.098
+      },
+      {
+        "hora": "12.0",
+        "n": 301,
+        "fatales": 16,
+        "tasa": 0.0532,
+        "ic95_bajo": 0.033,
+        "ic95_alto": 0.0846
+      },
+      {
+        "hora": "13.0",
+        "n": 289,
+        "fatales": 19,
+        "tasa": 0.0657,
+        "ic95_bajo": 0.0425,
+        "ic95_alto": 0.1004
+      },
+      {
+        "hora": "14.0",
+        "n": 323,
+        "fatales": 16,
+        "tasa": 0.0495,
+        "ic95_bajo": 0.0307,
+        "ic95_alto": 0.0789
+      },
+      {
+        "hora": "15.0",
+        "n": 301,
+        "fatales": 18,
+        "tasa": 0.0598,
+        "ic95_bajo": 0.0382,
+        "ic95_alto": 0.0925
+      },
+      {
+        "hora": "16.0",
+        "n": 319,
+        "fatales": 20,
+        "tasa": 0.0627,
+        "ic95_bajo": 0.0409,
+        "ic95_alto": 0.0949
+      },
+      {
+        "hora": "17.0",
+        "n": 355,
+        "fatales": 20,
+        "tasa": 0.0563,
+        "ic95_bajo": 0.0368,
+        "ic95_alto": 0.0854
+      },
+      {
+        "hora": "18.0",
+        "n": 306,
+        "fatales": 25,
+        "tasa": 0.0817,
+        "ic95_bajo": 0.0559,
+        "ic95_alto": 0.1178
+      },
+      {
+        "hora": "19.0",
+        "n": 310,
+        "fatales": 19,
+        "tasa": 0.0613,
+        "ic95_bajo": 0.0396,
+        "ic95_alto": 0.0937
+      },
+      {
+        "hora": "20.0",
+        "n": 291,
+        "fatales": 19,
+        "tasa": 0.0653,
+        "ic95_bajo": 0.0422,
+        "ic95_alto": 0.0997
+      },
+      {
+        "hora": "21.0",
+        "n": 299,
+        "fatales": 24,
+        "tasa": 0.0803,
+        "ic95_bajo": 0.0545,
+        "ic95_alto": 0.1167
+      },
+      {
+        "hora": "22.0",
+        "n": 230,
+        "fatales": 29,
+        "tasa": 0.1261,
+        "ic95_bajo": 0.0892,
+        "ic95_alto": 0.1752
+      },
+      {
+        "hora": "23.0",
+        "n": 186,
+        "fatales": 28,
+        "tasa": 0.1505,
+        "ic95_bajo": 0.1063,
+        "ic95_alto": 0.209
+      }
+    ],
+    "dia_semana": [
+      {
+        "dia_nombre": "lunes",
+        "n": 967,
+        "fatales": 72,
+        "tasa": 0.0745,
+        "ic95_bajo": 0.0595,
+        "ic95_alto": 0.0927
+      },
+      {
+        "dia_nombre": "martes",
+        "n": 867,
+        "fatales": 65,
+        "tasa": 0.075,
+        "ic95_bajo": 0.0593,
+        "ic95_alto": 0.0944
+      },
+      {
+        "dia_nombre": "miercoles",
+        "n": 789,
+        "fatales": 60,
+        "tasa": 0.076,
+        "ic95_bajo": 0.0595,
+        "ic95_alto": 0.0967
+      },
+      {
+        "dia_nombre": "jueves",
+        "n": 790,
+        "fatales": 61,
+        "tasa": 0.0772,
+        "ic95_bajo": 0.0606,
+        "ic95_alto": 0.0979
+      },
+      {
+        "dia_nombre": "viernes",
+        "n": 741,
+        "fatales": 46,
+        "tasa": 0.0621,
+        "ic95_bajo": 0.0469,
+        "ic95_alto": 0.0818
+      },
+      {
+        "dia_nombre": "sabado",
+        "n": 910,
+        "fatales": 58,
+        "tasa": 0.0637,
+        "ic95_bajo": 0.0496,
+        "ic95_alto": 0.0815
+      },
+      {
+        "dia_nombre": "domingo",
+        "n": 1039,
+        "fatales": 92,
+        "tasa": 0.0885,
+        "ic95_bajo": 0.0728,
+        "ic95_alto": 0.1074
+      }
+    ],
+    "clase_accidente": [
+      {
+        "clase_accidente": "choque",
+        "n": 4604,
+        "fatales": 266,
+        "tasa": 0.0578,
+        "ic95_bajo": 0.0514,
+        "ic95_alto": 0.0649
+      },
+      {
+        "clase_accidente": "atropello",
+        "n": 1240,
+        "fatales": 148,
+        "tasa": 0.1194,
+        "ic95_bajo": 0.1025,
+        "ic95_alto": 0.1386
+      },
+      {
+        "clase_accidente": "caida ocupante",
+        "n": 142,
+        "fatales": 23,
+        "tasa": 0.162,
+        "ic95_bajo": 0.1104,
+        "ic95_alto": 0.2313
+      },
+      {
+        "clase_accidente": "volcamiento",
+        "n": 80,
+        "fatales": 8,
+        "tasa": 0.1,
+        "ic95_bajo": 0.0515,
+        "ic95_alto": 0.1851
+      },
+      {
+        "clase_accidente": "otro",
+        "n": 37,
+        "fatales": 9,
+        "tasa": 0.2432,
+        "ic95_bajo": 0.1336,
+        "ic95_alto": 0.4012
+      }
+    ],
+    "choque_con": [
+      {
+        "choque_con": "vehiculo",
+        "n": 4474,
+        "fatales": 236,
+        "tasa": 0.0527,
+        "ic95_bajo": 0.0466,
+        "ic95_alto": 0.0597
+      },
+      {
+        "choque_con": "sin_dato",
+        "n": 1500,
+        "fatales": 187,
+        "tasa": 0.1247,
+        "ic95_bajo": 0.1089,
+        "ic95_alto": 0.1423
+      },
+      {
+        "choque_con": "objeto fijo",
+        "n": 125,
+        "fatales": 30,
+        "tasa": 0.24,
+        "ic95_bajo": 0.1736,
+        "ic95_alto": 0.3219
+      },
+      {
+        "choque_con": "semoviente",
+        "n": 4,
+        "fatales": 1,
+        "tasa": 0.25,
+        "ic95_bajo": 0.0456,
+        "ic95_alto": 0.6994
+      }
+    ],
+    "objeto_fijo": [
+      {
+        "objeto_fijo": "sin_dato",
+        "n": 5752,
+        "fatales": 408,
+        "tasa": 0.0709,
+        "ic95_bajo": 0.0646,
+        "ic95_alto": 0.0779
+      },
+      {
+        "objeto_fijo": "objeto fijo",
+        "n": 222,
+        "fatales": 16,
+        "tasa": 0.0721,
+        "ic95_bajo": 0.0448,
+        "ic95_alto": 0.1139
+      },
+      {
+        "objeto_fijo": "muro",
+        "n": 48,
+        "fatales": 14,
+        "tasa": 0.2917,
+        "ic95_bajo": 0.1824,
+        "ic95_alto": 0.4318
+      },
+      {
+        "objeto_fijo": "otro",
+        "n": 29,
+        "fatales": 3,
+        "tasa": 0.1034,
+        "ic95_bajo": 0.0358,
+        "ic95_alto": 0.2639
+      },
+      {
+        "objeto_fijo": "vehiculo estacionado",
+        "n": 25,
+        "fatales": 7,
+        "tasa": 0.28,
+        "ic95_bajo": 0.1428,
+        "ic95_alto": 0.4758
+      },
+      {
+        "objeto_fijo": "poste",
+        "n": 11,
+        "fatales": 3,
+        "tasa": 0.2727,
+        "ic95_bajo": 0.0975,
+        "ic95_alto": 0.5657
+      },
+      {
+        "objeto_fijo": "inmueble",
+        "n": 7,
+        "fatales": 0,
+        "tasa": 0.0,
+        "ic95_bajo": 0.0,
+        "ic95_alto": 0.3543
+      },
+      {
+        "objeto_fijo": "arbol",
+        "n": 4,
+        "fatales": 1,
+        "tasa": 0.25,
+        "ic95_bajo": 0.0456,
+        "ic95_alto": 0.6994
+      },
+      {
+        "objeto_fijo": "hidrante",
+        "n": 2,
+        "fatales": 0,
+        "tasa": 0.0,
+        "ic95_bajo": 0.0,
+        "ic95_alto": 0.6576
+      },
+      {
+        "objeto_fijo": "baranda",
+        "n": 1,
+        "fatales": 1,
+        "tasa": 1.0,
+        "ic95_bajo": 0.2065,
+        "ic95_alto": 1.0
+      },
+      {
+        "objeto_fijo": "bordillo vial",
+        "n": 1,
+        "fatales": 1,
+        "tasa": 1.0,
+        "ic95_bajo": 0.2065,
+        "ic95_alto": 1.0
+      },
+      {
+        "objeto_fijo": "valla senal",
+        "n": 1,
+        "fatales": 0,
+        "tasa": 0.0,
+        "ic95_bajo": 0.0,
+        "ic95_alto": 0.7935
+      }
+    ],
+    "tipo_via": [
+      {
+        "tipo_via": "desconocido",
+        "n": 3678,
+        "fatales": 248,
+        "tasa": 0.0674,
+        "ic95_bajo": 0.0598,
+        "ic95_alto": 0.076
+      },
+      {
+        "tipo_via": "calle",
+        "n": 1333,
+        "fatales": 91,
+        "tasa": 0.0683,
+        "ic95_bajo": 0.0559,
+        "ic95_alto": 0.0831
+      },
+      {
+        "tipo_via": "carrera",
+        "n": 483,
+        "fatales": 51,
+        "tasa": 0.1056,
+        "ic95_bajo": 0.0812,
+        "ic95_alto": 0.1362
+      },
+      {
+        "tipo_via": "diagonal",
+        "n": 348,
+        "fatales": 27,
+        "tasa": 0.0776,
+        "ic95_bajo": 0.0539,
+        "ic95_alto": 0.1105
+      },
+      {
+        "tipo_via": "transversal",
+        "n": 144,
+        "fatales": 7,
+        "tasa": 0.0486,
+        "ic95_bajo": 0.0237,
+        "ic95_alto": 0.0969
+      },
+      {
+        "tipo_via": "avenida",
+        "n": 85,
+        "fatales": 25,
+        "tasa": 0.2941,
+        "ic95_bajo": 0.2079,
+        "ic95_alto": 0.3982
+      },
+      {
+        "tipo_via": "corredor_carga",
+        "n": 32,
+        "fatales": 5,
+        "tasa": 0.1562,
+        "ic95_bajo": 0.0686,
+        "ic95_alto": 0.3175
+      }
+    ],
+    "localidad": [
+      {
+        "localidad_nombre": "Histórica y del Caribe Norte",
+        "n": 2757,
+        "fatales": 185,
+        "tasa": 0.0671,
+        "ic95_bajo": 0.0584,
+        "ic95_alto": 0.0771
+      },
+      {
+        "localidad_nombre": "Industrial y de la Bahía",
+        "n": 1876,
+        "fatales": 144,
+        "tasa": 0.0768,
+        "ic95_bajo": 0.0656,
+        "ic95_alto": 0.0897
+      },
+      {
+        "localidad_nombre": "De la Virgen y Turística",
+        "n": 1470,
+        "fatales": 125,
+        "tasa": 0.085,
+        "ic95_bajo": 0.0718,
+        "ic95_alto": 0.1004
+      }
+    ],
+    "es_finde": [
+      {
+        "es_finde": 0,
+        "n": 4154,
+        "fatales": 304,
+        "tasa": 0.0732,
+        "ic95_bajo": 0.0657,
+        "ic95_alto": 0.0815
+      },
+      {
+        "es_finde": 1,
+        "n": 1949,
+        "fatales": 150,
+        "tasa": 0.077,
+        "ic95_bajo": 0.0659,
+        "ic95_alto": 0.0896
+      }
+    ]
+  },
+  "faltantes_pct_features": {
+    "hora": 0.0,
+    "mes": 0.0,
+    "dia_semana": 0.0,
+    "es_finde": 0.0,
+    "es_noche": 0.0,
+    "lat": 0.3,
+    "lon": 0.3,
+    "franja": 0.0,
+    "barrio": 0.0,
+    "localidad": 0.0,
+    "tipo_via": 50.3,
+    "clase_accidente": 0.0,
+    "choque_con": 24.9,
+    "objeto_fijo": 94.0,
+    "hipotesis_1": 0.0
+  },
+  "fecha_sin_interpretar": 0,
+  "hora_sin_interpretar": 0,
+  "coordenadas_fuera_de_cartagena_o_ausentes": 26,
+  "localidad_codigos_barrios_top": {
+    "1": {
+      "bosque": 370,
+      "bocagrande": 196,
+      "centro": 196,
+      "bazurto": 184,
+      "manga": 175,
+      "pie de la popa": 138,
+      "marbella": 135,
+      "san isidro": 132
+    },
+    "2": {
+      "olaya": 365,
+      "el pozon": 251,
+      "la esperanza": 78,
+      "la maria": 75,
+      "los alpes": 75,
+      "alcibia": 68,
+      "villa estrella": 61,
+      "las palmeras": 59
+    },
+    "3": {
+      "mamonal": 406,
+      "ceballos": 174,
+      "san fernando": 156,
+      "san jose de los campanos": 121,
+      "ternera": 94,
+      "blas de lezo": 77,
+      "el campestre": 73,
+      "los caracoles": 67
+    }
+  },
+  "localidad_barrios_con_mas_de_un_codigo": 31,
+  "localidad_nombres_propuestos": {
+    "1": "Histórica y del Caribe Norte",
+    "2": "De la Virgen y Turística",
+    "3": "Industrial y de la Bahía"
+  },
+  "sin_dato_por_anio": {
+    "choque_con": {
+      "2020": 0.22,
+      "2021": 0.208,
+      "2022": 0.248,
+      "2023": 0.273,
+      "2024": 0.276,
+      "2025": 0.263
+    },
+    "objeto_fijo": {
+      "2020": 1.0,
+      "2021": 1.0,
+      "2022": 1.0,
+      "2023": 0.945,
+      "2024": 0.775,
+      "2025": 0.931
+    }
+  },
+  "tipo_via_desconocido_por_anio": {
+    "2020": 0.986,
+    "2021": 0.986,
+    "2022": 0.987,
+    "2023": 0.054,
+    "2024": 0.05,
+    "2025": 0.064
+  },
+  "barrio": {
+    "n_categorias": 220,
+    "con_al_menos_20_casos": 81,
+    "pct_filas_en_barrios_con_20_o_mas": 0.871
+  },
+  "hipotesis_1_n_codigos": 88,
+  "entorno": {
+    "python": "3.13.16",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4"
+  },
+  "figuras": [
+    "fig1_tasa_por_anio",
+    "fig2_tasa_por_hora",
+    "fig3_tasa_por_clase_y_choque",
+    "fig4_tasa_por_localidad_y_dia"
+  ]
+}
