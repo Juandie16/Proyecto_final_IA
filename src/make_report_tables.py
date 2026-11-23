@@ -39,6 +39,14 @@ def ic(par, nd=3):
     return f"[{f(par[0], nd)}; {f(par[1], nd)}]"
 
 
+def commit_actual(h: str) -> str:
+    """Hash equivalente tras reescribir los mensajes de commit (experiments/historial_reescrito.json), si existe."""
+    p = E / "historial_reescrito.json"
+    if p.exists():
+        return json.loads(p.read_text(encoding="utf-8"))["equivalencias_viejo_a_nuevo"].get(h, h)
+    return h
+
+
 def macro(nombre, valor):
     assert nombre.isalpha(), nombre
     return f"\\newcommand{{\\Cifra{nombre}}}{{{valor}}}\n"
@@ -126,7 +134,7 @@ def main() -> None:
           macro("TestTN", rm["matriz_confusion"]["tn"]),
           macro("TestBasePR", f(b5["pr_auc"])), macro("TestBasePRic", ic(b5["ic95"]["pr_auc"])),
           macro("TestBaseROC", f(b5["roc_auc"])), macro("TestDifPR", f(rm["pr_auc"] - b5["pr_auc"])),
-          macro("CommitFinal", fin["commit_git"][:7])]
+          macro("CommitFinal", commit_actual(fin["commit_git"])[:7])]
     sub = sg["modelo"]["subgrupos"]
     tarde = sub["franja"]["tarde"]
     m += [macro("TestTardeRec", f(tarde["recall"])), macro("TestTardeic", ic(tarde["ic95"]["recall"])),

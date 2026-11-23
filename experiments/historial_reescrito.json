@@ -1,0 +1,21 @@
+{
+  "fecha": "2026-11-22",
+  "motivo": "Se reescribieron solo los MENSAJES de los commits del hito 3 para quitar la línea de coautoría automática de la herramienta de IA (el uso de IA se declara en docs/bitacora_ia.md). El contenido de los archivos es idéntico (git diff vacío frente al respaldo).",
+  "equivalencias_viejo_a_nuevo": {
+    "17fe22d43c396262d42c1b2df187e99dcfdbbdc6": "b8537c92d0360594480e9352906176b00e337103",
+    "e7d02281e6de39c88cfe4a1a71d7a718a5223a9a": "9118ff6552b8ac1a7983ab4881715bf8ced6a055",
+    "d1fe4f92b8b8c988b8aa2beb0dbb0940611579f0": "e2aa6420610e418357f85cdea045f15c49efb40a",
+    "a1ab496d5c88a4350aceb7552ac520bbd34e1f89": "e829288906c84b5cf1abbc90834ae1202d4d80e4",
+    "b487241a543e06893b5127e74d5196f6ce454bce": "3ce39e041c5985d8440d7e5f4488e978ebf50634",
+    "8bfbcd204dda51562d5226505fa07f1f2b59d90d": "02e2b36564fc40d1966e1a52c464aa6e59b656a1",
+    "e72db589df7c2c9feecc0fd06c52d5f0b3db86cb": "346e181d4490175feb898ac3151068a03ab425c2",
+    "399b52aeff8c5e48e3d9d49a02be0c0d69dcee1f": "2941d4fe695a2e5d9f5e41e1db0beb1fd2d1b158",
+    "e58aacf1dc0b099a00052afdc5364ecdcc41ee96": "b23db60c0585ec22c92be9ec557f56d69ecd56c8",
+    "550bc12003921ba3ddfa36b8a274b5a086f15c05": "ee38372dbf28f10f58ecdba43c1d3737bce88893",
+    "ac0ed7244b8e32668e2d7c4e46516ee60fab4fab": "1c5e0dc1e9ff23a89b67894e4b6f35356272a13f"
+  },
+  "commit_evaluacion_prueba": {
+    "registrado_en_resultado_final_json": "e58aacf1dc0b099a00052afdc5364ecdcc41ee96",
+    "equivalente_actual": "b23db60c0585ec22c92be9ec557f56d69ecd56c8"
+  }
+}

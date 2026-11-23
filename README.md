@@ -24,7 +24,9 @@ python -m streamlit run app/app.py          # 4. prototipo en http://localhost:8
 
 ### Evaluación en prueba (2025): ya hecha, una sola vez
 `python -m src.final --confirmo-evaluacion-unica` entrenó el modelo elegido con 2020–2024 y lo evaluó en 2025 una única vez
-(commit `e58aacf`). El script se niega a repetirlo si existe `experiments/resultado_final.json`. Sus predicciones
+(commit `b23db60`; `resultado_final.json` lo registra con su hash anterior, `e58aacf`, porque después se reescribieron solo
+los mensajes de los commits; equivalencias en `experiments/historial_reescrito.json`). El script se niega a repetirlo si existe
+`experiments/resultado_final.json`. Sus predicciones
 (`experiments/final_predicciones.csv`) están versionadas y alimentan `src.errors` y `src.responsible`.
 
 ## De dónde sale cada resultado del informe
