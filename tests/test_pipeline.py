@@ -173,6 +173,21 @@ class TestEvaluacion(unittest.TestCase):
             self.assertLessEqual(ic[k][0], m[k]); self.assertGreaterEqual(ic[k][1], m[k])
 
 
+class TestErrores(unittest.TestCase):
+    def test_categorias_cubren_todo_y_respetan_el_orden(self):
+        from types import SimpleNamespace as R
+        from src.errors import categorizar
+        dia = R(clase_accidente="choque", choque_con="vehiculo", franja="tarde", objeto_fijo="sin_dato")
+        noche = R(clase_accidente="choque", choque_con="vehiculo", franja="noche", objeto_fijo="sin_dato")
+        self.assertEqual(categorizar(dia, "FN")[0], "FN1")
+        self.assertEqual(categorizar(noche, "FN")[0], "FN2")
+        self.assertEqual(categorizar(R(clase_accidente="otro", choque_con="x", franja="tarde", objeto_fijo="sin_dato"), "FN")[0], "FN4")
+        muro = R(clase_accidente="choque", choque_con="objeto fijo", franja="madrugada", objeto_fijo="muro")
+        self.assertEqual(categorizar(muro, "FP")[0], "FP1")          # objeto fijo gana sobre "nocturno"
+        self.assertEqual(categorizar(noche, "FP")[0], "FP3")
+        self.assertEqual(categorizar(dia, "FP")[0], "FP4")
+
+
 class TestEndToEnd(unittest.TestCase):
     def test_train_rapido_no_toca_la_prueba(self):
         with tempfile.TemporaryDirectory() as d:

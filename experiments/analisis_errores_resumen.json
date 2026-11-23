@@ -1,0 +1,181 @@
+{
+  "fecha_ejecucion_utc": "2026-11-23T04:08:29+00:00",
+  "semilla": 42,
+  "modelo": "random_forest",
+  "umbral": 0.10850807838110652,
+  "n_errores": {
+    "FN": 61,
+    "FP": 289
+  },
+  "errores_por_categoria": {
+    "FN/FN1": 17,
+    "FN/FN2": 30,
+    "FN/FN3": 13,
+    "FN/FN4": 1,
+    "FP/FP1": 55,
+    "FP/FP2": 144,
+    "FP/FP3": 37,
+    "FP/FP4": 53
+  },
+  "nombres_categoria": {
+    "FN1": "Choque entre vehículos de día (mañana/tarde)",
+    "FN2": "Choque entre vehículos de noche/madrugada",
+    "FN3": "Atropello o caída de ocupante con baja probabilidad",
+    "FN4": "Otros",
+    "FP1": "Choque contra objeto fijo",
+    "FP2": "Atropello",
+    "FP3": "Choque vehicular de noche/madrugada",
+    "FP4": "Otros (volcamiento, caída de ocupante, choque diurno)"
+  },
+  "errores_por_clase_y_tipo": {
+    "atropello/FN": 12,
+    "atropello/FP": 145,
+    "atropello/ok": 149,
+    "caida ocupante/FN": 1,
+    "caida ocupante/FP": 10,
+    "caida ocupante/ok": 12,
+    "choque/FN": 48,
+    "choque/FP": 116,
+    "choque/ok": 864,
+    "otro/FP": 3,
+    "otro/ok": 3,
+    "volcamiento/FP": 15,
+    "volcamiento/ok": 12
+  },
+  "fn_por_franja": {
+    "madrugada": 15,
+    "manana": 14,
+    "noche": 17,
+    "tarde": 15
+  },
+  "deriva_val_prueba": {
+    "proba_media": {
+      "val_2024": 0.0886,
+      "prueba_2025": 0.0805
+    },
+    "proba_mediana_fatales": {
+      "val_2024": 0.1249,
+      "prueba_2025": 0.1035
+    },
+    "tasa_alerta": {
+      "val_2024": 0.3025,
+      "prueba_2025": 0.2468
+    },
+    "prevalencia": {
+      "val_2024": 0.0902,
+      "prueba_2025": 0.0827
+    },
+    "por_franja": {
+      "madrugada": {
+        "proba_media_val": 0.1331,
+        "proba_media_prueba": 0.1209,
+        "tasa_real_val": 0.1458,
+        "tasa_real_prueba": 0.1731
+      },
+      "manana": {
+        "proba_media_val": 0.0668,
+        "proba_media_prueba": 0.0599,
+        "tasa_real_val": 0.056,
+        "tasa_real_prueba": 0.0601
+      },
+      "tarde": {
+        "proba_media_val": 0.0747,
+        "proba_media_prueba": 0.0619,
+        "tasa_real_val": 0.0895,
+        "tasa_real_prueba": 0.0414
+      },
+      "noche": {
+        "proba_media_val": 0.1016,
+        "proba_media_prueba": 0.0987,
+        "tasa_real_val": 0.0937,
+        "tasa_real_prueba": 0.1005
+      }
+    },
+    "por_clase": {
+      "atropello": {
+        "tasa_real_val": 0.1371,
+        "tasa_real_prueba": 0.0948,
+        "n_prueba": 306
+      },
+      "caida ocupante": {
+        "tasa_real_val": 0.2857,
+        "tasa_real_prueba": 0.3043,
+        "n_prueba": 23
+      },
+      "choque": {
+        "tasa_real_val": 0.0661,
+        "tasa_real_prueba": 0.072,
+        "n_prueba": 1028
+      },
+      "otro": {
+        "tasa_real_val": 0.375,
+        "tasa_real_prueba": 0.1667,
+        "n_prueba": 6
+      },
+      "volcamiento": {
+        "tasa_real_val": 0.1765,
+        "tasa_real_prueba": 0.1481,
+        "n_prueba": 27
+      }
+    }
+  },
+  "importancia_permutacion_val_2024": {
+    "choque_con": {
+      "media": 0.0457,
+      "sd": 0.0094
+    },
+    "lat": {
+      "media": 0.0253,
+      "sd": 0.0086
+    },
+    "hora": {
+      "media": 0.0195,
+      "sd": 0.0058
+    },
+    "objeto_fijo": {
+      "media": 0.0081,
+      "sd": 0.0045
+    },
+    "barrio": {
+      "media": 0.0075,
+      "sd": 0.0062
+    },
+    "mes": {
+      "media": 0.0066,
+      "sd": 0.0053
+    },
+    "clase_accidente": {
+      "media": 0.006,
+      "sd": 0.0061
+    },
+    "tipo_via": {
+      "media": 0.0045,
+      "sd": 0.005
+    },
+    "dia_semana": {
+      "media": 0.0043,
+      "sd": 0.0062
+    },
+    "franja": {
+      "media": 0.0031,
+      "sd": 0.0095
+    },
+    "es_noche": {
+      "media": 0.0009,
+      "sd": 0.0067
+    },
+    "es_finde": {
+      "media": 0.0002,
+      "sd": 0.0038
+    },
+    "lon": {
+      "media": -0.0012,
+      "sd": 0.0032
+    },
+    "localidad": {
+      "media": -0.0049,
+      "sd": 0.0042
+    }
+  },
+  "nota": "Categorías por reglas (src/errors.py). Hipótesis = propuesta de la IA [CONFIRMAR]. La importancia se mide en validación 2024 (caída de PR-AUC al permutar cada variable)."
+}
