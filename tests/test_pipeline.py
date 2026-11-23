@@ -151,7 +151,65 @@ class TestExploracion(unittest.TestCase):
         self.assertEqual(res["n_periodo_tasas"], int(df["split"].isin(["train", "val"]).sum()))
 
 
+class TestEvaluacion(unittest.TestCase):
+    def test_umbral_por_recall_es_el_mayor_que_cumple(self):
+        from src.evaluacion import metricas, umbral_por_recall
+        rng = np.random.default_rng(0)
+        y = rng.integers(0, 2, 500)
+        p = np.clip(y * 0.3 + rng.random(500) * 0.7, 0, 1)
+        u = umbral_por_recall(y, p, 0.60)
+        self.assertGreaterEqual(metricas(y, p, u)["recall"], 0.60)
+        # un umbral apenas mayor ya no cumple
+        self.assertLess(metricas(y, p, np.nextafter(u, 2))["recall"], 0.60)
+
+    def test_bootstrap_contiene_el_valor_puntual(self):
+        from src.evaluacion import bootstrap_ic, metricas
+        rng = np.random.default_rng(1)
+        y = (rng.random(800) < 0.1).astype(int)
+        p = np.clip(y * 0.2 + rng.random(800) * 0.8, 0, 1)
+        ic = bootstrap_ic(y, p, 0.5, n_boot=200)
+        m = metricas(y, p, 0.5)
+        for k in ("pr_auc", "roc_auc", "recall"):
+            self.assertLessEqual(ic[k][0], m[k]); self.assertGreaterEqual(ic[k][1], m[k])
+
+
 class TestEndToEnd(unittest.TestCase):
+    def test_train_rapido_no_toca_la_prueba(self):
+        with tempfile.TemporaryDirectory() as d:
+            d = Path(d)
+            make_synthetic(n=3000).to_csv(d / "raw.csv", index=False)
+            run = lambda *a: subprocess.run([sys.executable, "-m", *a], cwd=ROOT, capture_output=True, text=True)
+            p1 = run("src.preprocess", "--input", str(d / "raw.csv"), "--output", str(d / "c.csv"), "--summary", str(d / "s.json"))
+            self.assertEqual(p1.returncode, 0, p1.stderr)
+            self.assertEqual(run("src.baseline", "--processed", str(d / "c.csv"), "--outdir", str(d)).returncode, 0)
+            p2 = run("src.train", "--rapido", "--processed", str(d / "c.csv"), "--outdir", str(d))
+            self.assertEqual(p2.returncode, 0, p2.stderr)
+            res = json.loads((d / "modelos_val.json").read_text(encoding="utf-8"))
+            self.assertNotIn(2025, [pl["valida"] for pl in res["pliegues"]])
+            for pl in res["pliegues"]:
+                self.assertTrue(all(a < pl["valida"] for a in pl["entrena"]))   # origen móvil: pasado -> futuro
+            preds = pd.read_csv(d / "modelo_val_predicciones.csv")
+            self.assertEqual(set(preds["anio"]), {2024})
+            el = json.loads((d / "modelo_elegido.json").read_text(encoding="utf-8"))
+            self.assertIn(el["modelo"], ("regresion_logistica_ajustada", "random_forest", "hist_gradient_boosting"))
+            self.assertGreaterEqual(res["metricas_elegido_semilla_base"]["recall"], 0.60)
+            self.assertTrue((d / "tabla_comparativa.csv").exists())
+
+            # Fase 3: final.py se niega sin confirmación, con un modelo de corrida rápida y una segunda vez.
+            fin = lambda *x: run("src.final", "--processed", str(d / "c.csv"), "--outdir", str(d), "--sin-git",
+                               "--models-dir", str(d / "models"), *x)
+            self.assertNotEqual(fin().returncode, 0)
+            self.assertNotEqual(fin("--confirmo-evaluacion-unica").returncode, 0)        # modo_rapido
+            el["modo_rapido"] = False
+            (d / "modelo_elegido.json").write_text(json.dumps(el), encoding="utf-8")
+            p3 = fin("--confirmo-evaluacion-unica")
+            self.assertEqual(p3.returncode, 0, p3.stderr)
+            fr = json.loads((d / "resultado_final.json").read_text(encoding="utf-8"))
+            self.assertEqual(fr["evaluado_en"], "prueba 2025")
+            self.assertAlmostEqual(fr["resultados"][el["modelo"]]["umbral"], el["umbral"], places=5)  # umbral sin tocar
+            self.assertEqual(len(fr["criterios"]), 5)
+            self.assertNotEqual(fin("--confirmo-evaluacion-unica").returncode, 0)        # una sola vez
+
     def test_baseline_corre_y_supera_al_mayoritario_en_auc(self):
         with tempfile.TemporaryDirectory() as d:
             d = Path(d)

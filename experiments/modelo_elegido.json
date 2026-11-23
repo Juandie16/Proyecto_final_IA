@@ -1,0 +1,15 @@
+{
+  "fecha_utc": "2026-11-23T04:00:43+00:00",
+  "modelo": "random_forest",
+  "hiperparametros": {
+    "min_samples_leaf": 5,
+    "max_features": "sqrt",
+    "class_weight": null
+  },
+  "conjunto_de_features": "reporte",
+  "semilla": 42,
+  "umbral": 0.10850807838110652,
+  "recall_objetivo": 0.6,
+  "regla_umbral": "mayor umbral con recall >= 0,60 en validación 2024 (modelo entrenado con 2020-2023)",
+  "modo_rapido": false
+}

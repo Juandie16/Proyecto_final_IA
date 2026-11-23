@@ -1,0 +1,13 @@
+modelo,conjunto_features,hiperparametros,semillas,pr_auc_media,pr_auc_sd,roc_auc_media,roc_auc_sd,precision_op_media,precision_op_sd,f1_fatal_op_media,pr_auc_media_pliegues_origen_movil
+regresion_logistica_base,contexto,"{""C"": 1.0}",1,0.1656,0.0,0.5998,0.0,0.1117,0.0,,
+regresion_logistica_base,reporte,"{""C"": 1.0}",1,0.2195,0.0,0.6656,0.0,0.1525,0.0,0.2433,0.1661
+regresion_logistica_base,hipotesis,"{""C"": 1.0}",1,0.2723,0.0,0.7356,0.0,0.2086,0.0,,
+regresion_logistica_ajustada,contexto,"{""C"": 0.1}",1,0.1686,0.0,0.6067,0.0,0.1095,0.0,,
+regresion_logistica_ajustada,reporte,"{""C"": 0.1}",1,0.2262,0.0,0.6832,0.0,0.1459,0.0,0.2349,0.1719
+regresion_logistica_ajustada,hipotesis,"{""C"": 0.1}",1,0.2862,0.0,0.7529,0.0,0.2297,0.0,,
+random_forest,contexto,"{""min_samples_leaf"": 5, ""max_features"": ""sqrt"", ""class_weight"": null}",5,0.1762,0.0039,0.6245,0.0027,0.1249,0.0052,,
+random_forest,reporte,"{""min_samples_leaf"": 5, ""max_features"": ""sqrt"", ""class_weight"": null}",5,0.2236,0.0044,0.6985,0.0061,0.1663,0.009,0.2605,0.1797
+random_forest,hipotesis,"{""min_samples_leaf"": 5, ""max_features"": ""sqrt"", ""class_weight"": null}",5,0.2731,0.0056,0.7446,0.0034,0.21,0.0071,,
+hist_gradient_boosting,contexto,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 8, ""min_samples_leaf"": 20, ""class_weight"": null}",5,0.1549,0.0107,0.606,0.0057,0.1177,0.0061,,
+hist_gradient_boosting,reporte,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 8, ""min_samples_leaf"": 20, ""class_weight"": null}",5,0.1941,0.0193,0.6576,0.0092,0.1375,0.0051,0.2239,0.1677
+hist_gradient_boosting,hipotesis,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 8, ""min_samples_leaf"": 20, ""class_weight"": null}",5,0.2433,0.0084,0.7087,0.0088,0.166,0.0113,,

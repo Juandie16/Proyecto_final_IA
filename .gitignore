@@ -8,3 +8,6 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/raw/SOURCE.json
+
+# Modelos entrenados: se regeneran con python -m src.final / src.export_model
+models/
