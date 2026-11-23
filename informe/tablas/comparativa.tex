@@ -1,0 +1,11 @@
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Modelo & PR-AUC & PR-AUC & ROC-AUC & Prec. \\
+ & mov. & 2024 & 2024 & rec.$\geq$0,6 \\
+\midrule
+{Línea base (RL, $C{=}1$)} & 0,166 & 0,220 & 0,666 & 0,152 \\
+{RL ajustada} & 0,172 & 0,226 & 0,683 & 0,146 \\
+\textbf{Random forest} & 0,180 & 0,224 $\pm$ 0,004 & 0,699 $\pm$ 0,006 & 0,166 $\pm$ 0,009 \\
+{HistGradientBoosting} & 0,168 & 0,194 $\pm$ 0,019 & 0,658 $\pm$ 0,009 & 0,138 $\pm$ 0,005 \\
+\bottomrule
+\end{tabular}
